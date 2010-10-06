@@ -1,0 +1,34 @@
+<p>
+<%= image_tag "John_Quincy_Adams_1824.png", :alt => "Photograph of John Quincy Adams"%>
+
+<h3><cite>The Early American Foreign Service Database</cite></h3>
+<p>The EAFSD places biographical and professional information about all foreign service officers in a relational data structure. This data structure allows users to trace the early American governments' attempts to deploy and control their overseas representatives.</p> 
+<p>The database also recreates the correspondence networks that sprang up between the officers as they sought from each other the information and expertise necessary to fulfill their duties.</p>
+<p>The EAFSD is far from complete, but I will be entering new data whenever possible.  In time, I hope to set up a system whereby users can add their own content to the database.  If you have data about the Early American Foreign Service that you would like to make available in an open-source, open-access environment, please <%= mail_to "jabauer@virginia.edu", "contact me", :encode => "javascript", :subject =>"Data for the EAFSD" %>.</p>
+
+<h4>Phase I (to be completed ASAP)</h4>
+<ul>
+	<li>Decide how best to display letters, individually and as a group.  This will include building a separate repository for images and transcriptions of documents not already found online.</li>
+</ul>
+<h4>Phase II</h4>
+<ul>
+	<li>Create an advanced search that can grow with the data set</li>
+	<li>Expand the maps section to include timelines and geo-referenced, period-specific map layers</li>
+	<li>Enhance visualizations (this will be an ongoing process)</li>
+	<li>Add mapping and visualization capabilities to the show screens for every record in the database</li>
+</ul>
+<h4>Phase III (and beyond)</h4>
+<ul>
+	<li>Develop protocol for accepting and vetting data from users and allowing users to augment the existing data</li>
+	<li>Link (where appropriate) to authority lists for people, places, and organizations</li>
+	<li>Generate RDF triples based on the data structure and content to expand data-sharing capabilities</li>
+</ul>
+
+
+<% @sidebar = capture do %>
+	<h3>What is Project Quincy?</h3>
+	<p>Project Quincy is a Ruby on Rails application with a MySQL database that uses information about people, places, and organizations to trace how social networks and institutions develop over time and through space.</p> 
+	<p>It is named in honor of John Quincy Adams (pictured on the right whilst gravely observing a camera).</p>
+	<p>Project Quincy is growing out of my work on the EAFSD, but the code has such a wide range of applications, that it I expect it will soon take on a life of its own.</p>
+	<p><a href="http://projectquincy.rubyforge.org">http://projectquincy.rubyforge.org</a></p>
+<% end %>

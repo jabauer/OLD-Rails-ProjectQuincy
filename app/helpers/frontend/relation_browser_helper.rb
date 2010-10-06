@@ -1,0 +1,2 @@
+module Frontend::RelationBrowserHelper
+end

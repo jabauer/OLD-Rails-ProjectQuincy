@@ -1,0 +1,2 @@
+module ActiveScaffold::EmpiresHelper
+end

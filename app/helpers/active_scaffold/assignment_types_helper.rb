@@ -1,0 +1,3 @@
+module ActiveScaffold::AssignmentTypesHelper
+
+end

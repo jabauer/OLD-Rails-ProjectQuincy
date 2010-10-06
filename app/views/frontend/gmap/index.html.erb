@@ -1,0 +1,103 @@
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=abcdefg"
+        type="text/javascript"></script>
+
+<%= javascript_include_tag "jquery" %>
+<%= javascript_include_tag "jquery.colorbox" %>
+<%= javascript_include_tag "application" %>
+<%= stylesheet_link_tag "colorbox" %>
+
+<script type="text/javascript">
+//This view places a google map with placemarks for all the locations mentioned in the database.
+//When clicked on, each placemark brings up a balloon with information about what happened in each location.
+var tl = null;
+
+//This function creates the map with a certain size, centers it for a given set of center_lat and center_long values, 
+//at a specific zooom level
+
+
+function createMap(id, gwidth, gheight, center_lat, center_long, zoom){
+	var map = new GMap2(document.getElementById(id), {size: new GSize(gwidth, gheight)}); 
+    map.addControl(new GMapTypeControl());
+    map.addControl(new GLargeMapControl());
+    map.setMapType(G_SATELLITE_MAP);
+    map.setCenter(new GLatLng(center_lat, center_long), zoom);
+	return map;
+}
+
+function initialize() {
+	
+  if (GBrowserIsCompatible()) {
+	
+	
+	//This function runs a for loop through the locations table, pulling out the latitude, longitude, and name of every location in the database.
+	//The overlay partial creates the html for the balloon, by pulling in all information associated with that location.
+    function drawMap(map) {
+	<% for location in @locations %>
+		addMarker(map, <%= location.lat %>, <%= location.long %>, 
+			"<%= escape_javascript render(:partial => 'overlay', :locals => {:location => location}) %>");
+		<% end %>
+	}
+	
+	function addMarker(map, lat, lon, overlayHtml){
+		
+		var point = new GLatLng(parseFloat(lat), parseFloat(lon));
+
+		// Create our "tiny" marker icon
+		var tinyIcon = new GIcon();
+		tinyIcon.image = "http://labs.google.com/ridefinder/images/mm_20_brown.png";
+		tinyIcon.shadow = "http://labs.google.com/ridefinder/images/mm_20_shadow.png";
+		tinyIcon.iconSize = new GSize(12, 20);
+		tinyIcon.shadowSize = new GSize(22, 20);
+		tinyIcon.iconAnchor = new GPoint(6, 20);
+		tinyIcon.infoWindowAnchor = new GPoint(5, 1);
+
+		// Set up our GMarkerOptions object literal
+		markerOptions = { icon:tinyIcon };	
+
+		var marker = new GMarker(point, markerOptions);
+
+		//marker.value = number;
+		GEvent.addListener(marker, "click", function() {
+
+		//myHtml gives some basic styling to the balloon
+			map.openInfoWindowHtml(point, overlayHtml);
+		});
+	//	return marker;
+		map.addOverlay(marker);
+	}
+	
+	
+}
+//this calls the draw map function which pulls location data from the database, creates the markers, and renders the partial to create the balloon text
+//It takes the following parameters: id, gwidth, gheight, center_lat, center_long, zoom
+drawMap(createMap('map_canvas', 530, 500, 0, -20, 1));
+drawMap(createMap('map_canvas_lg', 900, 500, 30, -25, 2));
+
+}
+
+$(function(){
+	initialize();
+	$('window').unload(GUnload);
+});
+
+$(document).ready(function(){
+	setTimeout("initialize()",1500);
+});
+
+</script>
+
+<div id="map_canvas" style="margin: 15px 0px;"></div>
+
+<% @sidebar = capture do %>
+
+<h3>All Locations</h3>
+<p>This Map shows every location in the database.</p>  
+<p>Click on a place mark to find out more about what happened at that location.</p>	
+<p>For a larger map <a href="#map_canvas_lg" class="inline" width="950px">click here</a>.</p>
+
+<% end %>
+
+
+<% @post_content = capture do %>
+	<div id="map_canvas_lg"></div>
+<% end %>

@@ -1,0 +1,2 @@
+module ActiveScaffold::LettersHelper
+end

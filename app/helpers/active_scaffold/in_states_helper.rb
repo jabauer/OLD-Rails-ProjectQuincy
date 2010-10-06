@@ -1,0 +1,2 @@
+module ActiveScaffold::InStatesHelper
+end

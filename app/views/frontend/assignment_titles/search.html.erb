@@ -1,0 +1,18 @@
+<h3 class="field_name">Assignment Titles Search Results</h3>
+
+<% form_tag("/assignment_title_search", :method => :get) do %>
+	<p>
+		<span class="search_param"><%= label_tag 'name'%></span>
+		<%= text_field_tag :search, params[:search] %>
+		<%= submit_tag "Search", :name => nil%>
+		<%= link_to 'back', :controller => 'search', :action => 'index' %>
+	</p>
+<% end %>
+
+<% @assignment_titles.each do |assignment_title| %>
+	<p><%= link_to assignment_title.name, assignment_title_path(assignment_title) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/search_sidebar_explain" %>
+<% end %>

@@ -1,0 +1,18 @@
+<h3 class="field_name">Places Keyword Search Results</h3>
+
+<% form_tag("/location_search", :method => :get) do %>
+	<p>
+		<span class="search_param"><%= label_tag 'name'%></span>
+		<%= text_field_tag :search, params[:search] %>
+		<%= submit_tag "Search", :name => nil%>
+		<%= link_to 'back', :controller => 'search', :action => 'index' %>
+	</p>
+<% end %>
+
+<% @locations.each do |location| %>
+	<p><%= link_to location.name, location_path(location) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/search_sidebar_explain" %>
+<% end %>

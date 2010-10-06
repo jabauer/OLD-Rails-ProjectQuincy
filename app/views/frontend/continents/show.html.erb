@@ -1,0 +1,14 @@
+<!-- This view screen shows a single record from the continents table, the largest geographic unit in the database.  The sidebar displays the name of the continent and includes a link back to the browse screen which lists all records in the continents table (a.k.a. a list of the continent in the database).  The main content displays a list of all the states on that continent. -->
+
+<% @sidebar = capture do %>
+	<h3>Continent</h3>
+	<p><span class="field_name">Name: </span><%= h @continent.name %></p>
+		
+	<p><%= link_to 'browse', :controller => "continents", :action => "index" %></p>
+	
+<%  end %>
+
+<h3 class="browse_title">Related States (<%= @continent.states.count %>)</h3>
+	<% @continent.states.each do |state| %>
+		<p><%= link_to state.name, state_path(state)%></p>
+	<% end %>

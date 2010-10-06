@@ -1,0 +1,11 @@
+<%= will_paginate @regions %>
+
+<h3 class="browse_title">Regions</h3>
+
+<% @regions.each do |region| %>
+	<p><%= link_to region.name, region_path(region) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/browse_sidebar" %>
+<% end %>

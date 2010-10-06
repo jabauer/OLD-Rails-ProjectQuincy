@@ -1,0 +1,14 @@
+<%= image_tag "Franklin1777.png",  :alt=>"Benjamin Franklin in Beaver Hat"%>
+<h3>Welcome to the EAFSD</h3>
+<p><span class="title">The Early American Foreign Service Database</span> (EAFSD to its friends) traces the U.S. Foreign Service from its early attempts at supplying the Continental Army during the American Revolution through the establishment of U.S. embassies in South America.</p>  
+<h3>How to Use the Database</h3>
+<p>The EAFSD is very much a work in progress.  I will be entering my research in fits (bulk loading) and starts (by hand) over the next several years.  As the data set expands, the ability to search and visualize that data will also be enhanced.</p>  
+<p>Right now, you can <strong>Search</strong> or <strong>Browse</strong> the data, look at <strong>Maps</strong>, view the data model with the <strong>Relation Browser</strong>, or learn more <strong>About</strong> the larger project and its open source software.
+</p>
+
+<% @sidebar = capture do %>
+<h3>Dispatches</h3>
+<p>Watch this space for news about the EAFSD including new data and features.</p>  
+<p>The EAFSD is online!  This has been over a year in the making, but several major features are still under development and the data set is far from complete.  Keep coming back and you will see the project grow in depth and complexity.</p>  
+<p>If you have any questions, suggestions, or data you would like to contribute, please <%= mail_to "jabauer@virginia.edu", "contact me", :encode => "javascript", :subject =>"Feedback on the EAFSD" %> </p>	
+<% end %>

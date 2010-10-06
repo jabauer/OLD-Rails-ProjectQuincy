@@ -1,0 +1,67 @@
+<!-- This is the show view for individuals-->
+
+<%= javascript_include_tag "jquery" %>
+<%= javascript_include_tag "jquery.colorbox" %>
+<%= javascript_include_tag "application" %>
+<%= stylesheet_link_tag "colorbox" %>
+
+<% @sidebar = capture do %>
+	<h3>Person</h3>
+		<p><span class="field_name">Name:</span> <%= h @individual.name %></p>
+		<p><span class="field_name">Sex:</span> <%= h @individual.sex %></p>
+		<p><span class="field_name">Born:</span> <%= h partial_date(@individual.birth_date, @individual.birth_year_known, @individual.birth_month_known, @individual.birth_day_known) %>
+		<!-- formats the name to a string of Month, Day Year, unless the date is nil.  If the date is nil, .to_s throws an exception<% if  @individual.birth_date != nil %> 
+				<%= h @individual.birth_date.to_s(:long)%>
+			<% end %> -->
+			</p>
+		<p><span class="field_name">Died:</span> <%= h partial_date(@individual.death_date, @individual.death_year_known, @individual.death_month_known, @individual.death_day_known) %>
+		<!-->	<% if @individual.death_date !=nil %>
+				<%= h @individual.death_date.to_s(:long) %>
+			<% end %>	-->
+			</p>
+		<p><span class="field_name">Home State:</span>
+			<% if @individual.state !=nil %>
+				<%= link_to @individual.state.name, state_path(@individual.state) %>
+			<% end %>
+			</p>
+		<p><span class="field_name">American:</span> 
+			<%= h @individual.american? ? 'yes' : 'no' %>
+			</p>
+		<p><span class="field_name">Notes:</span> <%= h @individual.notes %></p>
+	<p><%= link_to 'browse', :controller => "individuals", :action => "index" %></p>
+<% end %>
+
+<h3 class="field_name">Related Assignments (<%= @individual.assignments.count %>)</h3>
+	<table>
+		<th class="field_name">Assignment Title</th>
+		<th class="field_name">Location</th>
+		<th class="field_name">Years</th>
+		<th class="field_name">Notes</th>
+		<th class="field_name">Citations</th>
+		<% @individual.assignments.each do |assignment| %>
+			<tr>
+				<td><%= link_to assignment.assignment_title.name, assignment_title_path(assignment.assignment_title) %></td>
+				<td><%= link_to assignment.location.name, location_path(assignment.location)  %></td>
+				<td><%= h assignment.start_year %> - <%= h assignment.end_year %></td>
+				<td><%= h assignment.notes %></td>
+				<td><% @validations.each do |v| %>
+						<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+							<a href="#<%= v.id %>" class="inline" width="300px"><%= image_tag "book-brown.png"%></a>
+						<% end %>
+					<% end %>
+				</td>
+			</tr>
+		<% end %>
+	</table>
+	
+<% @post_content = capture do%>
+	<% @assignments.each do |assignment| %>
+		<% @validations.each do |v| %>
+			<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+				<div id="<%= v.id %>">
+					<%= render(:partial => "frontend/footnote", :locals => {:v => v})%>
+				</div>
+			<% end %>
+		<% end %>
+	<% end %>
+<% end %>

@@ -1,0 +1,11 @@
+<%= will_paginate @locations %>
+
+<h3 class="browse_title">Places</h3>
+
+<% @locations.each do |location| %>
+	<p><%= link_to location.name, location_path(location) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/browse_sidebar" %>
+<% end %>

@@ -1,0 +1,11 @@
+<%= will_paginate @individuals %>
+
+<h3 class="browse_title">People</h3>
+
+<% @individuals.each do |individual| %>
+	<p><%= link_to individual.name, individual_path(individual) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/browse_sidebar" %>
+<% end %>

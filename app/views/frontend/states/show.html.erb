@@ -1,0 +1,17 @@
+<!-- This view screen shows a single record from the states table.  The sidebar displays the name, continent and any notes associated with the state and includes a link back to the browse screen which lists all records in the states table (a.k.a. a list of the states in the database).  The main content displays a list of all the locations in that state and all the people who called that state home. -->
+
+<% @sidebar = capture do%>
+	<h3>State</h3>
+		<p><span class="field_name">Name: </span><%= h @state.name %></span></p>
+		<p><span class="field_name">Continent: </span><%= link_to @state.continent.name, continent_path(@state.continent), :class => "linked_data" %></p>
+		<p><span class="field_name">Notes</span><p>
+			<p><%= h @state.notes %>
+				
+	<p><%= link_to 'browse', :controller => "states", :action => "index" %></p>
+
+<% end %>
+
+<h3 class="browse_title">Locations (<%= @state.in_states.count %>)</h3>
+	<% @state.in_states.each do |in_state| %>
+		<p><%= link_to in_state.location.name, location_path(in_state.location)%></p>
+	<% end %>

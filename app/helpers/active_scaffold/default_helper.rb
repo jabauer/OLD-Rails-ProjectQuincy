@@ -1,0 +1,2 @@
+module ActiveScaffold::DefaultHelper
+end

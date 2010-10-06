@@ -1,0 +1,23 @@
+# == Schema Information
+# Schema version: 20090317194215
+#
+# Table name: relationships
+#
+#  id                   :integer(4)      not null, primary key
+#  individual_id_1      :integer(4)
+#  individual_id_2      :integer(4)
+#  relationship_type_id :integer(4)
+#  start_year           :integer(4)
+#  end_year             :integer(4)
+#  notes                :text
+#  created_at           :datetime
+#  updated_at           :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# one:
+#   column: value
+#
+# two:
+#   column: value

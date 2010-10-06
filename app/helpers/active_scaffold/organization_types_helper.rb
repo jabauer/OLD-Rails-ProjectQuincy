@@ -1,0 +1,2 @@
+module ActiveScaffold::OrganizationTypesHelper
+end

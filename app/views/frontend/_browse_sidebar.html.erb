@@ -1,0 +1,11 @@
+<h3>Browse By:</h3>
+	<p class="browse"><%= link_to_unless_current 'People', :controller => "individuals", :action => "index" %> </p>
+	<p class="browse"><%= link_to_unless_current 'Places', :controller => "locations", :action => "index" %></p>
+	<p class="browse"><%= link_to_unless_current 'Organizations', :controller => "organizations", :action => "index" %></p>
+	<p class="browse"><%= link_to_unless_current 'Letters', :controller => "letters", :action => "index" %></p>
+	<p class="browse"><%= link_to_unless_current 'Assignment Titles', :controller => "assignment_titles", :action => "index" %></p>
+	<p class="browse"><%= link_to_unless_current 'Assignment Types', :controller => "assignment_types", :action => "index" %></p>
+	<p class="browse"><%= link_to_unless_current 'States', :controller => "states", :action => 'index' %></p>
+	<p class="browse"><%= link_to_unless_current 'Regions', :controller => "regions", :action => 'index' %></p>
+	<p class="browse"><%= link_to_unless_current 'Continents', :controller => "continents", :action => 'index' %></p>
+	

@@ -1,0 +1,11 @@
+
+<%= will_paginate @assignments %>
+
+<% @assignments.each do |assignment| %>
+	<div>
+		<div>
+			<%= link_to assignment.id, assignment_path(assignment) %>
+		</div>
+		<%= assignment.start_year %> - <%= assignment.end_year %>
+	</div>
+<% end %>

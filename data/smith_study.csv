@@ -1,0 +1,771 @@
+England,London,1779,TRUE,1779,FALSE,Special Negotiator,ADAMS; John
+England,London,1779,TRUE,1779,FALSE,Secretary of Delegation,DANA; Francis
+England,London,1782,TRUE,1783,TRUE,Treaty Negotiator,FRANKLIN; Benjamin
+England,London,1785,TRUE,1788,TRUE,Minister Plenipotentiary,ADAMS; John
+England,London,1785,TRUE,1788,FALSE,Secretary of Legation,SMITH; William S.
+England,London,1789,TRUE,1789,FALSE,Special Diplomatic Agent,MORRIS; Gouverneur
+England,London,1792,TRUE,1796,TRUE,Minister Plenipotentiary,PINCKNEY; Thomas
+England,London,1794,TRUE,1794,FALSE,Special Negotiator,JAY; John
+England,London,1796,TRUE,1803,TRUE,Minister Plenipotentiary,KING; Rufus
+England,London,1801,FALSE,1802,TRUE,Delegate U.S. Br. Commission,GORE; Christopher
+England,London,1802,TRUE,1802,FALSE,Charge d’Affaires a.i.,GORE; Christopher
+England,London,1803,TRUE,1807,TRUE,Minister Plenipotentiary,MONROE; James
+England,London,1806,TRUE,1807,TRUE,Special Negotiator,MONROE; James
+England,London,1806,TRUE,1808,TRUE,Special Negotiator,PINKNEY; William
+England,London,1808,TRUE,1811,TRUE,Minister Plenipotentiary,PINKNEY; William
+England,London,1811,TRUE,1811,FALSE,Charge d’Affaires a.i.,SMITH; John Spear
+England,London,1811,TRUE,1812,TRUE,Charge d'Affaires,RUSSELL; Jonathan
+England,London,1815,TRUE,1817,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,ADAMS; John Quincy
+England,London,1815,TRUE,1825,TRUE,Secretary of Legation,SMITH; John Adams
+England,London,1817,TRUE,1825,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,RUSH; Richard
+England,London,1818,TRUE,1818,FALSE,Treaty Negotiator,GALLATIN; Albert
+England,London,1823,TRUE,1823,FALSE,Special Negotiator,MIDDLETON; Henry
+England,London,1823,TRUE,1824,TRUE,Special Diplomatic Agent,MCRAE; Alexander
+England,London,1825,TRUE,1826,TRUE,Secretary of Legation,KING; John A.
+England,London,1825,TRUE,1826,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,KING; Rufus
+England,London,1790,TRUE,1797,FALSE,Consul,JOHNSON; Joshua
+England,London,1797,TRUE,1801,FALSE,Consul,WILLIAMS; Samuel
+England,London,1801,TRUE,1804,TRUE,Consul,ERVING; George W.
+England,London,1804,TRUE,1811,TRUE,Consul,LYMAN; William
+England,London,1808,FALSE,1811,TRUE,Vice Consul,BEASLEY; Reuben Gaunt
+England,London,1811,TRUE,1812,TRUE,Acting Consul,BEASLEY; Reuben Gaunt
+England,London,1812,TRUE,1814,TRUE,Agent for Prisoners of War,BEASLEY; Reuben Gaunt
+England,London,1814,TRUE,1815,TRUE,Acting Consul,BEASLEY; Reuben Gaunt
+England,London,1815,TRUE,1853,TRUE,Consul,ASPINWALL; Thomas
+England,Bideford,1795,TRUE,1802,TRUE,Consular Agent,WILCOCKS; Stephen*
+England,Bristol,1792,TRUE,1815,TRUE,Consul,VANDERHORST; Elias
+England,Bristol,1793,TRUE,1793,FALSE,Acting Consul,DAVIS; Richard Hart*
+England,Bristol,1795,TRUE,1801,FALSE,Chancellor of Consulate,VANDERHORST; Thomas Cooper
+England,Bristol,1801,TRUE,1805,FALSE,Acting Consul,VIGOR; Richard
+England,Bristol,1816,TRUE,1833,TRUE,Consul,VISGER; Herman
+England,Cowes; Isle of Wight,1790,TRUE,1816,TRUE,Vice Consul,AUDJO; Thomas*
+England,Cowes; Isle of Wight,1816,TRUE,1823,FALSE,Consul,AUDJO; Thomas*
+England,Cowes; Isle of Wight,1823,TRUE,1841,FALSE,Consul,HUNTER; Robert R.
+England,Exeter,1793,TRUE,1793,FALSE,Consular Agent,GRANGER; Edmund*
+England,Exeter,1793,TRUE,1805,TRUE,Consular Agent,BANFIL; Samuel*
+England,Falmouth,1793,TRUE,1794,TRUE,Consul,FOX; Edward*
+England,Falmouth,1794,TRUE,1818,TRUE,Consul,FOX; Robert Were*
+England,Falmouth,1819,TRUE,1854,TRUE,Consul,FOX; Robert Were; Jr.*
+England,Kingston on Hull,1796,TRUE,1816,TRUE,Consul,KNOX. George*
+England,Kingston on Hull,1816,TRUE,1827,TRUE,Consul,DAVY; William
+England,Liverpool,1790,TRUE,1812,TRUE,Consul,MAURY; James
+England,Liverpool,1815,TRUE,1829,TRUE,Consul,MAURY; James
+England,Plymouth,1792,TRUE,1795,TRUE,Consular Agent,HAWKER; John*
+England,Plymouth,1815,TRUE,1819,TRUE,Consul,INGRAHAM; Nicholas G.*
+England,Plymouth,1823,TRUE,1859,TRUE,Consul,FOX; Thomas Were*
+England,Poole,1791,TRUE,1791,FALSE,Vice Consul,AULDIS; Thomas*
+Wales,Carmarthen,1798,TRUE,1803,FALSE,Consular Agent,MORRIS; Thomas*
+Wales,Carmarthen,1798,TRUE,1803,FALSE,Consular Agent,MORRIS; William*
+Wales,Milford Haven,1798,TRUE,1798,FALSE,Consular Agent,FALCONER; Hugh*
+Wales,Milford Haven,1798,TRUE,1809,TRUE,Consular Agent,FOLGER; Timothy*
+Wales,Milford Haven,1809,TRUE,1835,TRUE,Consular Agent,ROTCH; Benjamin*
+Scotland,Glasgow,1801,TRUE,1807,FALSE,Consul,MURRAY; John J.
+Scotland,Glasgow,1820,TRUE,1824,FALSE,Consul,STRONG; Harvey
+Scotland,Glasgow,1824,TRUE,1831,TRUE,Consul,WALKER; David
+Scotland,Leith,1798,TRUE,1817,FALSE,Consul,GRANT; Harry
+Scotland,Leith,1817,TRUE,1833,FALSE,Consul,HART; Joel
+Ireland,Belfast,1796,TRUE,1815,FALSE,Consul,HOLMES; James*
+Ireland,Belfast,1815,TRUE,1815,FALSE,Acting Consul ,PHELPS; William
+Ireland,Belfast,1815,TRUE,1820,TRUE,Consul,LUKE; James*
+Ireland,Belfast,1820,TRUE,1830,TRUE,Consul,LUKE; Samuel*
+Ireland,Cork,1797,TRUE,1815,FALSE,Consul,CHURCH; John
+Ireland,Cork,1815,TRUE,1817,FALSE,Consul,HOGAN; Michael
+Ireland,Cork,1817,TRUE,1826,TRUE,Consul,MARK; Jacob
+Ireland,Dublin,1790,TRUE,1793,TRUE,Consul,KNOX; William
+Ireland,Dublin,1794,TRUE,1809,TRUE,Consul,WILSON; Joseph
+Ireland,Dublin,1809,TRUE,1826,FALSE,Consul,ENGLISH; Thomas
+Russia,Archangel,1811,TRUE,1814,TRUE,Consul,HAZARD; Samuel
+Russia,Riga; Latvia,1811,TRUE,1813,TRUE,Consul,NOAH; Mordecai M.
+Russia,Riga; Latvia,1813,TRUE,1817,TRUE,Consul,WYER; Edward
+Russia,Riga; Latvia,1817,TRUE,1834,FALSE,Consul,RUSSELL; Moses M.
+Russia,St. Petersburg,1777,TRUE,1777,FALSE,Special Negotiator,DANA; Francis
+Russia,St. Petersburg,1780,TRUE,1780,FALSE,Minister Resident,DANA; Francis
+Russia,St. Petersburg,1794,TRUE,1803,FALSE,Consul,RUSSELL; John Miller
+Russia,St. Petersburg,1799,TRUE,1799,FALSE,Treaty Negotiator,KING; Rufus
+Russia,St. Petersburg,1803,TRUE,1813,FALSE,Consul,HARRIS; Levitt
+Russia,St. Petersburg,1809,TRUE,1814,TRUE,Minister Plenipotentiary,ADAMS; John Quincy
+Russia,St. Petersburg,1812,TRUE,1816,FALSE,Secretary of Legation ,SMITH; John S.
+Russia,St. Petersburg,1812,TRUE,1816,FALSE,Secretary of Legation,SMITH; William Steuben
+Russia,St. Petersburg,1813,TRUE,1813,FALSE,Secretary to Negotiating Delegation ,HARRIS; Levitt
+Russia,St. Petersburg,1813,TRUE,1814,TRUE,Treaty Negotiator ,BAYARD; James E.
+Russia,St. Petersburg,1814,TRUE,1817,TRUE,Charge d'Affaires,HARRIS; Levitt
+Russia,St. Petersburg,1816,TRUE,1816,FALSE,Special Diplomatic Agent,COLES; Edward
+Russia,St. Petersburg,1816,TRUE,1818,TRUE,Secretary of Legation,KING; William R. D.
+Russia,St. Petersburg,1816,TRUE,1818,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,PINKNEY; William
+Russia,St. Petersburg,1816,TRUE,1819,FALSE,Consul,HARRIS; John Levitt
+Russia,St. Petersburg,1818,TRUE,1820,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,CAMPBELL; George Washington
+Russia,St. Petersburg,1818,TRUE,1820,TRUE,Secretary of Legation,PINKNEY; Charles
+Russia,St. Petersburg,1819,TRUE,1850,TRUE,Consul,GIBSON; Abraham P.
+Russia,St. Petersburg,1820,TRUE,1830,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,MIDDLETON; Henry
+France,Bayonne,1797,TRUE,1807,FALSE,Consular Agent,LAMOLIATTE; Joseph*
+France,Bayonne,1807,TRUE,1807,FALSE,Consular Agent,LANNE; Pte.*
+France,Bordeaux,1778,TRUE,1790,TRUE,Consular Agent,BONDFIELD; John
+France,Bordeaux,1790,TRUE,1797,TRUE,Consul,FENWICK; Joseph
+France,Bordeaux,1793,TRUE,1793,FALSE,Acting Consul,JONES; Jonathan
+France,Bordeaux,1797,TRUE,1799,FALSE,Consul,CRAFTS; Thomas
+France,Bordeaux,1799,TRUE,1801,TRUE,Consul,BARNET; Isaac Cox
+France,Bordeaux,1801,TRUE,1804,FALSE,Vice Commercial Agent,PETERS; Theodore
+France,Bordeaux,1801,TRUE,1816,TRUE,Commercial Agent,LEE; William (b)
+France,Bordeaux,1810,TRUE,1811,TRUE,Acting Vice Consul,MEYER; Christopher
+France,Bordeaux,1813,TRUE,1813,FALSE,Acting Consul,BASS; William*
+France,Bordeaux,1816,TRUE,1824,TRUE,Consul,STROBEL; Daniel
+France,Bordeaux,1824,TRUE,1841,TRUE,Consul,STROBEL; George
+France,Brest,1797,TRUE,1799,TRUE,Consul,BARNET; Isaac Cox
+France,Brest,1799,TRUE,1802,TRUE,Acting Consul,AUBREE; *
+France,Calais,1802,TRUE,1807,TRUE,Commercial Agent,APPLETON; John James
+France,Calais,1806,TRUE,1806,FALSE,Acting Commercial Agent,LEVUEX; Jacques*
+France,Calais,1817,TRUE,1827,TRUE,Consul,COLLET; James
+France,Cette,1802,TRUE,1806,FALSE,Commercial Agent,ANDERSON; James
+France,Cette,1806,TRUE,1822,FALSE,Consul,WALSH; Peter
+France,Cette,1822,TRUE,1829,TRUE,Consul,DE TUBEUF; Alexander
+France,Dunkirk,1794,TRUE,1801,FALSE,Consul,COFFYN; Francis*
+France,Dunkirk,1801,TRUE,1803,TRUE,Commercial Agent,COXE; Charles D.
+France,Dunkirk,1803,TRUE,1806,FALSE,Commercial Agent,COFFYN; Francis*
+France,Havre de Grace (LeHavre),1790,TRUE,1803,FALSE,Vice Consul,DE LA MOTTE;  Sieur*
+France,Havre de Grace (LeHavre),1793,TRUE,1794,FALSE,Consul,CUTTING; Nathaniel
+France,Havre de Grace (LeHavre),1794,TRUE,1797,FALSE,Consul,GRIFFITH; Thomas Waters
+France,Havre de Grace (LeHavre),1801,TRUE,1803,TRUE,Vice Commercial Agent,DE LA MOTTE;  Sieur*
+France,Havre de Grace (LeHavre),1801,TRUE,1803,TRUE,Commercial Agent,DOBELL; Peter
+France,Havre de Grace (LeHavre),1803,TRUE,1807,FALSE,Vice Commercial Agent,MITCHELL; John
+France,Havre de Grace (LeHavre),1803,TRUE,1808,FALSE,Commercial Agent,BARNET; Isaac Cox
+France,Havre de Grace (LeHavre),1817,TRUE,1847,TRUE,Consul,BEASLEY; Reuben Gaunt
+France,Ile d'Oleron,1817,TRUE,1820,FALSE,Consular Agent,JEUNE; Compere*
+France,L'Orient,1801,TRUE,1803,TRUE,Commercial Agent,PATTERSON; William
+France,L'Orient,1803,TRUE,1815,FALSE,Commercial Agent,VAIL; Aaron
+France,L'Orient,1815,TRUE,1816,TRUE,Consul,DRAYTON; William
+France,L'Orient,1816,TRUE,1817,TRUE,Consul,WILSON; Henry
+France,L'Orient,1817,TRUE,1833,FALSE,Consul,CHURCH; Edward (Jr.?)
+France,La Rochelle,1791,TRUE,1817,TRUE,Consular Agent,BORDE; Pierre*
+France,La Rochelle,1803,TRUE,1815,FALSE,Commercial Agent,LOVELL; Thomas
+France,La Rochelle,1815,TRUE,1819,TRUE,Consul,STERRY; Robert (Major)
+France,La Rochelle,1816,TRUE,1822,FALSE,Consular Agent,GARESCHE; Daniel*
+France,La Rochelle,1818,TRUE,1822,FALSE,Chancellor of Consulate,GARESCHE; Paul*
+France,La Rochelle,1820,TRUE,1821,TRUE,Consul,SMITH; Gerard D.
+France,La Rochelle,1825,TRUE,1826,TRUE,Consul,DEBESEE; James Joseph
+France,Marseilles,1790,TRUE,1801,FALSE,Consul,CATHALAN; Sieur Etienne*
+France,Marseilles,1805,TRUE,1819,FALSE,Commercial Agent,CATHALAN; Sieur Etienne*
+France,Marseilles,1819,TRUE,1829,TRUE,Consul,DODGE; Joshua
+France,Morlaix,1794,TRUE,1802,FALSE,Consul,VANS; William; Jr.
+France,Morlaix,1802,TRUE,1805,FALSE,Commercial Agent,FOSTER; William; Jr.
+France,Nantes,1790,TRUE,1793,TRUE,Consul,CARNES; Burrell
+France,Nantes,1794,TRUE,1799,TRUE,Consul,DOBREE; P. F.*
+France,Nantes,1802,TRUE,1803,TRUE,Commercial Agent,GANTT; Thomas T.
+France,Nantes,1803,TRUE,1815,FALSE,Commercial Agent,PATTERSON; William
+France,Nantes,1815,TRUE,1816,TRUE,Consul,STROBEL; Daniel
+France,Nantes,1817,TRUE,1821,FALSE,Consul,WILSON; Henry
+France,Nantes,1821,TRUE,1838,TRUE,Consul,FENWICK; Francis Columbus
+France,Paris,1776,TRUE,1777,TRUE,Special Negotiator,DEANE; Silas
+France,Paris,1776,TRUE,1778,TRUE,Special Negotiator,FRANKLIN; Benjamin
+France,Paris,1776,TRUE,1778,TRUE,Special Negotiator,LEE; Arthur
+France,Paris,1777,TRUE,1778,TRUE,Commissioner (not COM),ADAMS; John
+France,Paris,1778,TRUE,1778,FALSE,Commissioner (not COM),DEANE; Silas
+France,Paris,1779,TRUE,1785,TRUE,Minister Plenipotentiary,FRANKLIN; Benjamin
+France,Paris,1780,TRUE,1780,FALSE,Special Negotiator,LAURENS; John
+France,Paris,1781,TRUE,1783,TRUE,Consul,BARCLAY; Thomas
+France,Paris,1782,TRUE,1785,TRUE,Commissioner (not COM),BARCLAY; Thomas
+France,Paris,1783,TRUE,1791,TRUE,Consul General,BARCLAY; Thomas
+France,Paris,1785,TRUE,1789,TRUE,Minister Plenipotentiary,JEFFERSON; Thomas
+France,Paris,1785,TRUE,1790,TRUE,Secretary of Legation,SHORT; William
+France,Paris,1790,TRUE,1792,TRUE,Charge d'Affaires,SHORT; William
+France,Paris,1792,TRUE,1794,TRUE,Minister Plenipotentiary,MORRIS; Gouverneur
+France,Paris,1794,TRUE,1794,FALSE,Consul,DUVERNET; Alexandre*
+France,Paris,1794,TRUE,1796,TRUE,Minister Plenipotentiary,MONROE; James
+France,Paris,1794,TRUE,1797,TRUE,Vice Consul,PITCAIRN; Joseph
+France,Paris,1795,TRUE,1796,TRUE,Consul General,SKIPWITH; Fulwar
+France,Paris,1797,TRUE,1798,TRUE,Special Negotiator,MARSHALL; John
+France,Paris,1798,TRUE,1798,FALSE,Special Negotiator,GERRY; Elbridge
+France,Paris,1798,TRUE,1798,FALSE,Special Negotiator,PINCKNEY; CharlesCotesworth
+France,Paris,1799,TRUE,1800,TRUE,Special Negotiator,DAVIE; William Richardson
+France,Paris,1799,TRUE,1800,TRUE,Special Negotiator,ELLSWORTH; Oliver
+France,Paris,1799,TRUE,1800,TRUE,Special Negotiator,MURRAY; William Vans
+France,Paris,1801,TRUE,1804,TRUE,Minister Plenipotentiary,LIVINGSTON; Robert R.
+France,Paris,1801,TRUE,1808,TRUE,Commercial Agent,SKIPWITH; Fulwar
+France,Paris,1802,TRUE,1802,FALSE,Special Diplomatic Agent,DUPONT deNEMOURS;Pierre S.
+France,Paris,1803,TRUE,1803,FALSE,Special Negotiator,MONROE; James
+France,Paris,1804,TRUE,1810,TRUE,Minister Plenipotentiary,ARMSTRONG; John
+France,Paris,1809,TRUE,1814,TRUE,Consul,WARDEN; David Bailie
+France,Paris,1810,TRUE,1811,TRUE,Secretary of Legation,LEE; William (b)
+France,Paris,1810,TRUE,1811,TRUE,Charge d'Affaires,RUSSELL; Jonathan
+France,Paris,1811,TRUE,1812,TRUE,Minister Plenipotentiary,BARLOW; Joel
+France,Paris,1813,TRUE,1815,TRUE,Minister Plenipotentiary,CRAWFORD; William H.
+France,Paris,1813,TRUE,1816,TRUE,Secretary of Legation,JACKSON; Henry
+France,Paris,1814,TRUE,1815,TRUE,Consul,SKIPWITH; Fulwar
+France,Paris,1814,TRUE,1833,TRUE,Consul/ Claims Commissioner,BARNET; Isaac Cox
+France,Paris,1815,TRUE,1823,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,GALLATIN; Albert
+France,Paris,1816,TRUE,1824,TRUE,Secretary of Legation,SHELDON; Daniel
+France,Paris,1823,TRUE,1829,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,BROWN; James
+France,Rochefort,1800,TRUE,1800,FALSE,Consular Agent,PELLETREAU; I. A.*
+France,Rouen,1790,TRUE,1793,TRUE,Consul,BARRETT; Nathaniel
+Belgium,Antwerp,1801,TRUE,1804,FALSE,Commercial Agent,BLAKE; James
+Belgium,Antwerp,1802,TRUE,1803,TRUE,Consul,BARNET; Isaac Cox
+Belgium,Antwerp,1803,TRUE,1810,TRUE,Commercial Agent,RIDGWAY; Jacob
+Belgium,Ghent,1814,TRUE,1814,FALSE,Treaty Negotiator,ADAMS; John Quincy
+Belgium,Ghent,1814,TRUE,1814,FALSE,Treaty Negotiator,CLAY; Henry
+Belgium,Ghent,1814,TRUE,1814,FALSE,Treaty Negotiator,GALLATIN; Albert
+Belgium,Ghent,1814,TRUE,1814,FALSE,Secretary of Negotiating Delegation,HUGHES; Christopher; Jr.
+Belgium,Ghent,1814,TRUE,1814,FALSE,Treaty Negotiator,RUSSELL; Jonathan
+Belgium,Ghent,1814,TRUE,1814,FALSE,Treaty Negotiator,SHALER; William
+Belgium,Ostend,1801,TRUE,1803,FALSE,Consul,TANEY; Francis L.
+Belgium,Ostend,1803,TRUE,1816,TRUE,Consul,WILSON; Henry
+Sardinia,Genoa ,1808,TRUE,1818,FALSE,Commercial agent,STORM; Thomas H.
+Spain,Algericas,1797,TRUE,1802,TRUE,Consular Agent,MULLONY; Patrick*
+Spain,Algericas ,1802,TRUE,1805,FALSE,Consular Agent,GALLARDO; Marcello*
+Spain,Alicante,1793,TRUE,1823,TRUE,Consul,MONTGOMERY; Robert*
+Spain,Alicante,1823,TRUE,1826,TRUE,Consul,MONTGOMERY; Robert; Jr.*
+Spain,Ayamonte and Huelva,1795,TRUE,1800,FALSE,Consular Agent,SERRANO; Andrew*
+Spain,Ayamonte and Huelva,1800,TRUE,1804,FALSE,Consular Agent,SERRANO; Joseph*
+Spain,Ayamonte and Huelva,1804,FALSE,1806,TRUE,Consular Agent,HEARN; Thomas*
+Spain,Ayamonte and Huelva,1806,TRUE,1806,FALSE,Consular Agent,MENDOZA; Fernando Maria*
+Spain,Barcelona,1793,TRUE,1797,FALSE,Vice /Acting Consul,MONTGOMERY; John
+Spain,Barcelona,1797,TRUE,1803,TRUE,Consul,WILLIS; William
+Spain,Barcelona,1800,TRUE,1802,TRUE,Acting Consul,STIRLING; Peter
+Spain,Barcelona,1803,TRUE,1803,FALSE,Acting Consul,LAVAL; Peter
+Spain,Barcelona,1803,TRUE,1803,FALSE,Vice Consul,LEONARD; John
+Spain,Barcelona,1803,TRUE,1816,TRUE,Consul,LEONARD; John
+Spain,Barcelona,1811,TRUE,1811,FALSE,Acting Consul,CARROLL; John
+Spain,Barcelona,1815,TRUE,1817,TRUE,Consul,MCCALL; Richard
+Spain,Barcelona,1817,TRUE,1835,TRUE,Consul,STIRLING; William
+Spain,Bilbao,1823,TRUE,1832,TRUE,Consul,DE CALO; Francis Xavier
+Spain,Bilbao,1825,TRUE,1826,TRUE,Acting Consul,GAMINDE; Francis
+Spain,Cadiz,1791,TRUE,1792,TRUE,Consular Agent,CHIAPPI; Francisco*
+Spain,Cadiz,1792,TRUE,1793,TRUE,Consul,BARLOW; Joel
+Spain,Cadiz,1793,TRUE,1797,TRUE,Consul,UZNARDI; Joseph M.; Jr.*
+Spain,Cadiz,1794,TRUE,1795,TRUE,Acting Consul,UZNARDI; Joseph M.; Sr.*
+Spain,Cadiz,1797,TRUE,1799,TRUE,Acting Consul,UZNARDI; Joseph M.; Sr.*
+Spain,Cadiz,1799,TRUE,1806,TRUE,Vice Consul,TERRY; Anthony
+Spain,Cadiz,1801,TRUE,1815,TRUE,Consul,UZNARDI; Joseph M.; Sr.*
+Spain,Cadiz,1806,TRUE,1809,TRUE,Vice Consul,MCCANN; James
+Spain,Cadiz,1807,TRUE,1815,FALSE,Vice /Acting Consul,HACKLEY; Richard S.
+Spain,Cadiz,1815,TRUE,1818,TRUE,Consul,CATHCART; James Leander
+Spain,Cadiz,1816,TRUE,1816,FALSE,Acting Consul,MEADE; Richard W.
+Spain,Cadiz,1817,TRUE,1818,TRUE,Acting Consul,BLOOMFIELD; Joseph E.
+Spain,Cadiz,1819,TRUE,1823,TRUE,Consul,HALL; John M.
+Spain,Cadiz,1823,TRUE,1824,TRUE,Acting Consul,LASSALETTA; Peter
+Spain,Cadiz,1824,TRUE,1855,TRUE,Consul,BURTON; Alexander
+Spain,Carthagena,1793,TRUE,1793,FALSE,Vice Consul,CASTILLINE; Dominiche*
+Spain,Carthagena,1810,FALSE,1813,TRUE,Vice Consul,MIQUETOTE; Bartelome*
+Spain,Carthagena,1813,TRUE,1813,FALSE,Vice Consul,BIALE; Nicholas*
+Spain,Corunna,1795,TRUE,1802,FALSE,Consular Agent,BERCERRA; Joseph*
+Spain,Corunna,1802,TRUE,1806,FALSE,Consul,MOLIER; Henry
+Spain,Gibraltar,1794,TRUE,1797,TRUE,Consul,SIMPSON; James*
+Spain,Gibraltar,1797,TRUE,1815,FALSE,Consul,GAVINO; John*
+Spain,Gibraltar,1815,TRUE,1817,TRUE,Consul,BEASLEY; Reuben Gaunt
+Spain,Gibraltar,1816,TRUE,1831,FALSE,Consul,HENRY; Bernard
+Spain,Madrid,1779,TRUE,1790,TRUE,Secretary of Legation ,CARMICHAEL; Willlam
+Spain,Madrid,1780,TRUE,1782,TRUE,Special Negotiator ,JAY; John
+Spain,Madrid,1782,TRUE,1790,TRUE,Charge d’Affaires a.i. ,CARMICHAEL; William
+Spain,Madrid,1790,TRUE,1794,TRUE,Charge d'Affaires ,CARMICHAEL; William
+Spain,Madrid,1792,TRUE,1794,TRUE,Commissioner Plenipotentiary,SHORT; William
+Spain,Madrid,1794,TRUE,1795,TRUE,Minister Resident ,SHORT; William
+Spain,Madrid,1795,TRUE,1795,FALSE,Special Negotiator ,PINCKNEY; Thomas
+Spain,Madrid,1797,TRUE,1801,TRUE,Minister Plenipotentiary ,HUMPHREYS; David
+Spain,Madrid,1798,TRUE,1803,FALSE,Consul,YOUNG; Moses
+Spain,Madrid,1801,TRUE,1804,TRUE,Secretary of Legation ,GRAHAM; John
+Spain,Madrid,1801,TRUE,1805,TRUE,Minister Plenipotentiary ,PINCKNEY; Charles Cotesworth
+Spain,Madrid,1804,TRUE,1806,TRUE,Treaty Negotiator ,BOWDOIN; James
+Spain,Madrid,1804,TRUE,1810,TRUE,Secretary of Legation ,ERVING; George W.
+Spain,Madrid,1806,TRUE,1806,FALSE,Treaty Negotiator ,ARMSTRONG; John
+Spain,Madrid,1813,TRUE,1816,TRUE,Special Diplomatic Agent ,MORRIS; Anthony
+Spain,Madrid,1814,TRUE,1819,TRUE,Minister Plenipotentiary ,ERVING; George W.
+Spain,Madrid,1814,TRUE,1822,TRUE,Secretary of Legation ,BRENT; Thomas L. L.
+Spain,Madrid,1817,TRUE,1818,FALSE,Agent for Claims and Seamen ,BRENT; Thomas L. L.
+Spain,Madrid,1819,TRUE,1823,TRUE,Minister Plenipotentiary ,FORSYTH; John
+Spain,Madrid,1822,TRUE,1824,TRUE,Secretary of Legation ,APPLETON; John James
+Spain,Madrid,1823,TRUE,1823,FALSE,Special Diplomatic Agent ,ERVING; George W.
+Spain,Madrid,1823,TRUE,1825,TRUE,Minister Plenipotentiary ,NELSON; Hugh
+Spain,Madrid,1825,TRUE,1828,TRUE,Secretary of Legation ,SMITH; John Adams
+Spain,Madrid,1825,TRUE,1829,TRUE,Envoy Extraordinaire and Minister Plenipotentiary ,EVERETT; Alexander Hill
+Spain,Malaga,1793,TRUE,1800,FALSE,Consul,MURPHY; Michael*
+Spain,Malaga ,1800,TRUE,1818,FALSE,Consul,KIRKPATRICK; William
+Spain,Malaga ,1817,TRUE,1838,TRUE,Consul,BARRELL; George G.
+Canary Islands,Oratava,1794,TRUE,1802,FALSE,Consul,CULNAN; John*
+Majorca,Palma,1803,TRUE,1807,FALSE,Consul,BAKER; John Martin
+Majorca,Palma,1808,TRUE,1820,TRUE,Vice Consul,LADICO; George Theodore*
+Majorca,Palma,1820,TRUE,1834,TRUE,Consul,LADICO; George Theodore*
+Spain,Puerto Santa Maria ,1800,TRUE,1858,FALSE,Consular Agent,KIDMAN; Thomas*
+Spain,San Lucar ,1800,TRUE,1803,TRUE,Consular Agent,STONOR; Henry
+Spain,San Lucar ,1803,TRUE,1807,FALSE,Consular Agent,CROKER; Thomas
+Spain,San Lucar ,1807,TRUE,1814,FALSE,Consul,HACKLEY; Richard S.
+Spain,Santander ,1803,TRUE,1806,TRUE,Consul,O'BRIEN; Lewis Meagher*
+Spain,Santander ,1806,TRUE,1807,TRUE,Consul,HACKLEY; Richard S.
+Spain,Santander ,1820,FALSE,1828,TRUE,Vice Consul,DE BARBANO; I. P.*
+Spain,Tarragona ,1807,TRUE,1815,FALSE,Consul,BAKER; John Martin
+Spain,Tarragona,1809,TRUE,1809,FALSE,Acting Vice Consul,GOODWIN; Willlam
+Spain,Tarragona,1809,TRUE,1809,FALSE,Vice Consul,TYLER; D.
+Spain,Tarragona ,1815,TRUE,1864,TRUE,Acting Vice Consul in Charge,OPINS; Augustin*
+Canary Islands,Tenerife,1805,TRUE,1816,FALSE,Consul,ARMSTRONG; John James
+Canary Islands,Tenerife,1816,TRUE,1820,TRUE,Consul,MULLOWNY; John
+Canary Islands,Tenerife,1820,TRUE,1825,FALSE,Consul,O'SULLIVAN; John
+Canary Islands,Tenerife,1825,TRUE,1835,FALSE,Consul,GAY; Payton
+Azore Islands,Fayal,1790,TRUE,1807,TRUE,Vice Consul,STREET; John*
+Azore Islands,Fayal,1806,TRUE,1826,TRUE,Consul,DABNEY; John B.
+Madeira Islands,Funchal,1790,TRUE,1803,FALSE,Consul,PINTARD; John Marsden
+Madeira Islands,Funchal,1803,TRUE,1806,FALSE,Consul,LEMAR; Marien
+Madeira Islands,Funchal,1806,TRUE,1815,TRUE,Consul,CATHCART; James Leander
+Madeira Islands,Funchal,1815,TRUE,1816,TRUE,Consul,MACPHERSON; Robert H.
+Madeira Islands,Funchal,1816,TRUE,1861,TRUE,Consul,MARCH; John Howard
+Portugal,Lisbon,1790,TRUE,1790,FALSE,Special Diplomatic Agent,HUMPHREYS; David
+Portugal,Lisbon,1791,TRUE,1797,TRUE,Minister Resident,HUMPHREYS; David
+Portugal,Lisbon,1792,TRUE,1797,TRUE,Consul,CHURCH; Edward
+Portugal,Lisbon,1797,TRUE,1802,TRUE,Consul,BULKELY; Thomas
+Portugal,Lisbon,1802,TRUE,1811,FALSE,Consul,JARVIS; William
+Portugal,Lisbon,1809,TRUE,1819,TRUE,Minister Resident,SUMTER; Thomas; Jr.
+Portugal,Lisbon,1811,TRUE,1812,TRUE,Consul,JEFFERSON; George
+Portugal,Lisbon,1813,TRUE,1843,FALSE,Consul,HUTCHINSON; Israel P.
+Portugal,Lisbon,1819,TRUE,1821,TRUE,Secretary of Legation,APPLETON; John James
+Portugal,Lisbon,1822,TRUE,1824,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,DEARBORN; Henry; Sr.
+Portugal,Lisbon,1822,TRUE,1825,TRUE,Secretary of Legation,BRENT; Thomas L. L.
+Portugal,Lisbon,1825,TRUE,1834,TRUE,Charge d'Affaires,BRENT; Thomas L. L.
+Portugal,Oporto,1821,TRUE,1823,TRUE,Consul,BURTON; Alexander
+Cap Verde Islands,Santiago,1816,TRUE,1818,TRUE,Consul,FIELD; Elisha
+Cap Verde Islands,Santiago,1818,TRUE,1828,FALSE,Consul,HODGES; Samuel; Jr.
+Netherlands,Amsterdam,1793,TRUE,1815,FALSE,Consul,GREENLEAF; James
+Netherlands,Amsterdam,1794,TRUE,1797,TRUE,Vice Consul,BOURNE; Sylvanus
+Netherlands,Amsterdam,1797,TRUE,1816,TRUE,Consul General,BOURNE; Sylvanus
+Netherlands,Amsterdam,1802,TRUE,1803,TRUE,Acting Consul,DAMEN; Herman Hendrik*
+Netherlands,Amsterdam,1817,TRUE,1839,TRUE,Consul,PARKER; John W.
+Netherlands,Helder,1804,TRUE,1817,TRUE,Consular Agent,KORFF; A.*
+Netherlands,Helder,1822,TRUE,1840,TRUE,Consular Agent,KORFF; Peter*
+Netherlands,Rotterdam,1797,TRUE,1800,TRUE,Consul,BEELDEMAKER; John*
+Netherlands,Rotterdam,1800,TRUE,1803,FALSE,Acting Consular Agent,BROWNE; Thomas*
+Netherlands,Rotterdam,1800,TRUE,1803,FALSE,Consul,FORMAN; Joseph
+Netherlands,Rotterdam,1803,TRUE,1803,FALSE,Consul,HARRIS; Levitt
+Netherlands,Rotterdam,1803,TRUE,1806,TRUE,Acting Consular Agent,ALEXANDER; *
+Netherlands,Rotterdam,1806,TRUE,1807,TRUE,Acting Consular Agent,CURTIS; G. R.*
+Netherlands,Rotterdam,1807,TRUE,1820,FALSE,Consul,JOY; George
+Netherlands,Rotterdam,1816,TRUE,1819,TRUE,Consul,WILKENS; T. F.
+Netherlands,Rotterdam,1819,TRUE,1829,TRUE,Consul,WAMBERSIE; Emanuel
+Netherlands,Texel,1804,TRUE,1810,FALSE,Consular Agent,CHRISTIANS; Tiede*
+Netherlands,The Hague,1779,TRUE,1779,FALSE,Treaty Negotiator,LAURENS; Henry
+Netherlands,The Hague,1779,TRUE,1789,TRUE,Secretary of Legation,DUMAS; Charles William Fredi
+Netherlands,The Hague,1781,TRUE,1788,TRUE,Minister Plenipotentiary,ADAMS; John
+Netherlands,The Hague,1785,TRUE,1789,TRUE,Diplomatic Agent,DUMAS;Charles William Fred}
+Netherlands,The Hague,1792,TRUE,1792,FALSE,Minister Resident,SHORT; William
+Netherlands,The Hague,1794,TRUE,1797,TRUE,Minister Resident,ADAMS; John Quincy
+Netherlands,The Hague,1795,TRUE,1796,TRUE,Charge d’Affaires a.i.,ADAMS; Thomas Boylston
+Netherlands,The Hague,1797,TRUE,1801,TRUE,Minister Resident,MURRAY; William Vans
+Netherlands,The Hague,1814,TRUE,1818,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,EUSTIS; William
+Netherlands,The Hague,1815,TRUE,1818,TRUE,Secretary of Legation,EVERETT; Alexander Hill
+Netherlands,The Hague,1817,TRUE,1817,FALSE,Agent for Commerce and Seamen,BOURNE; Sylvanus
+Netherlands,The Hague,1817,TRUE,1817,FALSE,Special Negotiator,GALLATIN; Albert
+Netherlands,The Hague,1817,TRUE,1819,TRUE,Secretary of Legation,APPLETON; John James
+Netherlands,The Hague,1818,TRUE,1824,TRUE,Charge d'Affaires,EVERETT; Alexander Hill
+Netherlands,The Hague,1825,TRUE,1830,TRUE,Charge d'Affaires,HUGHES; Christopher; Jr.
+Belgium,Antwerp,1814,TRUE,1817,TRUE,Consul,HAZARD; Samuel
+Belgium,Antwerp,1817,TRUE,1818,TRUE,Consul,CLIBBORN; Joshua
+Belgium,Antwerp,1818,TRUE,1819,TRUE,Consul,PARISH; David
+Belgium,Antwerp,1823,TRUE,1829,TRUE,Consul,BARNET; Charles
+Belgium,Antwerp,1829,TRUE,1836,TRUE,Consul,PATTERSON; William Daniel
+Belgium,Ostend,1816,TRUE,1819,TRUE,Consul,WAMBERSIE; Emanuel
+Belgium,Ostend,1822,TRUE,1843,FALSE,Consul,MARK; Louis
+Denmark,Copenhagen,1792,TRUE,1817,TRUE,Consul,SAABYE; Hans Rudolph*
+Denmark,Copenhagen,1811,TRUE,1811,FALSE,Special Negotiator,FORBES; John Murray
+Denmark,Copenhagen,1811,TRUE,1812,TRUE,Special Negotiator,ERVING; George W.
+Denmark,Copenhagen,1816,TRUE,1819,TRUE,Consul,FORBES; John Murray
+Denmark,Copenhagen,1818,TRUE,1818,FALSE,Special Negotiator,CAMPBELL; George Washingto
+Denmark,Copenhagen,1820,TRUE,1833,FALSE,Consul,RAYNALS; John
+Denmark,Copenhagen,1825,TRUE,1825,FALSE,Special Negotiator,HUGHES; Christopher; Jr.
+Norway,Christiania (Oslo),1809,TRUE,1809,FALSE,Consul,ISAAKSEN; Peter*
+Norway,Christiania (Oslo),1821,TRUE,1831,FALSE,Consular Agent ,MORCK; O. C.*
+Sweden,Gothenburg (Goteborg),1797,TRUE,1802,FALSE,Consul,BACKMAN; Elias*
+Sweden,Gothenburg (Goteborg),1802,TRUE,1811,FALSE,Consul,GARDINER; Robert Champlin
+Sweden,Gothenburg (Goteborg),1811,TRUE,1814,FALSE,Consul,ANDERSON; James
+Sweden,Gothenburg (Goteborg),1814,TRUE,1818,FALSE,Consul,STRONG; Nathaniel W.
+Sweden,Gothenburg (Goteborg),1818,TRUE,1846,FALSE,Consul,MURRAY; C. A.
+Sweden,Stockholm,1798,TRUE,1798,FALSE,Treaty Negotiator,ADAMS; John Quincy
+Sweden,Stockholm ,1814,TRUE,1816,TRUE,Secretary of Legation,LAWRENCE; John L.
+Sweden,Stockholm ,1814,TRUE,1818,TRUE,Minister Plenipotentiary,RUSSELL; Jonathan
+Sweden,Stockholm,1816,TRUE,1819,TRUE,Secretary of Legation,HUGHES; Christopher; Jr.
+Sweden,Stockholm,1818,TRUE,1836,TRUE,Consul,ERSKINE; David
+Sweden,Stockholm,1819,TRUE,1825,TRUE,Charge d'Affaires,HUGHES; Christopher; Jr.
+Prussia,Berlin,1777,TRUE,1777,FALSE,Special Negotiator,LEE; Arthur
+Prussia,Berlin,1777,TRUE,1779,TRUE,Commissioner,LEE; William
+Prussia,Berlin,1794,TRUE,1794,FALSE,Special Diplomatic Agent,MARSHALL; James M.
+Prussia,Berlin,1797,TRUE,1801,TRUE,Minister Plenipotentiary,ADAMS; John Quincy
+Prussia,Remscheid,1821,TRUE,1829,TRUE,Consul,BOEKER; John Godfrey
+Prussia,Stettin,1798,TRUE,1816,TRUE,Consul,LUTZE; Frederick William*
+Prussia,Stettin,1816,TRUE,1819,TRUE,Consul General,FORBES; John Murray
+Austria,Trieste,1797,TRUE,1799,TRUE,Consul,WAGNER; Conrad Frederick*
+Austria,Trieste,1799,TRUE,1802,FALSE,Consul,LAMSON; John
+Austria,Trieste,1802,TRUE,1815,FALSE,Consul,RIGGIN; William
+Austria,Trieste,1815,TRUE,1819,FALSE,Consul,BARNEY; William B.
+Austria,Trieste,1819,TRUE,1821,FALSE,Consul,ADAMS; Francis
+Austria,Trieste,1821,TRUE,1845,TRUE,Consul,MOORE; George
+Austria,Venice,1807,TRUE,1807,FALSE,Consul,RANDOLPH; Ryland
+Bavaria,Nuremberg,1794,TRUE,1794,FALSE,Consul,MARCK; Philip*
+Hannover,Emden,1803,TRUE,1806,FALSE,Consul,CLARKE; William
+MECKLENBURG-SCHWERIN (Duchy of),Schwerin,1816,TRUE,1819,TRUE,Consul,FORBES; John Murray
+The German Free Cities,Bremen,1794,TRUE,1794,FALSE,Consul,DELIUS; Arnold
+The German Free Cities,Bremen,1796,TRUE,1833,TRUE,Consul,WICHELHAUSEN; Fred. Jacob*
+The German Free Cities,Hamburg,1790,TRUE,1793,TRUE,Vice Consul,PITCAIRN; Joseph
+The German Free Cities,Hamburg,1793,TRUE,1796,TRUE,Consul,FORBES; John Murray
+The German Free Cities,Hamburg,1796,TRUE,1797,TRUE,Consul,WYER; Edward
+The German Free Cities,Hamburg,1797,TRUE,1802,TRUE,Consul,CUTHBERT; John
+The German Free Cities,Hamburg,1802,TRUE,1811,FALSE,Consul,LIST; Frederick
+The German Free Cities,Hamburg,1817,TRUE,1821,FALSE,Consul,CUTHBERT; John
+Genoa (Republic of),Genoa,1797,TRUE,1797,FALSE,Consul,CHILDS; Francis
+Genoa (Republic of),Genoa,1797,TRUE,1803,FALSE,Consul,WOLLASTON; Frederick H.
+Genoa (Republic of),Genoa,1803,TRUE,1804,TRUE,Consul,GOETSCHIUS; John M.
+Genoa (Republic of),Genoa,1804,TRUE,1808,FALSE,Consul,KUHN; Peter; Jr.
+Sardinia (Kingdom of),Cagliari,1802,TRUE,1810,TRUE,Consular Agent,DE NAVONI; Francois*
+Sardinia (Kingdom of),Cagliari,1809,TRUE,1812,FALSE,Consul,O'BRIEN; Richard
+Sardinia (Kingdom of),Cagliari,1812,TRUE,1815,TRUE,Consul,DE NAVONI; Francois*
+Sardinia (Kingdom of),Cagliari,1820,FALSE,1825,TRUE,Vice Consul,CORNEGLIUS; Fortunate*
+Sardinia (Kingdom of),Genoa,1818,TRUE,1822,FALSE,Consul,SCHEE; James
+Sardinia (Kingdom of),Genoa,1822,TRUE,1834,FALSE,Consul,CAMPBELL; Robert
+Sardinia (Kingdom of),Turin,1816,TRUE,1816,FALSE,Special Negotiator,PINKNEY; William
+Sardinia,Florence,1777,TRUE,1777,FALSE,Special Negotiator,IZARD; Ralph
+Sardinia,Leghorn,1794,TRUE,1798,FALSE,Consul,FELIECHY; Philip*
+Sardinia,Leghorn,1798,TRUE,1840,TRUE,Consul,APPLETON; Thomas
+Papal States,Rome,1797,TRUE,1806,FALSE,Consul,SARTORI; Jean Baptiste*
+Papal States,Rome,1806,TRUE,1823,FALSE,Consul,COGDELL; John S.
+Papal States,Rome,1823,TRUE,1837,FALSE,Consul,CICOGNANI; Felix*
+Naples (Kingdom of),Messina,1805,TRUE,1827,FALSE,Consul,BROADBENT; John
+Naples (Kingdom of),Messina,1827,TRUE,1845,TRUE,Consul,PAYSON; John Larkin
+Naples (Kingdom of),Naples,1796,TRUE,1805,FALSE,Consul,MATTHIEU; John S. M.*
+Naples (Kingdom of),Naples,1800,TRUE,1800,FALSE,Special Diplomatic Agent,SMITH; William
+Naples (Kingdom of),Naples,1805,TRUE,1809,FALSE,Consul,DEGAN; Frederick
+Naples (Kingdom of),Naples,1809,TRUE,1861,TRUE,Consul,HAMMETT; Alexander
+Naples (Kingdom of),Naples,1816,TRUE,1816,FALSE,Special Negotiator,PINKNEY; William
+Naples (Kingdom of),Palermo,1802,TRUE,1806,TRUE,Consul,BARNES; Joseph
+Naples (Kingdom of),Palermo,1805,TRUE,1816,FALSE,Consul,GIBBS; Abraham
+Naples (Kingdom of),Palermo,1816,TRUE,1818,FALSE,Consul,PORTER; William
+Naples (Kingdom of),Palermo,1818,TRUE,1824,TRUE,Consul,PREBLE; Henry
+Naples (Kingdom of),Palermo,1825,TRUE,1837,TRUE,Consul,GARDNER; Benjamin
+Malta,Valetta,1801,TRUE,1815,FALSE,Consul ,PULIS; Joseph*
+Turkey,Constantinople,1799,TRUE,1799,FALSE,Special Diplomatic Agent,SMITH; William
+Turkey,Constantinople,1820,TRUE,1820,FALSE,Special Diplomatic Agent,BAINBRIDGE; William; Cdore
+Turkey,Constantinople,1820,TRUE,1828,TRUE,Special Diplomatic Agent,BRADISH; Luther
+Turkey,Constantinople,1823,TRUE,1824,TRUE,Special Diplomatic Agent,ENGLISH; George Bethune
+Turkey,Constantinople,1824,TRUE,1824,FALSE,Special Diplomatic Agent ,RODGERS; John; Adm.
+Turkey,Smyrna,1802,TRUE,1823,FALSE,Consul,STEWART; Wolliam
+Turkey,Smyrna,1823,TRUE,1832,TRUE,Consular and Commercial Agent,OFFLEY; David
+Greece,Athens,1825,TRUE,1826,TRUE,Special Diplomatic Agent,SOMERVILLE; William C.
+Morocco,Marrakesh,1786,TRUE,1790,FALSE,Consular Agent,CHIAPPI; Francisco*
+Morocco,Mogador,1786,TRUE,1790,FALSE,Consular Agent,CHIAPPI; Giuseppe*
+Morocco,Mogador,1817,TRUE,1818,TRUE,Consul,O'SULLIVAN; John
+Morocco,Tangier,1785,TRUE,1786,TRUE,Special Negotiator,BARCLAY; Thomas
+Morocco,Tangier,1786,TRUE,1790,FALSE,Consular Agent,CHIAPPI; Girolamo*
+Morocco,Tangier,1791,TRUE,1792,TRUE,Consul,BARCLAY; Thomas
+Morocco,Tangier,1791,TRUE,1792,TRUE,Special Diplomatic Agent,BARCLAY; Thomas
+Morocco,Tangier,1794,TRUE,1794,FALSE,Consul,HEISSEL; Hans*
+Morocco,Tangier,1795,TRUE,1795,FALSE,Special Negotiator,HUMPHREYS; David
+Morocco,Tangier,1795,TRUE,1795,FALSE,Special Diplomatic Agent,SIMPSON; James*
+Morocco,Tangier,1796,TRUE,1820,TRUE,Consul,SIMPSON; James*
+Morocco,Tangier,1820,TRUE,1821,TRUE,Acting Consul,SIMPSON; John S.
+Morocco,Tangier,1820,TRUE,1830,TRUE,Consul,MULLOWNY; John
+Morocco,Tangier,1821,FALSE,1830,TRUE,Vice Consul,CHILLET; 
+Algeria,Algiers,1785,TRUE,1785,FALSE,Treaty Negotiator,LAMB; John
+Algeria,Algiers,1792,TRUE,1792,FALSE,Special Diplomatic Agent,JONES; John Paul; Cdore.
+Algeria,Algiers,1793,TRUE,1793,FALSE,Treaty Negotiator,BARLOW; Joel
+Algeria,Algiers,1793,TRUE,1794,TRUE,Special Negotiator,HUMPHREYS; David
+Algeria,Algiers,1793,TRUE,1794,TRUE,Acting Consul,LOGIE; Charles*
+Algeria,Algiers,1795,TRUE,1797,TRUE,Treaty Negotiator,DONALDSON; Joseph; Jr.
+Algeria,Algiers,1796,TRUE,1797,TRUE,Consul General,BARLOW; Joel
+Algeria,Algiers,1797,TRUE,1797,FALSE,Special Diplomatic Agent,NEWMAN; Timothy; Capt. USN
+Algeria,Algiers,1797,TRUE,1798,TRUE,Acting Consul General,CLARKE; George
+Algeria,Algiers,1797,TRUE,1803,TRUE,Consul General,O'BRIEN; Richard
+Algeria,Algiers,1798,TRUE,1798,FALSE,Secretary to Consul General,CARR; James
+Algeria,Algiers,1798,TRUE,1798,FALSE,Special Diplomatic Agent,MALEY; William; Capt. USN
+Algeria,Algiers,1798,TRUE,1798,FALSE,Special Diplomatic Agent,ROBINSON; John; Capt. USN
+Algeria,Algiers,1799,TRUE,1799,FALSE,Secretary to Consul General,MCCUTCHEON; Samuel
+Algeria,Algiers,1802,TRUE,1803,TRUE,Consul General,CATHCART; James Leander
+Algeria,Algiers,1803,TRUE,1812,TRUE,Consul General,LEAR; Tobias
+Algeria,Algiers,1804,TRUE,1805,TRUE,Acting Consul General,MOUNTFORD; Timothy
+Algeria,Algiers,1805,TRUE,1807,TRUE,Clerk to Consul General,CURRY; Albert
+Algeria,Algiers,1806,TRUE,1807,TRUE,Acting Consul General,LEWIS; William; Lt.; USN
+Algeria,Algiers,1806,TRUE,1809,TRUE,Secretary to Consul General,TRIPLETT;  ; Dr.
+Algeria,Algiers,1812,TRUE,1815,TRUE,Acting Consul General,NORDERLING; John*
+Algeria,Algiers,1815,TRUE,1815,FALSE,Treaty Negotiator,BAINBRIDGE; William; Cdore
+Algeria,Algiers,1815,TRUE,1815,FALSE,Special Negotiator,DECATUR; Stephen; Cdore.
+Algeria,Algiers,1815,TRUE,1816,TRUE,Treaty Negotiator,SHALER; William
+Algeria,Algiers,1815,TRUE,1828,TRUE,Consul General,SHALER; William
+Algeria,Algiers,1816,TRUE,1816,FALSE,Secretary to Negotiating Commission,HANDY; Charles O.
+Algeria,Algiers,1816,TRUE,1817,TRUE,Special Diplomatic Agent,CHAUNCEY Isaac; Cdore.
+Algeria,Algiers,1817,TRUE,1819,TRUE,Acting Consul General,BUELL; William
+Algeria,Algiers,1821,TRUE,1822,TRUE,Acting Consul General,SHALER; William II
+Algeria,Algiers,1824,TRUE,1826,FALSE,Secretary to Consul General,PLEASANTON; J. H.
+Algeria,Algiers,1825,TRUE,1825,FALSE,Acting Consul General,CARSTENSEN; J. H.*
+Tunisia,Tunis,1795,TRUE,1797,TRUE,Consul,DONALDSON; Joseph; Jr.
+Tunisia,Tunis,1795,TRUE,1797,TRUE,Acting Consul,HEAP; Samuel D.
+Tunisia,Tunis,1796,TRUE,1797,TRUE,Special Diplomatic Agent,FAMIN; Joseph Etienne
+Tunisia,Tunis,1797,TRUE,1797,FALSE,Treaty Negotiator,EATON; William
+Tunisia,Tunis,1797,TRUE,1797,FALSE,Treaty Negotiator,HEAP; Samuel D.
+Tunisia,Tunis,1797,TRUE,1803,FALSE,Consul,EATON; William
+Tunisia,Tunis,1798,TRUE,1798,FALSE,Treaty Negotiator,CATHCART; James Leander
+Tunisia,Tunis,1798,TRUE,1798,FALSE,Special Negotiator,O'BRIEN; Richard
+Tunisia,Tunis,1803,TRUE,1803,FALSE,Consul,CATHCART; James Leander
+Tunisia,Tunis,1813,TRUE,1815,FALSE,Consul,NOAH; Mordecai M.
+Tunisia,Tunis,1815,TRUE,1819,TRUE,Consul,ANDERSON; Thomas D.
+Tunisia,Tunis,1819,TRUE,1824,FALSE,Consul,STITH; Townsend
+Tunisia,Tunis,1824,TRUE,1825,TRUE,Consul,COXE; Charles D. (b)
+Tunisia,Tunis,1825,TRUE,1841,TRUE,Consul,HEAP; Samuel D.
+Tripolitania,Tripoli,1796,TRUE,1796,FALSE,Treaty Negotiator,BARLOW; Joel
+Tripolitania,Tripoli,1796,TRUE,1796,FALSE,Treaty Negotiator,O'BRIEN; Richard
+Tripolitania,Tripoli,1796,TRUE,1799,TRUE,Acting Consul,INGRAHAM; Joseph
+Tripolitania,Tripoli,1797,TRUE,1801,TRUE,Consul,CATHCART; James Leander
+Tripolitania,Tripoli,1799,TRUE,1799,FALSE,Acting Consul,MCDONOUGH; Bryan; Dr.
+Tripolitania,Tripoli,1803,TRUE,1805,TRUE,Treaty Negotiator,LEAR; Tobias
+Tripolitania,Tripoli,1805,TRUE,1807,TRUE,Acting Consul,RIDGELY; John
+Tripolitania,Tripoli,1806,TRUE,1810,FALSE,Consul,DAVIS; George
+Tripolitania,Tripoli,1810,TRUE,1811,TRUE,Acting Consul,PAYNE; John
+Tripolitania,Tripoli,1811,TRUE,1813,TRUE,Acting Consul,NAUDI; Kaverio*
+Tripolitania,Tripoli,1812,TRUE,1819,TRUE,Consul,JONES; Richard B.
+Tripolitania,Tripoli,1816,TRUE,1816,FALSE,Acting Consul,CARSTENSEN; John*
+Tripolitania,Tripoli,1817,TRUE,1817,FALSE,Acting Consul,BRASHEAR; ___
+Tripolitania,Tripoli,1819,TRUE,1825,FALSE,Consul,ANDERSON; Thomas D.
+Tripolitania,Tripoli,1825,TRUE,1830,TRUE,Consul,COXE; Charles D. (a)
+South Africa,Cape Town,1799,TRUE,1809,FALSE,Consul,ELMSLIE; John; Jr.
+India,Calcutta,1792,TRUE,1796,TRUE,Consul ,JOY; Benjamin
+India,Calcutta,1796,TRUE,1801,FALSE,Consul ,MILLER; William James
+India,Calcutta,1801,TRUE,1804,FALSE,Consul,LEWIS; Jacob
+India,Madras,1794,TRUE,1810,FALSE,Consular Agent,ABBOT; William*
+Mauritius,Port Louis,1794,TRUE,1797,FALSE,Consul,MCCARTY; William
+Mauritius,Port Louis,1797,TRUE,1801,FALSE,Consul,LEWIS; Jacob
+Mauritius,Port Louis,1799,TRUE,1800,TRUE,Special Diplomatic Agent ,COOPER; Samuel S.
+Mauritius,Port Louis,1801,TRUE,1805,TRUE,Commercial Agent ,BUCHANAN; William
+Mauritius,Port Louis,1805,TRUE,1816,FALSE,Consul,BUCHANAN; William
+Mauritius,Port Louis,1816,TRUE,1826,FALSE,Consul,BICKHAM; Martin
+Siam,Rangoon,1810,TRUE,1820,FALSE,Consul,DAVY; John B.
+Java,Batavia (Jakarta),1801,TRUE,1807,FALSE,Consul,HEWES; Thomas
+Java,Batavia (Jakarta),1807,TRUE,1818,FALSE,Consul,MCCLALLAN; John
+Java,Batavia (Jakarta),1818,TRUE,1823,TRUE,Agent for Commerce and Seamen,SOESMAN; Abraham E.
+Java,Batavia (Jakarta),1820,TRUE,1824,TRUE,Vice Consul,WILSON; James
+Java,Batavia (Jakarta),1825,TRUE,1835,TRUE,Consul,SHILLABER; John
+Philippines,Manila,1801,TRUE,1815,FALSE,Consul,KERR; John Stuart
+Philippines,Manila,1815,TRUE,1822,FALSE,Consul,STEWART; Andrew
+Philippines,Manila,1822,TRUE,1832,FALSE,Consul,HUBBELL; George W.
+China,Canton,1786,TRUE,1789,TRUE,Vice Consul,RANDALL; Thomas
+China,Canton,1786,TRUE,1789,TRUE,Consul,SHAW; Samuel
+China,Canton,1790,TRUE,1798,FALSE,Consul,SHAW; Samuel
+China,Canton,1798,TRUE,1805,FALSE,Consul,SNOW; Samuel
+China,Canton,1799,TRUE,1805,FALSE,Vice Consul,REID; James
+China,Canton,1805,TRUE,1806,TRUE,Vice Consul,CARRINGTON; Edward
+China,Canton,1806,TRUE,1812,FALSE,Consul,CARRINGTON; Edward
+China,Canton,1813,TRUE,1822,FALSE,Consul,WILCOCKS; Benjamin C.
+China,Canton,1822,TRUE,1824,TRUE,Consul,THOMSON; Richard R.
+China,Canton,1824,TRUE,1826,TRUE,Consul,THOMSON; John R.
+Hawaii,Honolulu,1820,TRUE,1828,TRUE,Agent for Commerce and Seamen ,JONES; John C.; Jr.
+Bermuda,Hamilton,1823,TRUE,1823,FALSE,Acting Commercial Agent ,TUCKER; W. G.*
+Bermuda,Hamilton,1824,TRUE,1824,FALSE,Acting Commercial Agent,FORBES; Francis
+Bermuda,St. George's,1815,TRUE,1815,FALSE,Special Diplomatic Agent ,PINCKNEY; Thomas (Gen.)
+Bermuda,St. George's,1818,TRUE,1827,FALSE,Agent for Commerce and Seamen ,HIGINBOTHAM; William R.
+Bermuda,St. George's,1824,TRUE,1824,FALSE,Acting Commercial Agent ,HINSON; Francis Forbes*
+Florida,St. Augustine,1791,TRUE,1791,FALSE,Special Diplomatic Agent,SEAGROVE; James
+Florida,St. Augustine,1808,TRUE,1808,FALSE,Special Diplomatic Agent,WILKINSON; James
+Florida,St. Augustine,1811,TRUE,1811,FALSE,Special Diplomatic Agent,MATHEWS; George
+Florida,St. Augustine,1811,TRUE,1812,TRUE,Special Diplomatic Agent,MCKEE; John
+Florida,St. Augustine,1812,TRUE,1812,FALSE,Special Diplomatic Agent ,MITCHELL; David B.
+Florida,St. Augustine,1812,TRUE,1814,TRUE,Special Diplomatic Agent ,PINCKNEY; Thomas (Gen.)
+Louisiana,New Orleans,1797,TRUE,1798,TRUE,Consul,POLLOCK; Procopio
+Louisiana,New Orleans,1798,TRUE,1799,TRUE,Consul,RULINGS; William Empson
+Louisiana,New Orleans,1799,TRUE,1801,TRUE,Consul,JONES; Evan
+Louisiana,New Orleans,1801,TRUE,1802,TRUE,Consul,CLARK; Daniel
+Louisiana,New Orleans,1803,TRUE,1803,FALSE,Special Agent/Commissioner ,CLAIBORNE; William C. C.
+Louisiana,New Orleans,1803,TRUE,1803,FALSE,Special Commissioner,WILKINSON; James
+Oregon,Columbia River,1817,TRUE,1817,FALSE,Special Diplomatic Agent ,PREVOST; John B.
+Oregon,Columbia River,1817,TRUE,1822,TRUE,Special Diplomatic Agent,BIDDLE; James; Cdore.
+Cuba,Havana,1797,TRUE,1798,FALSE,Acting Consul ,YZNARDI; Joseph M.
+Cuba,Havana,1797,TRUE,1799,TRUE,Consul,HAWLEY; Daniel
+Cuba,Havana,1799,TRUE,1802,TRUE,Consul,MORTON; John
+Cuba,Havana,1802,TRUE,1805,FALSE,Consul,YOUNG; Robert
+Cuba,Havana,1805,TRUE,1807,FALSE,Consul ,HILL; Henry; Jr.
+Cuba,Havana,1812,TRUE,1817,FALSE,Consul,KINGSTON; Stephen
+Cuba,Havana,1817,TRUE,1819,TRUE,Agent for Commerce and Seamen ,STEVENSON; George P.
+Cuba,Havana,1819,TRUE,1820,TRUE,Agent for Commerce and Seamen,HOGAN; Michael
+Cuba,Havana,1821,TRUE,1821,FALSE,Special Diplomatic Agent ,FORBES; James G.
+Cuba,Havana,1821,TRUE,1821,FALSE,Special Diplomatic Agent ,THOMPSON; Gilbert L.
+Cuba,Havana,1821,TRUE,1825,FALSE,Agent for Commerce and Seamen,WARNER; John
+Cuba,Havana,1822,TRUE,1822,FALSE,Special Diplomatic Agent ,BIDDLE; James; Cdore.
+Cuba,Havana,1823,TRUE,1824,TRUE,Special Diplomatic Agent,RANDALL; Thomas
+Cuba,Havana,1825,TRUE,1829,TRUE,Consular and Commercial Agent ,RODNEY; Thomas W.
+Cuba,Matanzas,1820,TRUE,1821,TRUE,Agent for Commerce and Seamen,BAKER; John Martin
+Cuba,Matanzas,1821,TRUE,1823,TRUE,Agent for Commerce and Seamen ,MCFADON; John W.
+Cuba,Matanzas,1821,TRUE,1825,FALSE,Agent for Commerce and Seamen,PEYTON; Craven Thompson
+Cuba,Matanzas,1822,FALSE,1825,TRUE,Consul ,RODNEY; Thomas W.
+Cuba,Matanzas,1823,TRUE,1825,TRUE,Consular and Commercial Agent,ADAMS; Francis
+Cuba,Matanzas,1825,TRUE,1831,TRUE,Consular and Commercial Agent,SHOEMAKER; Lewis
+Cuba,Santiago de Cuba,1798,TRUE,1806,FALSE,Consul,BLAKELY; Josiah
+Cuba,Santiago de Cuba,1806,TRUE,1811,TRUE,Consul,ROGERS; Maurice
+Cuba,Santiago de Cuba,1811,TRUE,1815,FALSE,Consul,MITCHELL; John
+Cuba,Santiago de Cuba,1817,TRUE,1818,TRUE,Agent for Commerce and Seamen ,STONE; William; Jr.
+Cuba,Santiago de Cuba,1818,TRUE,1820,TRUE,Agent for Commerce and Seamen,MASON; John
+Cuba,Santiago de Cuba,1820,TRUE,1823,FALSE,Agent for Commerce and Seamen,GIRAUD; Daniel
+Cuba,Santiago de Cuba,1823,TRUE,1827,FALSE,Consular and Commercial Agent ,WRIGHT; James I.
+Cuba,Trinidad,1820,TRUE,1824,FALSE,Agent for Commerce and Seamen ,COMEGYS; Jacob B.
+Cuba,Trinidad,1824,TRUE,1826,FALSE,Consular and Commercial Agent,BAKER; James
+Haiti,Aux Cayes,1796,TRUE,1797,TRUE,Consul,FOLGER; Frederick
+Haiti,Cap Haitien,1790,TRUE,1791,TRUE,Consul,BOURNE; Sylvanus
+Haiti,Cap Haitien,1796,TRUE,1800,FALSE,Consul,MAYER; Jacob
+Haiti,Cap Haitien,1797,TRUE,1799,TRUE,Consul,BLAKE; James
+Haiti,Cap Haitien,1799,TRUE,1801,TRUE,Consul General,STEVENS; Edward
+Haiti,Port-au-Prince,1800,TRUE,1801,TRUE,Consul,DANDRIDGE; Bartholomew
+Haiti,Aux Cayes ,1797,TRUE,1820,TRUE,Consul,YATES; Richard
+Haiti,Aux Cayes ,1820,TRUE,1822,TRUE,Agent for Commerce and Seamen,NONES; Aaron B.
+Haiti,Aux Cayes,1822,TRUE,1822,FALSE,Acting Commercial Agent,TATE; Alexander
+Haiti,Aux Cayes ,1825,TRUE,1827,TRUE,Consular and Commercial Agent,HOLDEN; James A.
+Haiti,Cap Haitien,1800,TRUE,1805,FALSE,Consul,HAMMOND; Henry
+Haiti,Cap Haitien,1801,TRUE,1803,TRUE,Commercial Agent,LEAR; Tobias
+Haiti,Cap Haitien,1801,TRUE,1808,FALSE,Commercial Agent,CALDWELL; John E.
+Haiti,Cap Haitien,1815,TRUE,1817,TRUE,Consul,TAYLOR; William
+Haiti,Cap Haitien,1821,TRUE,1822,TRUE,Agent for Commerce and Seamen,D'ARCY; John N.
+Haiti,Cap Haitien,1822,TRUE,1827,TRUE,Consular and Commercial Agent,BRICE; James E.
+Haiti,Port-au-Prince,1801,TRUE,1805,FALSE,Commercial Agent,DANDRIDGE; Bartholomew
+Haiti,Port-au-Prince,1812,TRUE,1813,TRUE,Special Diplomatic Agent,GILLESPIE; James
+Haiti,Port-au-Prince,1813,TRUE,1814,TRUE,Special Diplomatic Agent,TAYLOR; William
+Haiti,Port-au-Prince,1816,TRUE,1816,FALSE,Special Diplomatic Agent,TYLER; Septimus
+Haiti,Port-au-Prince,1818,TRUE,1818,FALSE,Special Diplomatic Agent,LEWIS; Jacob
+Haiti,Port-au-Prince,1818,TRUE,1818,FALSE,Special Diplomatic Agent,TAYLOR; William
+Haiti,Port-au-Prince,1820,TRUE,1828,FALSE,Agent for Commerce and Seamen,ARMSTRONG; Andrew
+Haiti,Port-au-Prince,1821,TRUE,1821,FALSE,Special Agent for Claims,WYER; Edward
+Haiti,Port-au-Prince,1824,TRUE,1824,FALSE,Special Diplomatic Agent,BOOTHROYD; Jabez
+Jamaica,Kingston,1797,TRUE,1797,FALSE,Special Diplomatic Agent,HALEY; William; Capt. USN
+Jamaica,Kingston,1807,TRUE,1807,FALSE,Agent for Commerce and Seamen ,HILL; Henry; Jr.
+Jamaica,Kingston,1815,TRUE,1815,FALSE,Special Diplomatic Agent,SPALDING; Thomas
+Jamaica,Kingston,1824,TRUE,1831,FALSE,Consul,LANMAN; Peter
+Puerto Rico,Ponce,1822,TRUE,1831,TRUE,Vice Consul,THOMPSON; Gillies
+Puerto Rico,San Juan,1815,TRUE,1818,FALSE,Agent for Commerce and Seamen,WARNER; John
+Puerto Rico,San Juan,1818,TRUE,1820,FALSE,Agent for Commerce and Seamen,BAKER; John Martin
+Puerto Rico,San Juan,1820,TRUE,1826,TRUE,Agent for Commerce and Seamen,LORD; Judah
+Antigua Island,Antigua Island,1823,TRUE,1827,TRUE,Consul,HARRISON; Robert Monroe
+St. Kitts Island,St. Kitts Island,1823,TRUE,1827,TRUE,Consul,HARRISON; Robert Monroe
+Antigua Island,Antigua Island,1794,TRUE,1794,FALSE,Acting Commercial Agent,SHALLCROSS; John
+Antigua Island,Antigua Island,1805,TRUE,1810,TRUE,Commercial Agent,ROSE; Joseph Walker
+Guadeloupe,Basse-Terre,1802,TRUE,1815,FALSE,Commercial Agent ,JONES; Edward
+Guadeloupe,Basse-Terre,1815,TRUE,1821,FALSE,Consul,DE PEYSTER; Philip
+Guadeloupe,Basse-Terre,1821,TRUE,1830,TRUE,Agent for Commerce and Seamen,FAURES; Francis Benjamin
+Barbados,Bridgetown,1794,TRUE,1794,FALSE,Special Diplomatic Agent,HIGGINSON; Nathaniel
+Barbados,Bridgetown,1794,TRUE,1794,FALSE,Special Diplomatic Agent,PEROT; James
+Barbados,Bridgetown,1794,TRUE,1794,FALSE,Special Diplomatic Agent,PEROT; William
+Barbados,Bridgetown,1823,TRUE,1831,TRUE,Consular and Commercial Agent ,KANKEY; John M.
+Curacao Island,Curacao Island,1793,TRUE,1805,FALSE,Consul,PHILIPS; Benjamin Hamnel
+Curacao Island,Curacao Island,1806,TRUE,1815,FALSE,Consul,DE PEYSTER; Philip
+Curacao Island,Curacao Island,1816,TRUE,1817,TRUE,Consul,BOYNTON; Abel
+Curacao Island,Curacao Island,1817,TRUE,1819,FALSE,Consul ,FRAZIER; John B.
+Curacao Island,Curacao Island,1819,TRUE,1827,FALSE,Consul,PARKER; Cortland
+Bahamas,Nassau,1821,TRUE,1833,TRUE, Agent for Commerce and Seamen,STORK; John
+Bahamas,Turks Island,1817,TRUE,1835,FALSE,Consul,WYNNS; Thomas
+St. Bartholomew Island,St. Bartholomew Island,1797,TRUE,1803,TRUE,Consul,WALL; Job
+St. Bartholomew Island,St. Bartholomew Island,1803,TRUE,1809,FALSE,Consul,PRINCE; Isaac
+St. Bartholomew Island,St. Bartholomew Island,1809,TRUE,1813,FALSE,Consul,ISRAEL; William
+St. Bartholomew Island,St. Bartholomew Island,1813,TRUE,1813,FALSE,Consul,STRONG; Nathaniel W.
+St. Bartholomew Island,St. Bartholomew Island,1816,TRUE,1820,FALSE,Consul,FICKLIN; Joseph
+St. Bartholomew Island,St. Bartholomew Island,1820,TRUE,1821,TRUE,Consul,NORVEL; Joshua
+St. Bartholomew Island,St. Bartholomew Island,1821,TRUE,1823,FALSE,Consul,HARRISON; Robert Monroe
+St. Bartholomew Island,St. Bartholomew Island,1823,TRUE,1827,FALSE,Consul,STEELE; Hugh
+Virgin Islands,St. Croix,1791,TRUE,1793,TRUE,Consul,YARD James
+Virgin Islands,St. Croix,1807,TRUE,1858,FALSE,Consul,GAMBLE; Thomas
+Virgin Islands,St. Croix,1815,TRUE,1816,TRUE,Consul,MULLANY; James Robert
+Virgin Islands,St. Croix,1816,TRUE,1824,FALSE,Consul,JAQUES; Robert
+Virgin Islands,St. Croix,1824,TRUE,1837,FALSE,Consul,RIDGWAY; Joseph
+Virgin Islands,St. Thomas,1803,TRUE,1807,FLASE,Consul,BROWN; John F.
+Virgin Islands,St. Thomas,1807,TRUE,1816,FALSE,Consul,MCGREGGOR; James
+Virgin Islands,St. Thomas,1816,TRUE,1821,TRUE,Consul,HARRISON; Robert Monroe
+Virgin Islands,St. Thomas,1818,TRUE,1826,TRUE,Agent for Commerce and Seamen,LEVY; Nathan
+St. Eustatius Island,St. Eustatius Island,1793,TRUE,1796,FALSE,Consul,CLARKSON; David Matthew
+St. Eustatius Island,St. Eustatius Island,1816,TRUE,1822,FALSE,Consul,GAMBLE; William
+St. Kitts Island,St. Kitts Island,1823,TRUE,1824,TRUE,Vice Consul in Charge,HEWITT; Thomas; Jr.
+St. Kitts Island,St. Kitts Island,1824,TRUE,1831,TRUE,Vice Consul in Charge,TAPSHIRE; George M.
+Martinique,St. Pierre,1790,TRUE,1795,FALSE,Consul,SKIPWITH; Fulwar
+Martinique,St. Pierre,1802,TRUE,1815,FALSE,Commercial Agent,EASTON; David
+Martinique,St. Pierre,1815,TRUE,1818,FALSE,Consul,MITCHELL; John
+Martinique,St. Pierre,1818,TRUE,1829,TRUE,Consul,MAREAU; Silas
+Trinidad Island,Trinidad Island,1824,TRUE,1840,FALSE,Consular and Commercial Agent,BARTLETT; Charles L.
+Mexico,Acapulco,1825,TRUE,1838,FALSE,Consul,GREGG; Harvey
+Mexico,Aquatulco,1823,TRUE,1834,FALSE,Consul,REILLY; Thomas
+Mexico,Campeche,1820,TRUE,1821,TRUE,Agent for Commerce and Seamen,ESPADA; Joseph M.
+Mexico,Campeche,1827,TRUE,1835,FALSE,Consul,PERRINE; Henry
+Mexico,Chihuahua,1825,TRUE,1827,FALSE,Consul,PILCHER; Joshua
+Mexico,Mexico,1810,TRUE,1812,TRUE,Special Diplomatic Agent,SHALER; William
+Mexico,Mexico,1812,TRUE,1814,TRUE,Special Diplomatic Agent ,ROBINSON; John H.
+Mexico,Mexico,1822,TRUE,,TRUE,Commercial Agent,WILCOCKS; James Smith
+Mexico,Mexico,1823,TRUE,1833,FALSE,Consul,WILCOCKS; James Smith
+Mexico,Mexico,1825,TRUE,1829,TRUE,Envoy Extraordinaire and Minister Plenipotentiary,POINSETT; Joel Robert
+Mexico,Tampico,1823,TRUE,1824,TRUE,Consul,INGRAHAM; Nathaniel G.; Jr
+Mexico,Tampico,1824,TRUE,1834,FALSE,Consul ,ROBERTSON; George R.
+Mexico,Vera Cruz,1823,TRUE,1831,TRUE,Consul,TAYLOR; William
+Guatemala,Guatemala,1824,TRUE,1838,FALSE,Consul,SAVAGE; Charles
+Guatemala,Guatemala,1825,TRUE,1826,TRUE,Charge d'Affaires,WILLIAMS; John
+Guatemala,Guatemala,1825,FALSE,1827,TRUE,Acting Consul,PHILLIPS; William
+Colombia,Angostura (Ciudad Bolivar),1824,TRUE,1830,TRUE,Consul,SETON; Alfred
+Colombia,Bogota,1816,TRUE,1816,FALSE,Special Diplomatic Agent,HUGHES; Christopher; Jr.
+Colombia,Bogota,1817,TRUE,1817,FALSE,Special Diplomatic Agent,MORRIS; Charles; Cdore.
+Colombia,Bogota,1820,TRUE,1821,TRUE,Special Diplomatic Agent,FORSYTH; Samuel D.
+Colombia,Bogota,1820,TRUE,1823,TRUE,Special Diplomatic Agent,TODD; Charles Stewart
+Colombia,Bogota,1820,TRUE,1824,TRUE,Agent for Commerce and Seamen,TODD; Charles Stewart
+Colombia,Bogota,1823,TRUE,1826,TRUE,Minister Plenipotentiary,ANDERSON; Richard C.
+Colombia,Bogota,1824,TRUE,1827,TRUE,Secretary of Legation,WATTS; Beaufort T.
+Colombia,Carthagena,1821,TRUE,1822,TRUE,Commercial Agent,TAYLOR; William
+Colombia,Carthagena,1822,TRUE,1823,TRUE,Consular and Commercial Agent,MACPHERSON; John M.
+Colombia,Carthagena,1823,TRUE,1839,FALSE,Consul,MACPHERSON; John M.
+Colombia,Carthagena,1825,TRUE,1825,FALSE,Acting Consul,MACNEAL; Charles
+Colombia,Panama,1823,TRUE,1826,FALSE,Consular and Commercial Agent ,CRAIG; David S.
+Colombia,Panama,1826,TRUE,1827,TRUE,Consul,RADCLIFF; William
+Colombia,Santa Marta,1823,TRUE,1826,TRUE,Consul,FUDGER; Harris E.
+Colombia,Santa Marta,1826,TRUE,1832,TRUE,Consul,SEAVER; William J.
+Venezuela,Caracas,1812,TRUE,1813,TRUE,Special Diplomatic Agent,SCOTT; Alexander
+Venezuela,Caracas,1818,TRUE,1819,TRUE,Special Diplomatic Agent,IRVINE; Baptis
+Venezuela,Laguayra,1800,TRUE,1812,FALSE,Consul,MADAN; Augustin*
+Venezuela,Laguayra,1812,TRUE,1821,TRUE,Consul,LOWRY; Robert K.
+Venezuela,Laguayra,1821,TRUE,1823,TRUE,Agent for Commerce and Seamen,LOWRY; Robert K.
+Venezuela,Laguayra,1823,TRUE,1826,FALSE,Consul ,LOWRY; Robert K.
+Venezuela,Maracaibo,1824,TRUE,1832,TRUE,Consul,NOES; Abraham B.
+Venezuela,Puerto Cabello,1823,TRUE,1845,FALSE,Consul,LITCHFIELD; Franklin
+British Guiana,Demerara,1793,TRUE,1796,FALSE,Consul,JOHONNET; Samuel Cooper
+British Guiana,Demerara,1796,TRUE,1802,TRUE,Consul,ROUSSELET; Nicholas
+British Guiana,Demerara,1802,TRUE,1805,FALSE,Consul,GARDNER; William P.
+British Guiana,Demerara,1823,TRUE,1832,TRUE,Consul,ROBERTS; Edmund
+French Guiana,Cayenne,1801,TRUE,1806,FALSE,Commercial Agent,ABORN; Thomas
+Surinam,Paramaribo,1790,TRUE,1793,TRUE,Consul,BRUSH; Ebenezer
+Surinam,Paramaribo,1799,TRUE,1820,FALSE,Consul,TUFTS; Turrell
+Surinam,Paramaribo,1820,TRUE,1842,TRUE,Consul,TRASK; Thomas
+Ecuador,Guayaquil,1824,TRUE,1830,TRUE,Consul,WHEELWRIGHT; William
+Peru,Lima,1817,TRUE,1817,FALSE,Agent for Commerce and Seamen,ROBINSON; Jeremy
+Peru,Lima,1817,TRUE,1821,FALSE,Agent for Commerce and Seamen,PREVOST; John B.
+Peru,Lima,1821,TRUE,1823,TRUE,Agent for Commerce and Seamen,TUDOR; William
+Peru,Lima,1823,TRUE,1827,TRUE,Consul,TUDOR; William
+Brazil,Maranhao Island,1816,TRUE,1825,TRUE,Consul,MONTEIRO; Jose dos Santos*
+Brazil,Maranhao Island,1825,TRUE,1830,TRUE,Consul,CORNING; Leonard
+Brazil,Pernambuco (Recife),1815,TRUE,1815,FALSE,Consul,VOORHEES; Samuel S.
+Brazil,Pernambuco (Recife),1816,TRUE,1820,TRUE,Consul,RAY; Joseph
+Brazil,Pernambuco (Recife),1820,TRUE,1825,FALSE,Consul,BENNETT; James H.
+Brazil,Pernambuco (Recife),1825,TRUE,1836,TRUE,Consul,MANSFIELD; John Tucker
+Brazil,Rio de Janeiro,1797,TRUE,1801,TRUE,Minister Plenipotentiary,SMITH; William
+Brazil,Rio de Janeiro,1808,TRUE,1808,FALSE,Special Agent to Portuguese Government,HILL; Henry; Jr.
+Brazil,Rio de Janeiro,1818,TRUE,1822,FALSE,Consul,HILL; Henry; Jr.
+Brazil,Rio de Janeiro,1819,TRUE,1820,TRUE,Minister Plenipotentiary,GRAHAM; John
+Brazil,Rio de Janeiro,1822,TRUE,1823,TRUE,Consul,RAGUET; Condy
+Brazil,Rio de Janeiro,1823,TRUE,1825,TRUE,Agent for Commerce and Seamen,RAGUET; Condy
+Brazil,Rio de Janeiro,1825,TRUE,1827,TRUE,Charge d'Affaires,RAGUET; Condy
+Brazil,Rio de Janeiro,1825,TRUE,1831,TRUE,Consul,WRIGHT; William D. C.
+Brazil,Salvador da Bahia,1808,TRUE,1818,FALSE,Consul,HILL; Henry; Jr.
+Brazil,Salvador da Bahia,1819,TRUE,1836,FALSE,Consul,ODLIN; Woodbridge
+Chile,Santiago,1811,TRUE,1811,FALSE,Special Diplomatic Agent,POINSETT; Joel Robert
+Chile,Santiago,1817,TRUE,1817,FALSE,Special Diplomatic Agent,WORTHINGTON; William G. D.
+Chile,Santiago,1823,TRUE,1828,TRUE,Secretary of Legation,LARNED; Samuel
+Chile,Santiago,1823,TRUE,1827,TRUE,Minister Plenipotentiary,ALLEN; Herman
+Chile,Santiago,1825,TRUE,1834,FLASE,Consul,WYNNE; Daniel
+Chile,Valparaiso,1821,TRUE,1823,TRUE,Agent for Commerce and Seamen,HOGAN; Michael
+Chile,Valparaiso,1823,TRUE,1834,FALSE,Consul,HOGAN; Michael
+Uruguay,Montevideo,1811,TRUE,1825,FALSE,Consul,MILLER; William G.
+Uruguay,Montevideo,1825,TRUE,1834,FALSE,Consul,BOND; Joshua
+Argentina,Buenos Aires,1811,TRUE,1814,TRUE,Consul General,POINSETT; Joel Robert
+Argentina,Buenos Aires,1812,TRUE,1819,TRUE,Consul,HALM; Thomas Lloyd; Jr.
+Argentina,Buenos Aires,1812,FALSE,1816,TRUE,Acting Vice Consul,MILLER; William G.
+Argentina,Buenos Aires,1816,TRUE,1816,FALSE,Special Diplomatic Agent,DEVEREUX; Joseph
+Argentina,Buenos Aires,1817,TRUE,1817,FALSE,Special Diplomatic Agent,BLAND; Theodorick
+Argentina,Buenos Aires,1817,TRUE,1817,FALSE,Secretary - Special Diplomatic Mission,BRACKENRIDGE; H. M.
+Argentina,Buenos Aires,1817,TRUE,1817,FALSE,Special Diplomatic Agent,GRAHAM; John
+Argentina,Buenos Aires,1817,TRUE,1817,FALSE,Special Diplomatic Agent,RODNEY; Caesar A.
+Argentina,Buenos Aires,1818,TRUE,1819,TRUE,Consul,WORTHINGTON; William G. D.
+Argentina,Buenos Aires,1819,TRUE,1819,FALSE,Special Diplomatic Agent,MORRIS; Charles; Cdore.
+Argentina,Buenos Aires,1819,TRUE,1819,FALSE,Special Diplomatic Agent,PERRY;Oliver Hazard;Cdore.
+Argentina,Buenos Aires,1819,TRUE,1819,FALSE,Acting Consul,STRONG; Nathaniel W.
+Argentina,Buenos Aires,1819,TRUE,1821,TRUE,Acting Vice Consul,ZIMMERMAN; John C.
+Argentina,Buenos Aires,1820,TRUE,1823,TRUE,Agent for Commerce and Seamen,FORBES; John Murray
+Argentina,Buenos Aires,1821,TRUE,1821,FALSE,Acting Consul,ROBINETT; James
+Argentina,Buenos Aires,1823,TRUE,1824,TRUE,Minister Plenipotentiary,RODNEY; Caesar A.
+Argentina,Buenos Aires,1823,TRUE,1825,TRUE,Acting Consul,DANA; William
+Argentina,Buenos Aires,1823,TRUE,1825,TRUE,Secretary of Legation,FORBES; John Murray
+Argentina,Buenos Aires,1824,TRUE,1832,TRUE,Consul,SLACUM; George W.
+Argentina,Buenos Aires,1825,TRUE,1831,TRUE,Charge d'Affaires,FORBES; John Murray

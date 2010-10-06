@@ -1,0 +1,2 @@
+module Frontend::RegionsHelper
+end

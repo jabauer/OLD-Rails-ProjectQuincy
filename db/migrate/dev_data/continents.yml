@@ -1,0 +1,14 @@
+n_america:
+   name: North America
+
+s_america:
+   name: South America
+
+europe:
+   name: Europe
+
+africa:
+   name: Africa
+
+asia:
+   name: Asia

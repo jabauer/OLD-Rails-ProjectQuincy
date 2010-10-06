@@ -1,0 +1,53 @@
+<!-- This is the show view for assignment_titles-->
+
+<%= javascript_include_tag "jquery" %>
+<%= javascript_include_tag "jquery.colorbox" %>
+<%= javascript_include_tag "application" %>
+<%= stylesheet_link_tag "colorbox" %>
+
+<% @sidebar = capture do %>
+	<h3>Assignment Title</h3>
+		<p><span class="field_name">Name:</span> <%= h @assignment_title.name %></p>
+		<p><span class="field_name">Type:</span> <%= link_to @assignment_title.assignment_type.name, assignment_type_path(@assignment_title.assignment_type) %></p>
+		<p><span class="field_name">Commissioned:</span> <%= h @assignment_title.commissioned %></p>
+		<p><span class="field_name">Temporary:</span> <%= h @assignment_title.temporary %></p>
+		<p><span class="field_name">Notes:</span> <%= h @assignment_title.notes %></p>
+	<p><%= link_to 'browse', :controller => "assignment_titles", :action => "index" %></p>
+<% end %>
+
+<%= will_paginate @assignments %>
+
+<h3 class="field_name">Related Assignments (<%= @assignments.count %>)</h3>
+	<table>
+		<th class="field_name">Person Name</th>
+		<th class="field_name">Location</th>
+		<th class="field_name">Years</th>
+		<th class="field_name">Notes</th>
+		<th class="field_name">Citations</th>
+		<% @assignments.each do |assignment| %>
+			<tr>
+				<td><%= link_to assignment.individual.name, individual_path(assignment.individual) %></td>
+				<td><%= link_to assignment.location.name, location_path(assignment.location) %></td>
+				<td><%= assignment.start_year %> - <%= assignment.end_year %></td>
+				<td><%= assignment.notes %></td>
+				<td><% @validations.each do |v| %>
+						<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+							<a href="#<%= v.id %>" class="inline" width="300px"><%= image_tag "book-brown.png"%></a>
+						<% end %>
+					<% end %>
+				</td>
+			</tr>
+		<% end %>
+	</table>
+	
+<% @post_content = capture do%>	
+	<% @assignments.each do |assignment| %>
+		<% @validations.each do |v| %>
+			<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+				<div id="<%= v.id %>">
+					<%= render(:partial => "frontend/footnote", :locals => {:v => v})%>
+				</div>
+			<% end %>
+		<% end %>
+	<% end %>
+<% end %>

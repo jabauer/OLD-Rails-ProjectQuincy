@@ -1,0 +1,2 @@
+module ActiveScaffold::RelationshipsHelper
+end

@@ -1,0 +1,29 @@
+<!-- This partial is called to create the google maps balloon for the general map, 
+	which plots a point for every location in the database.
+	It will pull data from all the tables linked with locations,
+	giving the user a quick overview of everything in the database associated with that location. -->
+
+<div id="map"> <!-- This is for styling purposes.  See eafsd.css #map-->
+	<!-- First it pulls in the name of the location and any notes associated with the location.-->
+	<h2><%= link_to location.name, location_path(location) %></h2>
+	<p><%= h location.notes %></p>
+	
+	<!-- Then it loops through the in_states table to pull the name of all the states this location has existed in.-->
+	<h3>States</h3>
+		<% location.in_states.each do |in_state|%>
+			<p>
+				<%= link_to in_state.state.name, state_path(in_state.state) %>
+			</p>
+		<% end %>
+
+
+	<!-- Next it loops through the assignments table, pulling the name of the assignment_title, the name of the foreign service officer, and the the start and end years of the assignment.-->
+	<h3>Assignments</h3>
+		<% location.assignments.each do |assignment| %>
+			<p>
+				<%= link_to assignment.assignment_title.name, assignment_title_path(assignment.assignment_title)%>: <%= link_to assignment.individual.name, individual_path(assignment.individual) %>
+				(<%= assignment.start_year %> - <%= assignment.end_year %>)
+			</p>
+		<% end %>
+</div>
+

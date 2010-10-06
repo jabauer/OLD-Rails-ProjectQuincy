@@ -1,0 +1,41 @@
+<!-- This partial view is called by a method in the application_helper.  It modifies the date columns in ActiveScaffold forms (edit, create, and update) in three ways.
+	
+	1. The year is converted from a select box to a text field, allowing the user to enter any (or no) year, within the parameters set by rails and the underlying database.
+	2. Entering a value for the month is made optional.
+	3. Entering a value for the day is made optional.
+	
+	This means that if no data is changed in the date fields, they will be recorded as blank NOT as today's date (the original ActiveScaffold Default.)-->
+
+<!-- This first section of embedded ruby creates the necessary values to split the date field into its constituent parts of year, month, and day. 
+	In the resulting array 
+		month = [0]
+		day = [1]
+		year = [2]
+	This overrides the ActiveScaffold javascript that knits them together in the form.  
+	
+	The parent_name is set to nil if the form is nested within another table.
+	The variable col_name is defined and sub_col_name is used to handle columns from different tables.-->
+
+<%
+parent_name ||= nil
+input_names = {}
+col_name = column.name
+
+date_values = record.send(col_name).to_s.split('-')
+
+[:month, :day, :year].each_with_index do |sub_col_name,index|
+	field_name_index = "#{index+1}i"
+	input_names["#{sub_col_name}_name".to_sym] = parent_name.nil? ? "record[#{col_name}(#{field_name_index})]" : "record[#{parent_name}][#{col_name}(#{field_name_index})]"
+	input_names["#{sub_col_name}_id".to_sym] = parent_name.nil? ? "record_#{col_name}_#{field_name_index}" : "record_#{parent_name}_#{col_name}_#{field_name_index}"
+end
+%>
+
+<% scope ||= nil %>
+
+<!-- The following embedded ruby overrides the display and options for each of the three parts of the date field - each called by the array value created above.  -->
+
+<%= select_month(record.send(col_name), {:include_blank=>true}, {:name=>input_names[:month_name], :id=>input_names[:month_id]}) %>
+
+<%= select_day(record.send(col_name), {:include_blank=>true}, {:name=>input_names[:day_name], :id=>input_names[:day_id]}) %>
+
+<input type="text" name="<%= input_names[:year_name] %>" id="<%= input_names[:year_id] %>" value="<%= h date_values[0] %>"/>

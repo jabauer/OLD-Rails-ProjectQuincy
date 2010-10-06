@@ -1,0 +1,9 @@
+<%= render :partial => "frontend/under_construction" %>
+
+<% @sidebar = capture do %>
+	<h3>Looking for the Letters?</h3>
+	<p>Letters are a crucial component of the EAFSD . . . so crucial that I am still deciding how best to display them.</p>  
+	<p>If you want to see how letters are recorded in the schema, either go to the data page and click on "Letters" in the sidebar, or look at the correspondence module diagram: available <a href="#">here</a>.</p>  
+	<p>If you have any thoughts on how to best display these all important pieces of evidence, <a href="mailto:jabauer@virginia.edu">let me know</a>.</p>
+	<p>To continue browsing the database, <%= link_to 'click here', :controller => "assignment_titles", :action => "index" %></p>
+<% end %>

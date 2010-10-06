@@ -1,0 +1,16 @@
+<!-- This view screen shows a single record from the regions table.  The sidebar displays the name and any notes associated with the region and includes a link back to the browse screen which lists all records in the regions table (a.k.a. a list of the regions in the database).  The main content displays a list of all the locations in that region. -->
+
+<% @sidebar = capture do%>
+	<h3>Region</h3>
+		<p><span class="field_name">Name: </span><%= h @region.name %></span></p>
+		<p><span class="field_name">Notes</span><p>
+			<p><%= h @region.notes %>
+				
+	<p><%= link_to 'browse', :controller => "regions", :action => "index" %></p>
+
+<% end %>
+
+<h3 class="browse_title">Locations (<%= @region.in_regions.count %>)</h3>
+	<% @region.in_regions.each do |in_region| %>
+		<p><%= link_to in_region.location.name, location_path(in_region.location)%></p>
+	<% end %>

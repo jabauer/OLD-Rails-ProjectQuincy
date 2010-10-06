@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelationViewerData>
+<!-- Do not change anything above. -->
+
+<!--  Settings -->
+
+	<!--  
+		The settings node can have the following parameters:
+			appTitle:		The title displayed in the title text field (menu clip)
+			startID:		The starting point of the application (has to be a node ID)
+			defaultRadius:	The standard radius for placing surrounding nodes
+			maxRadius:		The maximum radius for placing surrounding nodes
+							(in case these are zig-zag-shifted to enhance legibility)
+		
+		You can add your own parameters, they will be available to actionscript 
+		as a property of the RelationBrowserSettings object with the same name
+		
+	-->
+	<Settings appTitle="Early American Foreign Service Database" startID="person_1" defaultRadius="150" maxRadius="180">
+		<!--  
+			Define the default look of your relations.
+			IMPORTANT: each relation type must have a corresponding actionscript class of the same name. 
+			See RelationClasses.as for an example implementation of MyCustomRelation
+			
+			Available parameters are:
+				lineSize:	Line size in points. Labels and arrowheads will scale accordingly
+				color:		Line color in hex. 
+				labelText:	(optional) the tooltip text displayed on rollover
+				letterSymbol:(optional) the letter displayed in a little circle in the middle of the relation line
+		
+		-->
+		<RelationTypes>
+			<UndirectedRelation color="0x85CDE4" lineSize="4"/>			
+		</RelationTypes>
+		<!--  
+		
+			Enumerate all node types to be used in the following.
+			IMPORTANT: 	each relation type must have a corresponding actionscript class of the same name 
+						AND a movieclip symbol in the library with a linkage identifier of the same name 
+			See NodeClasses.as and the .fla file for an example implementation 
+		
+		-->
+		<NodeTypes>
+			<Node/>
+			<Comment/>
+			<Person/>
+			<Document/>
+		</NodeTypes>
+	</Settings>
+
+
+<!--  Nodes -->	
+
+
+	<Nodes>
+		<!--  
+			Define all occurring nodes
+			The tag name defines the class AND movieclip symbol to be used to display the node
+			
+			Available parameters are:
+				id:			Unique identifier for the node (case-sensitive). 
+				name:		Node title (displayed in center of the node)
+				
+			Additionally, you can add a description text as a child node. 
+			Make sure to add <![CDATA[ at the beginning and ]]> at the end of the description.
+			In actionscript, it will be available as _text property of the corresponding class instance.
+			
+			You can add any parameter you like; they will automatically be copied into the 
+			corresponding class instance. In this example, I added a URL property to some of the nodes.
+			In order to make these show up in the detail view, modify the getDetails() function in the
+			corresponding node class (see NodeClasses.as for an example).
+		
+		-->
+		
+		<% for individual in @individuals %>
+			<Person name="<%= h individual.name %>" id="person_<%= h individual.id %>"/>
+		<% end %>
+		
+		<% for location in @locations %>
+			<Document name="<%= h location.name %>" id="place_<%= h location.id %>"/>
+		<% end %>
+		
+		<% for assignment_title in @assignment_titles %>
+			<Comment name="<%= h assignment_title.name %>" id="title_<%= h assignment_title.id %>"/>
+		<% end %>
+
+		<% for state in @states %>
+			<Document name="<%= h state.name %>" id="state_<%= h state.id %>"/>
+		<% end %>
+		
+		<% for continent in @continents %>
+			<Document name="<%= h continent.name %>" id="continent_<%= h continent.id %>"/>
+		<% end %>
+	
+
+	</Nodes>
+
+	<Relations>
+    	<!--  
+    		Define all relations between the above defined nodes
+    		The tag name defines the class to be used to display the relation
+ 
+    		Available parameters are:
+    			fromID:		Unique identifier of the source node of the relation (case-sensitive). 
+    			toID:		Unique identifier of the target node of the relation (case-sensitive).
+ 
+ 			You can overwrite any of the parameters set in RelationTypes (like lineSize etc.)
+			per relation instance.
+    	-->
+
+		<% for assignment in @assignments %>
+		
+			<UndirectedRelation fromID="person_<%= h assignment.individual.id %>" toID="place_<%= h assignment.location.id %>"/>
+			<UndirectedRelation fromID="person_<%= h assignment.individual.id %>" toID="title_<%= h assignment.assignment_title.id %>"/>
+			<UndirectedRelation fromID="title_<%= h assignment.assignment_title.id %>" toID="place_<%= h assignment.location.id %>"/>
+		<% end %>
+		
+		<% for in_state in @in_states %>
+			<UndirectedRelation fromID="state_<%= h in_state.state.id %>" toID="place_<%= h in_state.location.id %>"/>
+		<% end %>
+		
+		<% for state in @states %>
+			<UndirectedRelation fromID="state_<%= h state.id %>" toID="continent_<%= h state.continent.id %>"/>
+		<% end %>
+
+		
+	</Relations>
+	
+	
+<!-- Do not change anything below. -->	
+</RelationViewerData>
+

@@ -1,0 +1,49 @@
+<%= render :partial => "swf_js" %>
+
+<%= javascript_include_tag 'jquery' %>
+
+<% relation_browser_filename = '/RelationBrowser.swf' %>
+
+<script language="JavaScript" type="text/javascript">
+$(function(){
+	<!-- 
+	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+	if(hasRightVersion) {  // if we've detected an acceptable version
+	    var oeTags = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"'
+	    + 'width="530" height="400"'
+	    + 'codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">'
+	    + '<param name="movie" value="<%= relation_browser_filename %>" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />'
+	    + '<embed src="<%= relation_browser_filename %>" quality="high" bgcolor="#ffffff" '
+	    + 'width="530" height="400" name="RelationBrowser" align="right"'
+	    + 'play="true"'
+	    + 'loop="false"'
+	    + 'quality="high"'
+	    + 'allowScriptAccess="sameDomain"'
+	    + 'type="application/x-shockwave-flash"'
+	    + 'pluginspage="http://www.macromedia.com/go/getflashplayer">'
+	    + '<\/embed>'
+	    + '<\/object>';
+	    $('.flash-object').html(oeTags);   // embed the flash movie
+	  } else {  // flash is too old or we can't detect the plugin
+	    var alternateContent = '<p style="padding-left: 10px;">This page requires Flash in order to view. You can obtain the flash plugin '
+	        + '<a href="http://www.macromedia.com/go/getflash/">here</a>.</p>';
+	    $('.flash-object').html(alternateContent);   // embed the flash movie
+	  }
+	// -->
+})
+</script>
+
+
+<!-- This Code will be loaded into the div id="content" on the webpage, thus loading the relation browser-->
+<noscript>
+	<p>This page requires Flash in order to view. You can obtain the flash plugin <a href="http://www.macromedia.com/go/getflash/">here</a>.</p>  	
+</noscript>
+
+<div class="flash-object">FLASH PLACEHOLDER</div>
+
+
+<!-- This Content will be rendered in the div id="sidebar" on the webpage-->
+<% @sidebar = capture do %>
+<h3>The Relation Browser</h3>
+<p>Use this movie clip to click through the entire data structure.</p>
+<% end %>

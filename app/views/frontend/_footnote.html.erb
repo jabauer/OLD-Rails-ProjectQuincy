@@ -1,0 +1,26 @@
+<div id="footnote">
+	<% if v.supports %>
+		<h3>Supported By:</h3> 
+			<p><%= v.citation.bibliography.entry %>
+				<% if v.citation.canonic_url != nil%>
+					, <%= h v.citation.canonic_url %>
+				<% end %>
+				<% if v.citation.pages != nil%>
+					, <%= h v.citation.pages %>
+				<% end %>
+			</p>
+		<p><span class="field_name">Notes:</span> <%= h v.citation.notes %><p>
+	<% else %>
+		<h3>Contradicted By:</h3>
+			<p><%= h v.citation.bibliography.entry %>
+				<% if v.citation.canonic_url != nil%>
+					, <%= h v.citation.canonic_url %>
+				<% end %>
+				<% if v.citation.pages != nil%>
+					, <%= h v.citation.pages %>
+				<% end %>
+			</p>
+			<p><span class="field_name">Notes:</span> <%= h v.citation.notes %><p>
+	<% end %>
+	<p><span class="field_name">Entered By:</span> <%= h v.user.name %></p>
+</div>

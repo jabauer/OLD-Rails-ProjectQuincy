@@ -1,0 +1,2 @@
+module ActiveScaffold::OccupationsHelper
+end

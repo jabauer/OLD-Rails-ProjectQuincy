@@ -1,0 +1,41 @@
+<h3>Keyword Search</h3>
+
+<table>
+	<tr>
+		<% form_tag("/individual_search", :method => :get) do %>
+		<td>
+			<span class="search_param"><%= label_tag 'name', 'People (by name)'%></span>
+		</td>
+		<td>
+			<%= text_field_tag :search, params[:search] %>
+			<%= submit_tag "Search", :name => nil%>
+		</td>
+		<% end %>
+	</tr>
+	<tr>
+		<% form_tag("/location_search", :method => :get) do %>
+		<td>
+			<span class="search_param"><%= label_tag 'name', 'Places (by name)'%></span>
+		</td>
+		<td>
+			<%= text_field_tag :search, params[:search] %>
+			<%= submit_tag "Search", :name => nil%>
+		</td>
+		<% end %>
+	</tr>
+	<tr>
+		<% form_tag("/assignment_title_search", :method => :get) do %>
+		<td>
+			<span class="search_param"><%= label_tag 'name', 'Assignment Titles'%></span>
+		</td>
+		<td>
+			<%= text_field_tag :search, params[:search] %>
+			<%= submit_tag "Search", :name => nil%>
+		</td>
+		<% end %>
+	</tr>
+</table>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/search_sidebar_explain" %>
+<% end %>

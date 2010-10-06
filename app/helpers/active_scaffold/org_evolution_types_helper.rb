@@ -1,0 +1,2 @@
+module ActiveScaffold::OrgEvolutionTypesHelper
+end

@@ -1,0 +1,74 @@
+<!-- This is the show screen for locations-->
+
+<%= javascript_include_tag "jquery" %>
+<%= javascript_include_tag "jquery.colorbox" %>
+<%= javascript_include_tag "application" %>
+<%= stylesheet_link_tag "colorbox" %>
+
+<% @sidebar = capture do %><!-- This will display in the left column of the page layout -->
+	<!-- First the name, latitude and longitude values are pulled from the location record.-->
+	<h3>Location</h3>
+		<p><span class="field_name">Name: </span><%= h @location.name  %></p>
+		<p><span class="field_name">Latitude: </span><%= h @location.lat %></p>
+		<p><span class="field_name">Longitude: </span><%= h @location.long %></p>
+		
+		<!-- Then the names of all the states the location has existed in.  For many this will only be one.-->
+		<p><span class="field_name">States</span><p>
+			<ul class="field_data">
+				<% @location.in_states.each do |in_state| %>
+					<li><%= link_to in_state.state.name, state_path(in_state.state) %></li>
+				<% end %>
+			</ul>
+		<!-- Then the names of all the regions the location is grouped in.-->
+		<p><span class="field_name">Regions</span><p>
+			<ul class="field_data">
+				<% if @location.in_regions !=nil %>
+					<% @location.in_regions.each do |in_region| %>
+						<li><%= link_to in_region.region.name, region_path(in_region.region) %></li>
+					<% end %>
+				<% end %>
+			</ul>	
+		<!-- Followed by the contents of the notes field (if any)-->
+		<p><span class="field_name">Notes: </span><%= h @location.notes %></p>
+		
+	<p><%= link_to 'browse', :controller => "locations", :action => "index" %></p>
+<% end %>
+
+<!-- Everything below will be displayed in the right (main) column of the page layout -->
+<!-- The page displays all the people assigned to this location, their titles, and the years they served -->
+
+<%= will_paginate @assignments %>
+<h3 class="field_name">Related Assignments (<%= @assignments.count %>)</h3>
+	<table>
+		<th class="field_name">Assignment Title</th>
+		<th class="field_name">Individual</th>
+		<th class="field_name">Years</th>
+		<th class="field_name">Notes</th>
+		<th class="field_name">Citations</th>
+		<% @assignments.each do |assignment| %>
+			<tr>
+				<td><%= link_to assignment.assignment_title.name, assignment_title_path(assignment.assignment_title) %></td>
+				<td><%= link_to assignment.individual.name, individual_path(assignment.individual)  %></td>
+				<td><%= h assignment.start_year %> - <%= h assignment.end_year %></td>
+				<td><%= h assignment.notes %></td>
+				<td><% @validations.each do |v| %>
+						<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+							<a href="#<%= v.id %>" class="inline" width="300px"><%= image_tag "book-brown.png"%></a>
+						<% end %>
+					<% end %>
+				</td>
+			</tr>
+		<% end %>
+	</table>
+	
+<% @post_content = capture do%>
+	<% @assignments.each do |assignment| %>
+		<% @validations.each do |v| %>
+			<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+				<div id="<%= v.id %>">
+					<%= render(:partial => "frontend/footnote", :locals => {:v => v})%>
+				</div>
+			<% end %>
+		<% end %>
+	<% end %>
+<% end %>

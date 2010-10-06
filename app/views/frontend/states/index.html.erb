@@ -1,0 +1,11 @@
+<%= will_paginate @states %>
+
+<h3 class="browse_title">States</h3>
+
+<% @states.each do |state| %>
+	<p><%= link_to state.name, state_path(state) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/browse_sidebar" %>
+<% end %>

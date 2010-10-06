@@ -1,0 +1,9 @@
+<h3 class="browse_title">Continents</h3>
+
+<% @continents.each do |continent| %>
+	<p><%= link_to continent.name, continent_path(continent) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/browse_sidebar" %>
+<% end %>

@@ -1,0 +1,2 @@
+module ActiveScaffold::AssignmentsHelper
+end

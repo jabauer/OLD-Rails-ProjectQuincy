@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+   <title>EAFSD Back End with active_scaffold</title>	
+   <%= javascript_include_tag :defaults %>
+   <%= active_scaffold_includes %>
+   <%= stylesheet_link_tag 'eafsd_admin' %>
+</head>
+<body>
+	<div id="allcontent">
+	<div id="header">
+		<img src="/images/eafsd_admin_header.gif" alt="Admin Header Image" />
+	</div><!-- end header -->
+	<div id="sidebar">
+		<h3>Data Models</h3>
+		<ul>
+			<li><a href="/active_scaffold/assignments">Assignments</a></li>
+			<li><a href="/active_scaffold/assignment_titles">Assignment Titles</a></li>
+			<li><a href="/active_scaffold/assignment_types">Assignment Types</a></li>
+			<li><a href="/active_scaffold/bibliographies">Bibliographies</a></li>
+			<li><a href="/active_scaffold/citations">Citations</a></li>
+			<li><a href="/active_scaffold/continents">Continents</a></li>
+			<li><a href="/active_scaffold/empires">Empires</a></li>
+			<li><a href="/active_scaffold/in_empires">In Empires</a></li>
+			<li><a href="/active_scaffold/in_regions">In Regions</a></li>
+			<li><a href="/active_scaffold/in_states">In States</a></li>
+			<li><a href="/active_scaffold/individuals">Individuals</a></li>
+			<li><a href="/active_scaffold/letters">Letters</a></li>
+			<li><a href="/active_scaffold/locations">Locations</a></li>
+			<li><a href="/active_scaffold/members">Members</a></li>
+			<li><a href="/active_scaffold/occupations">Occupations</a></li>
+			<li><a href="/active_scaffold/occupation_titles">Occupation Titles</a></li>
+			<li><a href="/active_scaffold/occupation_types">Occupation Types</a></li>
+			<li><a href="/active_scaffold/organizations">Organizations</a></li>
+			<li><a href="/active_scaffold/org_evolutions">Org Evolutions</a></li>
+			<li><a href="/active_scaffold/org_evolution_types">Org Evolution Types</a></li>
+			<li><a href="/active_scaffold/organization_types">Organization Types</a></li>
+			<li><a href="/active_scaffold/regions">Regions</a></li>
+			<li><a href="/active_scaffold/relationships">Relationships</a></li>
+			<li><a href="/active_scaffold/relationship_types">Relationship Types</a></li>
+			<li><a href="/active_scaffold/residences">Residences</a></li>
+			<li><a href="/active_scaffold/residence_types">Residence_types</a></li>
+			<li><a href="/active_scaffold/states">States</a></li>
+			<li><a href="/active_scaffold/validations">Validations</a></li>
+		</ul>
+	</div><!-- end sidebar -->
+		
+		<div id="nav">
+			<ul>
+				<li><%= link_to_unless_current 'Home', root_path%></li>
+                <li><%= link_to_unless_current 'Search', search_path %></li>
+				<li><%= link_to_unless_current 'Browse', :controller => "frontend/assignment_titles", :action => "index"%>
+                <li><%= link_to_unless_current 'Maps', gmap_path %></li>
+                <li><%= link_to_unless_current 'Relation Browser', relationbrowse_path %></li>
+                <li><%= link_to_unless_current 'About', about_path%></li>
+				<% if session[:authenticated] %>
+					<li class="auth">You are Logged In</li>
+				<% else %>
+					<li class="auth"><%= link_to "Login", login_path %></li>
+				<% end %>
+			</ul>
+			
+		</div>
+
+		<div id="main">
+			   <%= yield %>
+			
+		</div><!-- end main -->
+		
+		<div id="footer">
+			<p>The Early American Foreign Service Database<br/>
+				Designed and Built by <a href="http://www.jeanbauer.com" target="_blank">Jean Bauer</a>. Powered by <a href="http://projectquincy.rubyforge.org" target="_blank">Project Quincy</a>.<br/>
+				The EAFSD is made possible by generous funding and support from <br/>
+				<a href="http://www2.lib.virginia.edu/scholarslab/" target="_blank">The University of Virginia Library, Scholars' Lab</a> and <a href="http://www.nines.org" target="_blank">NINES</a></p>
+			
+		</div><!-- end footer -->
+	</div><!-- end allcontent -->
+</body>
+</html>

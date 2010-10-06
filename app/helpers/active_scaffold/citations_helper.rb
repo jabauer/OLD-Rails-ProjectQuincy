@@ -1,0 +1,2 @@
+module ActiveScaffold::CitationsHelper
+end

@@ -1,0 +1,8 @@
+<%= render :partial => "frontend/under_construction" %>
+
+<% @sidebar = capture do %>
+	<h3>Looking for Organizations?</h3>
+	<p>To date, there are no organizations in the database.  This will change soon.</p>  
+	<p>If you want to see how organizations are recorded in the schema, either go to the data page and click on "Organizations" in the sidebar, or look at the organizations module diagram: available <a href="#">here</a>.</p>  
+	<p>To continue browsing the database, <%= link_to 'click here', :controller => "assignment_titles", :action => "index" %></p>
+<% end %>

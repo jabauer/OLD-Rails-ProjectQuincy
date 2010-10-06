@@ -1,0 +1,11 @@
+<%= will_paginate @assignment_titles %>
+
+<h3 class="browse_title">Assignment Titles</h3>
+
+<% @assignment_titles.each do |assignment_title| %>
+	<p><%= link_to assignment_title.name, assignment_title_path(assignment_title) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/browse_sidebar" %>
+<% end %>

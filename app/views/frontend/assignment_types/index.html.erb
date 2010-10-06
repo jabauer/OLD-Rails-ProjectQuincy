@@ -1,0 +1,11 @@
+<%= will_paginate @assignment_types %>
+
+<h3 class="browse_type">Assignment Types</h3>
+
+<% @assignment_types.each do |assignment_type| %>
+	<p><%= link_to assignment_type.name, assignment_type_path(assignment_type) %></p>
+<% end %>
+
+<% @sidebar = capture do %>
+	<%= render :partial => "frontend/browse_sidebar" %>
+<% end %>

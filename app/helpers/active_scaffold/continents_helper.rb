@@ -1,0 +1,2 @@
+module ActiveScaffold::ContinentsHelper
+end

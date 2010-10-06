@@ -1,0 +1,20 @@
+# == Schema Information
+# Schema version: 20090317194215
+#
+# Table name: organizations
+#
+#  id                   :integer(4)      not null, primary key
+#  name                 :string(255)
+#  start_year           :integer(4)
+#  end_year             :integer(4)
+#  magazine_sending     :boolean(1)
+#  organization_type_id :integer(4)
+#  location_id          :integer(4)
+#  org_bio              :text
+#  notes                :text
+#  created_at           :datetime
+#  updated_at           :datetime
+#
+
+class Organization < ActiveRecord::Base
+end

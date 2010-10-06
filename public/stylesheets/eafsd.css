@@ -1,0 +1,280 @@
+/*colors scheme
+the following colors are used throughout the stylesheet
+and are presented here as classes*/
+
+.brown	{color: #736346;}
+.blue 	{color: #465B73;}
+.beige	{color: #F2E8C9;}
+.green	{color: #5B806B;}
+.purple	{color: #342140;}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+	background: #736346;
+}
+
+#allcontent {
+	width: 900px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background-image: url(/images/oldpaper.jpg);
+	background-position:center;
+}
+
+img {
+	border:none;
+}
+
+#header {
+	height: 150px;
+	background: #F2E8C9;
+	margin:0;
+	padding: 0;
+	border-top: thin solid #736346;
+	border-bottom: thin solid #736346;
+}
+
+#header img.logo {
+    display: block;
+	float: left;
+	margin: -7px 0px -20px 20px;
+	padding: 0px;
+}
+
+#header img.text {
+	display: block;
+	margin: 0 10px;
+	padding-top: 10px;
+}
+
+#nav {
+	float: right;
+    margin: 0 auto;
+}
+
+#nav ul {
+	padding: 0px 10px 12px 0px;
+	list-style-type: none;
+	margin: 0 0 0 10px;
+}
+
+#nav ul li {
+	display: inline;
+	text-align: center;
+	border-right: thin solid #736346;
+}
+
+#nav ul li.last {
+	border-right: none;
+}
+
+#nav ul li {
+	padding: 10px 22px 0px 22px;
+	text-decoration: none;
+	font-size: 1em;
+	color: #5B806B;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #465B73;
+}
+
+#nav ul li a:hover {
+	color: #5B806B;
+}
+
+#main-wrapper {
+	padding: 0 20px;
+	margin: 0 auto;
+	font-size: .8em;
+}
+
+#main-wrapper h3 {
+    color: #5B806B;
+}
+
+#main-wrapper h4 {
+	color: #465B73;
+	font-size: 1.1em;
+}
+
+#main-wrapper h3.browse_title {
+	color: #736346;
+}
+
+#main-wrapper p {
+	color: #333;
+}
+
+#content {
+    float:right;
+    width: 530px;
+	margin: 20px;
+	padding: 10px;
+	background: #FFF4D4;
+	border-top: thin dotted #342140;
+	color: #333;
+}
+
+#content img {
+    float:right;
+    display:inline;
+    padding: 0 0px 20px 20px;
+}
+
+#content a {
+	color: #5B806B;	
+}
+
+.browse_list a {
+	padding: 10px;
+}
+
+#content table {
+	margin: 0 -10px;
+}
+
+#content th.field_name {
+	color: #465B73;
+}
+
+#content h3.field_name {
+	color: #736346;
+}
+
+#content h1.construction {
+	color: #5B806B;
+	font-family: courier;
+	text-align:center;
+	font-weight:normal;
+}
+
+#content img.construction {
+	float:none;
+	display:block;
+	margin: 0 auto;
+}
+
+#content td {
+	padding: 5px 0px 5px 10px;
+	text-align: left;
+}
+
+.search_param {
+	color: #465B73;
+	font-weight:bold;
+}
+
+#sidebar {
+    float:left;
+    width: 200px;
+	margin: 20px;
+	padding: 10px;
+	background: #FFF4D4;
+	border-top: thin dotted #342140;
+}
+
+#sidebar h3 {
+	color: #465B73;
+}
+
+#sidebar a {
+	color: #5B806B;
+}
+
+#sidebar ul {
+	list-style-type: none;
+}
+
+#sidebar ul.field_data {
+	padding-top: -7px;
+}
+
+#sidebar ul.field_data li {
+	margin-left: -20px;
+	padding-bottom: 5px;
+}
+
+#sidebar ul li {
+	margin-left: -40px;
+}
+
+#sidebar p.browse {
+	color: #736346;
+}
+
+#sidebar .field_name {
+	color: #736346;
+	font-weight: bold;
+}
+
+#footer {
+    clear:both;
+	background: #F2E8C9;
+	text-align:center;
+	padding: 10px 20px;
+	margin: 0px;
+	color: #465B73;
+	border-top: thin solid #736346;
+	border-bottom: thin solid #736346;
+	font-size: .8em;
+}
+
+.title {
+	font-style: italic;
+}
+
+#footer a {
+	color: #5B806B;
+	font-style:italic;
+}
+
+#map {
+	width: 250px;
+	max-height: 250px;
+	overflow: auto; 
+	font-size: .9em;
+	padding: 15px;
+	background: #F2E8C9;
+	color: #333;
+}
+
+#map h3 {
+	color: #736346;
+}
+
+#map_canvas_lg {
+	font-size: .8em;
+}
+
+#map_canvas_lg a {
+	color: #5B806B;
+}
+
+#footnote {
+	font-size: .7em;
+	padding: 15px;
+	margin:0;
+	background: #F2E8C9;
+	color: #333;
+	border: thin dotted #342140;
+}
+
+#footnote h3 {
+	color: #465B73;
+}
+
+#footnote .field_name {
+	color: #736346;
+	font-weight:bold;
+}
+
+#post_content {
+	display: none;
+}
+
+.pagination {
+	float: right;
+}
