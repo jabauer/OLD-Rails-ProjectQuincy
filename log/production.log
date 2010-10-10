@@ -2123,3 +2123,66 @@ Processing Frontend::IndividualsController#show (for 127.0.0.1 at 2010-10-04 22:
 Rendering template within layouts/application
 Rendering frontend/individuals/show
 Completed in 81ms (View: 23, DB: 40) | 200 OK [http://localhost/individuals/382]
+
+
+Processing Frontend::GmapController#index (for 127.0.0.1 at 2010-10-10 17:37:33) [GET]
+Rendering template within layouts/application
+Rendering frontend/gmap/index
+Completed in 2443ms (View: 2076, DB: 363) | 200 OK [http://localhost/gmap]
+
+
+Processing Frontend::RelationBrowserController#index (for 127.0.0.1 at 2010-10-10 17:37:54) [GET]
+Rendering template within layouts/application
+Rendering frontend/relation_browser/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://localhost/relationbrowse]
+
+
+Processing Frontend::RelationBrowserController#relate to xml (for 127.0.0.1 at 2010-10-10 17:37:59) [GET]
+Rendering frontend/relation_browser/relate
+Completed in 2023ms (View: 1470, DB: 516) | 200 OK [http://localhost/relationBrowser.xml]
+
+
+Processing Frontend::AssignmentTitlesController#index (for 127.0.0.1 at 2010-10-10 17:38:14) [GET]
+Rendering template within layouts/application
+Rendering frontend/assignment_titles/index
+Completed in 116ms (View: 25, DB: 89) | 200 OK [http://localhost/assignment_titles]
+
+
+Processing Frontend::SearchController#index (for 127.0.0.1 at 2010-10-10 17:38:15) [GET]
+Rendering template within layouts/application
+Rendering frontend/search/index
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/search]
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-10-10 17:38:22) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing Frontend::RelationBrowserController#index (for 127.0.0.1 at 2010-10-10 17:38:28) [GET]
+Rendering template within layouts/application
+Rendering frontend/relation_browser/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/relationbrowse]
+
+
+Processing Frontend::RelationBrowserController#relate to xml (for 127.0.0.1 at 2010-10-10 17:38:28) [GET]
+Rendering frontend/relation_browser/relate
+Completed in 1753ms (View: 1402, DB: 194) | 200 OK [http://localhost/relationBrowser.xml]
+
+
+Processing Frontend::RelationBrowserController#index (for 127.0.0.1 at 2010-10-10 17:41:55) [GET]
+Rendering template within layouts/application
+Rendering frontend/relation_browser/index
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://localhost/relationbrowse]
+
+
+Processing Frontend::RelationBrowserController#relate to xml (for 127.0.0.1 at 2010-10-10 17:41:56) [GET]
+Rendering frontend/relation_browser/relate
+Completed in 1800ms (View: 1540, DB: 224) | 200 OK [http://localhost/relationBrowser.xml]
+
+
+Processing ActiveScaffold::DefaultController#index (for 127.0.0.1 at 2010-10-10 17:42:02) [GET]
+Rendering template within layouts/activescaffold
+Rendering active_scaffold/default/index
+Completed in 41ms (View: 41, DB: 0) | 200 OK [http://localhost/active_scaffold/default]

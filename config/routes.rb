@@ -15,6 +15,8 @@ ActionController::Routing::Routes.draw do |map|
   
   map.about "about", :controller => 'frontend/about', :action => 'index'
   
+  map.acknowledgements "acknowledgements", :controller => 'frontend/acknowledgements', :action => 'index'
+  
   map.resources :assignments, :controller => 'frontend/assignments'
   
   map.resources :assignment_titles, :controller => 'frontend/assignment_titles'

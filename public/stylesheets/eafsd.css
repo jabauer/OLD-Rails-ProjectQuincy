@@ -108,6 +108,19 @@ img {
 	color: #333;
 }
 
+#all_text {
+	width: 700px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #FFF4D4;
+	border-top: thin dotted #342140;
+	color: #333;
+}
+
+#all_text a {
+	color: #5B806B;
+}
+
 #content {
     float:right;
     width: 530px;
