@@ -31,5 +31,6 @@ namespace :deploy do
    task :finishing_touches, :roles => :app do
     run "cp -pf #{deploy_to}/to_copy/environment.rb #{current_path}/config/environment.rb"
     run "cp -pf #{deploy_to}/to_copy/database.yml #{current_path}/config/database.yml"
+    run "cp -pf #{deploy_to}/to_copy/auth_settings.rb #{current_path}/config/initializers/auth_settings.rb"
   end
 end
