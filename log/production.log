@@ -2186,3 +2186,79 @@ Processing ActiveScaffold::DefaultController#index (for 127.0.0.1 at 2010-10-10 
 Rendering template within layouts/activescaffold
 Rendering active_scaffold/default/index
 Completed in 41ms (View: 41, DB: 0) | 200 OK [http://localhost/active_scaffold/default]
+
+
+Processing Frontend::AssignmentTitlesController#show (for 127.0.0.1 at 2010-10-18 13:59:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering frontend/assignment_titles/show
+Completed in 284ms (View: 76, DB: 194) | 200 OK [http://localhost/assignment_titles/1]
+
+
+Processing Frontend::GmapController#index (for 127.0.0.1 at 2010-10-18 13:59:06) [GET]
+Rendering template within layouts/application
+Rendering frontend/gmap/index
+Completed in 2249ms (View: 2018, DB: 228) | 200 OK [http://localhost/gmap]
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-10-18 13:59:13) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing Frontend::AcknowledgementsController#index (for 127.0.0.1 at 2010-10-18 13:59:19) [GET]
+Rendering template within layouts/alltext
+Rendering frontend/acknowledgements/index
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/acknowledgements]
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-10-18 14:05:54) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing Frontend::GmapController#index (for 127.0.0.1 at 2010-10-18 14:06:45) [GET]
+Rendering template within layouts/application
+Rendering frontend/gmap/index
+Completed in 2572ms (View: 2147, DB: 420) | 200 OK [http://localhost/gmap]
+
+
+Processing Frontend::AssignmentTitlesController#index (for 127.0.0.1 at 2010-10-18 14:11:48) [GET]
+Rendering template within layouts/application
+Rendering frontend/assignment_titles/index
+Completed in 23ms (View: 19, DB: 1) | 200 OK [http://localhost/assignment_titles]
+
+
+Processing Frontend::AssignmentTitlesController#show (for 127.0.0.1 at 2010-10-18 14:11:50) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering frontend/assignment_titles/show
+Completed in 122ms (View: 67, DB: 39) | 200 OK [http://localhost/assignment_titles/1]
+
+
+Processing Frontend::AssignmentTitlesController#show (for 127.0.0.1 at 2010-10-18 14:11:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering frontend/assignment_titles/show
+Completed in 105ms (View: 67, DB: 12) | 200 OK [http://localhost/assignment_titles/1]
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-10-18 14:12:29) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing Frontend::AssignmentTitlesController#index (for 127.0.0.1 at 2010-10-18 14:12:32) [GET]
+Rendering template within layouts/application
+Rendering frontend/assignment_titles/index
+Completed in 20ms (View: 17, DB: 1) | 200 OK [http://localhost/assignment_titles]
+
+
+Processing Frontend::AssignmentTitlesController#show (for 127.0.0.1 at 2010-10-18 14:12:33) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering frontend/assignment_titles/show
+Completed in 91ms (View: 63, DB: 12) | 200 OK [http://localhost/assignment_titles/1]

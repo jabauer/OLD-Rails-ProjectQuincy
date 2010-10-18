@@ -8,7 +8,7 @@
 	
 <%  end %>
 
-<h3 class="browse_title">Related States (<%= @continent.states.count %>)</h3>
+<h3 class="browse_title">Related States</h3>
 	<% @continent.states.each do |state| %>
 		<p><%= link_to state.name, state_path(state)%></p>
 	<% end %>

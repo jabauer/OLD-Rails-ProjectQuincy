@@ -9,7 +9,7 @@
 
 <!-- The main content area displays a list of all the assignment titles of this particular type-->
 
-<h3 class="browse_title">Related Assignment Titles (<%= @assignment_type.assignment_titles.count %>)</h3>
+<h3 class="browse_title">Related Assignment Titles</h3>
 	<% @assignment_type.assignment_titles.each do |assignment_title| %>
 		<p><%= link_to assignment_title.name, assignment_title_path(assignment_title)%></p>
 	<% end %>

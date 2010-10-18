@@ -11,7 +11,7 @@
 
 <% end %>
 
-<h3 class="browse_title">Locations (<%= @state.in_states.count %>)</h3>
+<h3 class="browse_title">Locations</h3>
 	<% @state.in_states.each do |in_state| %>
 		<p><%= link_to in_state.location.name, location_path(in_state.location)%></p>
 	<% end %>
