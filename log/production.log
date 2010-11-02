@@ -2274,3 +2274,75 @@ Processing Frontend::AcknowledgementsController#index (for 127.0.0.1 at 2010-10-
 Rendering template within layouts/alltext
 Rendering frontend/acknowledgements/index
 Completed in 12ms (View: 12, DB: 0) | 200 OK [http://localhost/acknowledgements]
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-10-18 15:33:26) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ActiveScaffold::DefaultController#index (for 127.0.0.1 at 2010-10-18 15:33:28) [GET]
+Rendering template within layouts/activescaffold
+Rendering active_scaffold/default/index
+Completed in 278ms (View: 278, DB: 0) | 200 OK [http://localhost/active_scaffold/default]
+
+
+Processing ActiveScaffold::AssignmentTitlesController#index (for 127.0.0.1 at 2010-10-18 15:33:31) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 1373ms (View: 664, DB: 248) | 200 OK [http://localhost/active_scaffold/assignment_titles]
+
+
+Processing ActiveScaffold::AssignmentTypesController#edit (for 127.0.0.1 at 2010-10-18 15:33:37) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1040335078", "parent_controller"=>"active_scaffold/assignment_titles"}
+
+ActiveScaffold::ActionNotAllowed (ActiveScaffold::ActionNotAllowed):
+  
+
+Rendering rescues/layout (403 Action Not Allowed)
+
+
+Processing ActiveScaffold::AssignmentsController#index (for 127.0.0.1 at 2010-10-18 15:33:44) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 415ms (View: 332, DB: 68) | 200 OK [http://localhost/active_scaffold/assignments]
+
+
+Processing ActiveScaffold::IndividualsController#edit (for 127.0.0.1 at 2010-10-18 15:33:46) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1", "parent_controller"=>"active_scaffold/assignments"}
+
+ActiveScaffold::ActionNotAllowed (ActiveScaffold::ActionNotAllowed):
+  
+
+Rendering rescues/layout (403 Action Not Allowed)
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-10-29 16:32:50) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ActiveScaffold::DefaultController#index (for 127.0.0.1 at 2010-10-29 16:32:54) [GET]
+Rendering template within layouts/activescaffold
+Rendering active_scaffold/default/index
+Completed in 100ms (View: 100, DB: 0) | 200 OK [http://localhost/active_scaffold/default]
+
+
+Processing ActiveScaffold::CitationsController#index (for 127.0.0.1 at 2010-10-29 16:33:01) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 540ms (View: 279, DB: 209) | 200 OK [http://localhost/active_scaffold/citations]
+
+
+Processing ActiveScaffold::ValidationsController#index (for 127.0.0.1 at 2010-10-29 16:33:12) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 359ms (View: 332, DB: 17) | 200 OK [http://localhost/active_scaffold/validations]
+
+
+Processing ActiveScaffold::AssignmentsController#index (for 127.0.0.1 at 2010-10-30 12:46:51) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 4061ms (View: 2732, DB: 826) | 200 OK [http://localhost/active_scaffold/assignments]
