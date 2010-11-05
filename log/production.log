@@ -3067,3 +3067,220 @@ ActionController::UnknownAction (No action responded to index. Actions: ):
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-11-04 22:38:41) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ActiveScaffold::DefaultController#index (for 127.0.0.1 at 2010-11-04 22:38:43) [GET]
+Rendering template within layouts/activescaffold
+Rendering active_scaffold/default/index
+Completed in 12ms (View: 12, DB: 0) | 200 OK [http://localhost/active_scaffold/default]
+
+
+Processing ActiveScaffold::AssignmentsController#index (for 127.0.0.1 at 2010-11-04 22:38:47) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 784ms (View: 375, DB: 367) | 200 OK [http://localhost/active_scaffold/assignments]
+
+
+Processing ActiveScaffold::AssignmentsController#nested (for 127.0.0.1 at 2010-11-04 22:38:51) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1235", "associations"=>"validations"}
+Start rendering component ({:params=>{:nested=>true, :parent_column=>"validations", :parent_model=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text), :eid=>"337a73d26edc8296ef2b1f567bed274d"}, :action=>"table", :controller=>"active_scaffold/validations"}): 
+
+
+Processing ActiveScaffold::ValidationsController#table (for 127.0.0.1 at 2010-11-04 22:38:51) [GET]
+  Parameters: {"parent_column"=>"validations", "eid"=>"337a73d26edc8296ef2b1f567bed274d", "nested"=>true, "id"=>nil, "parent_model"=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text)}
+Rendering list
+Completed in 142ms (View: 132, DB: 6) | 200 OK [http://localhost/active_scaffold/assignments/nested/1235?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Completed in 164ms (View: 2, DB: 0) | 200 OK [http://localhost/active_scaffold/assignments/nested/1235?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+Processing ActiveScaffold::ValidationsController#new (for 127.0.0.1 at 2010-11-04 22:38:59) [GET]
+  Parameters: {"eid"=>"337a73d26edc8296ef2b1f567bed274d", "parent_column"=>"validations", "nested"=>"true", "adapter"=>"_list_inline_adapter", "parent_model"=>"Assignment"}
+Completed in 160ms (View: 1, DB: 0) | 200 OK [http://localhost/active_scaffold/validations/new?_method=get&eid=337a73d26edc8296ef2b1f567bed274d&nested=true&parent_column=validations&parent_model=Assignment&adapter=_list_inline_adapter]
+
+
+Processing ActiveScaffold::AssignmentsController#row (for 127.0.0.1 at 2010-11-04 22:39:10) [GET]
+  Parameters: {"id"=>"1235"}
+Completed in 25ms (View: 19, DB: 2) | 200 OK [http://localhost/active_scaffold/assignments/row/1235?_method=get]
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-11-04 22:40:34) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ActiveScaffold::DefaultController#index (for 127.0.0.1 at 2010-11-04 22:40:37) [GET]
+Rendering template within layouts/activescaffold
+Rendering active_scaffold/default/index
+Completed in 42ms (View: 42, DB: 0) | 200 OK [http://localhost/active_scaffold/default]
+
+
+Processing ActiveScaffold::AssignmentsController#index (for 127.0.0.1 at 2010-11-04 22:40:40) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 683ms (View: 338, DB: 328) | 200 OK [http://localhost/active_scaffold/assignments]
+
+
+Processing ActiveScaffold::AssignmentsController#nested (for 127.0.0.1 at 2010-11-04 22:40:44) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1235", "associations"=>"validations"}
+Start rendering component ({:params=>{:nested=>true, :parent_column=>"validations", :parent_model=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text), :eid=>"337a73d26edc8296ef2b1f567bed274d"}, :action=>"table", :controller=>"active_scaffold/validations"}): 
+
+
+Processing ActiveScaffold::ValidationsController#table (for 127.0.0.1 at 2010-11-04 22:40:44) [GET]
+  Parameters: {"parent_column"=>"validations", "eid"=>"337a73d26edc8296ef2b1f567bed274d", "nested"=>true, "id"=>nil, "parent_model"=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text)}
+Rendering list
+Completed in 123ms (View: 115, DB: 5) | 200 OK [http://localhost/active_scaffold/assignments/nested/1235?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Completed in 142ms (View: 2, DB: 0) | 200 OK [http://localhost/active_scaffold/assignments/nested/1235?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+Processing ActiveScaffold::UsersController#index (for 127.0.0.1 at 2010-11-04 22:40:49) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 217ms (View: 175, DB: 5) | 200 OK [http://localhost/active_scaffold/users]
+
+
+Processing ActiveScaffold::UsersController#nested (for 127.0.0.1 at 2010-11-04 22:40:52) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1", "associations"=>"validations"}
+Start rendering component ({:params=>{:nested=>true, :parent_column=>"validations", :parent_model=>User(id: integer, name: string, notes: text, created_at: datetime, updated_at: datetime), :eid=>"6c38a279a43b0be281cc87c3c0728c66"}, :action=>"table", :controller=>"active_scaffold/validations"}): 
+
+
+Processing ActiveScaffold::ValidationsController#table (for 127.0.0.1 at 2010-11-04 22:40:52) [GET]
+  Parameters: {"parent_column"=>"validations", "eid"=>"6c38a279a43b0be281cc87c3c0728c66", "nested"=>true, "id"=>nil, "parent_model"=>User(id: integer, name: string, notes: text, created_at: datetime, updated_at: datetime)}
+Rendering list
+Completed in 318ms (View: 282, DB: 30) | 200 OK [http://localhost/active_scaffold/users/nested/1?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Completed in 335ms (View: 2, DB: 0) | 200 OK [http://localhost/active_scaffold/users/nested/1?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+Processing ActiveScaffold::UsersController#row (for 127.0.0.1 at 2010-11-04 22:40:57) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 23ms (View: 18, DB: 2) | 200 OK [http://localhost/active_scaffold/users/row/1?_method=get]
+
+
+Processing Frontend::HomeController#index (for 127.0.0.1 at 2010-11-05 15:03:01) [GET]
+Rendering template within layouts/application
+Rendering frontend/home/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ActiveScaffold::DefaultController#index (for 127.0.0.1 at 2010-11-05 15:03:04) [GET]
+Rendering template within layouts/activescaffold
+Rendering active_scaffold/default/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/active_scaffold/default]
+
+
+Processing ActiveScaffold::AssignmentsController#index (for 127.0.0.1 at 2010-11-05 15:03:07) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 698ms (View: 348, DB: 334) | 200 OK [http://localhost/active_scaffold/assignments]
+
+
+Processing ActiveScaffold::AssignmentsController#nested (for 127.0.0.1 at 2010-11-05 15:03:11) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1235", "associations"=>"validations"}
+Start rendering component ({:params=>{:parent_model=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text), :nested=>true, :eid=>"337a73d26edc8296ef2b1f567bed274d", :parent_column=>"validations"}, :controller=>"active_scaffold/validations", :action=>"table"}): 
+
+
+Processing ActiveScaffold::ValidationsController#table (for 127.0.0.1 at 2010-11-05 15:03:11) [GET]
+  Parameters: {"eid"=>"337a73d26edc8296ef2b1f567bed274d", "parent_column"=>"validations", "nested"=>true, "id"=>nil, "parent_model"=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text)}
+Rendering list
+Completed in 206ms (View: 198, DB: 5) | 200 OK [http://localhost/active_scaffold/assignments/nested/1235?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Completed in 221ms (View: 2, DB: 0) | 200 OK [http://localhost/active_scaffold/assignments/nested/1235?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+Processing ActiveScaffold::UsersController#index (for 127.0.0.1 at 2010-11-05 15:03:15) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 216ms (View: 173, DB: 5) | 200 OK [http://localhost/active_scaffold/users]
+
+
+Processing ActiveScaffold::ValidationsController#index (for 127.0.0.1 at 2010-11-05 15:03:18) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 169ms (View: 157, DB: 2) | 200 OK [http://localhost/active_scaffold/validations]
+
+
+Processing ActiveScaffold::ValidationsController#index (for 127.0.0.1 at 2010-11-05 15:04:38) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 327ms (View: 314, DB: 2) | 200 OK [http://localhost/active_scaffold/validations]
+
+
+Processing ActiveScaffold::ValidationsController#index (for 127.0.0.1 at 2010-11-05 15:04:42) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 177ms (View: 161, DB: 2) | 200 OK [http://localhost/active_scaffold/validations]
+
+
+Processing ActiveScaffold::AssignmentsController#index (for 127.0.0.1 at 2010-11-05 15:04:44) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 688ms (View: 348, DB: 326) | 200 OK [http://localhost/active_scaffold/assignments]
+
+
+Processing ActiveScaffold::AssignmentsController#nested (for 127.0.0.1 at 2010-11-05 15:04:51) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1249", "associations"=>"validations"}
+Start rendering component ({:params=>{:parent_model=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text), :nested=>true, :eid=>"9182bb4981e07454bfbd11dd8b3f0262", :parent_column=>"validations"}, :controller=>"active_scaffold/validations", :action=>"table"}): 
+
+
+Processing ActiveScaffold::ValidationsController#table (for 127.0.0.1 at 2010-11-05 15:04:51) [GET]
+  Parameters: {"eid"=>"9182bb4981e07454bfbd11dd8b3f0262", "parent_column"=>"validations", "nested"=>true, "id"=>nil, "parent_model"=>Assignment(id: integer, individual_id: integer, assignment_title_id: integer, location_id: integer, start_year: integer, start_certain: boolean, end_year: integer, end_certain: boolean, notes: text)}
+Rendering list
+Completed in 56ms (View: 48, DB: 4) | 200 OK [http://localhost/active_scaffold/assignments/nested/1249?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Completed in 71ms (View: 2, DB: 0) | 200 OK [http://localhost/active_scaffold/assignments/nested/1249?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+Processing ActiveScaffold::AssignmentsController#row (for 127.0.0.1 at 2010-11-05 15:04:53) [GET]
+  Parameters: {"id"=>"1249"}
+Completed in 31ms (View: 25, DB: 3) | 200 OK [http://localhost/active_scaffold/assignments/row/1249?_method=get]
+
+
+Processing ActiveScaffold::UsersController#index (for 127.0.0.1 at 2010-11-05 15:04:55) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 208ms (View: 165, DB: 5) | 200 OK [http://localhost/active_scaffold/users]
+
+
+Processing ActiveScaffold::UsersController#nested (for 127.0.0.1 at 2010-11-05 15:05:00) [GET]
+  Parameters: {"adapter"=>"_list_inline_adapter", "id"=>"1", "associations"=>"validations"}
+Start rendering component ({:params=>{:parent_model=>User(id: integer, name: string, notes: text, created_at: datetime, updated_at: datetime), :nested=>true, :eid=>"6c38a279a43b0be281cc87c3c0728c66", :parent_column=>"validations"}, :controller=>"active_scaffold/validations", :action=>"table"}): 
+
+
+Processing ActiveScaffold::ValidationsController#table (for 127.0.0.1 at 2010-11-05 15:05:00) [GET]
+  Parameters: {"eid"=>"6c38a279a43b0be281cc87c3c0728c66", "parent_column"=>"validations", "nested"=>true, "id"=>nil, "parent_model"=>User(id: integer, name: string, notes: text, created_at: datetime, updated_at: datetime)}
+Rendering list
+Completed in 172ms (View: 163, DB: 6) | 200 OK [http://localhost/active_scaffold/users/nested/1?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+End of component rendering
+Completed in 187ms (View: 2, DB: 0) | 200 OK [http://localhost/active_scaffold/users/nested/1?_method=get&associations=validations&adapter=_list_inline_adapter]
+
+
+Processing ActiveScaffold::UsersController#row (for 127.0.0.1 at 2010-11-05 15:05:04) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/active_scaffold/users/row/1?_method=get]
+
+
+Processing ActiveScaffold::ValidationsController#index (for 127.0.0.1 at 2010-11-05 15:05:06) [GET]
+Rendering template within layouts/activescaffold
+Rendering list
+Completed in 248ms (View: 159, DB: 2) | 200 OK [http://localhost/active_scaffold/validations]
