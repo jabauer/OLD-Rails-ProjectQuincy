@@ -2,7 +2,7 @@
 #   gem install sqlite3-ruby (not necessary on OS X Leopard)
 development:
   adapter: mysql
-  database: eafsd_polytest
+  database: pq_eafsd_development
   user: root
   password:
   socket: /opt/local/var/run/mysql5/mysqld.sock
@@ -18,7 +18,7 @@ test:
 
 production:
   adapter: mysql
-  database: eafsd_polytest
+  database: pq_eafsd_development
   user: root
   password:
   socket: /opt/local/var/run/mysql5/mysqld.sock

@@ -31,7 +31,7 @@
 				<td><%= assignment.start_year %> - <%= assignment.end_year %></td>
 				<td><%= assignment.notes %></td>
 				<td><% @validations.each do |v| %>
-						<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+						<% if v.validatable_type == "assignment" && v.validatable_id == assignment.id %>
 							<a href="#<%= v.id %>" class="inline" width="300px"><%= image_tag "book-brown.png"%></a>
 						<% end %>
 					<% end %>
@@ -43,7 +43,7 @@
 <% @post_content = capture do%>	
 	<% @assignments.each do |assignment| %>
 		<% @validations.each do |v| %>
-			<% if v.entity_type == "assignment" && v.entity_key == assignment.id %>
+			<% if v.validatable_type == "assignment" && v.validatable_id == assignment.id %>
 				<div id="<%= v.id %>">
 					<%= render(:partial => "frontend/footnote", :locals => {:v => v})%>
 				</div>

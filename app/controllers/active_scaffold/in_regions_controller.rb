@@ -5,6 +5,6 @@ class ActiveScaffold::InRegionsController < ApplicationController
   
   active_scaffold :in_region do |config|
     config.label = "In Regions: Linking Table for Regions and Locations"
-    config.columns = [:id, :region, :location, :notes, :created_at, :updated_at]
+    config.columns = [:region, :location, :notes, :created_at, :updated_at]
   end
 end

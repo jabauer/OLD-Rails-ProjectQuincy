@@ -5,6 +5,6 @@ class ActiveScaffold::OccupationTypesController < ApplicationController
   
   active_scaffold :occupation_type do |config|
     config.label = "Occupation Types"
-    config.columns = [:id, :name, :notes, :occupation_titles, :created_at, :updated_at]
+    config.columns = [:name, :notes, :occupation_titles, :created_at, :updated_at]
   end
 end

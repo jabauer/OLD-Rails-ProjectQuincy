@@ -15,4 +15,5 @@
 #
 
 class Assignment < ActiveRecord::Base
+  has_many :validations, :as => :validatable
 end

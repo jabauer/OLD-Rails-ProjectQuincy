@@ -8,7 +8,7 @@ class ActiveScaffold::AssignmentsController < ApplicationController
     config.label = "Assignments"
     
     #orders the columns
-    config.columns = [:id, :location, :assignment_title, :individual, :start_year, :start_certain, :end_year, :end_certain, :notes]
+    config.columns = [:location, :assignment_title, :individual, :start_year, :start_certain, :end_year, :end_certain, :notes, :validations]
     
     #adds search functionality for the following columns
     config.columns[:assignment_title].search_sql = 'assignment_titles.name'
@@ -26,14 +26,5 @@ class ActiveScaffold::AssignmentsController < ApplicationController
     
     config.search.columns << :notes
   end
-  
-  #The following code customizes the active scaffold csv action export plugin
-#  active_scaffold :assignments do |c|
-#    c.actions.add :export
-#    c.export.columns = [:name, :assignment_title, :location, :start_year, :end_year, :notes]
-#    c.export.default_deselected_columns = [:start_certain, :end_certain]
-#    c.export.default_delimiter = ';'
-#    c.export.force_quotes = true
-#  end
   
 end

@@ -11,7 +11,7 @@ class ActiveScaffold::StatesController < ApplicationController
     config.columns[:in_states].label = "Contains Locations"
     
     #orders columns
-    config.columns = [:id, :name, :continent, :notes, :in_states, :in_empires, :individuals, :created_at, :updated_at]
+    config.columns = [:name, :continent, :notes, :in_states, :in_empires, :individuals, :created_at, :updated_at]
     
     #adds search functionality for the following columns
     config.columns[:continent].search_sql = 'continents.name'

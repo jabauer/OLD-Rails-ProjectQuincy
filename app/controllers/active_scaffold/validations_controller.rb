@@ -9,21 +9,20 @@ class ActiveScaffold::ValidationsController < ApplicationController
 
       #displays in_states field as Contains Locations
       config.columns[:user].label = "Entered By"
-      config.columns[:entity_type].label = "Entity Type"
-      config.columns[:entity_key].label = "Entity Id"
+      config.columns[:validatable_type].label = "Validatable Type"
+      config.columns[:validatable_id].label = "Validatable Id"
       config.columns[:supports].label = "Supports?"
 
-      config.list.columns.exclude :entity_type, :entity_id
-      config.list.columns << :entity_type_and_key
+      config.list.columns.exclude :validatable_type, :entity_id
+      config.list.columns << :validated_record
       
-      config.columns << :entity_type_and_key
-      config.columns[:entity_type_and_key].label = "Entity"
+      config.columns << :validated_record
       
       #orders columns
-      config.columns = [:id, :citation, :supports, :entity_type, :entity_key, :user, :notes, :created_at, :updated_at]
+      config.columns = [:citation, :supports, :validatable_type, :validatable_id, :user, :notes, :created_at, :updated_at]
       
       #orders columns in the default list
-      config.list.columns = [:id, :citation, :supports, :entity_type_and_key, :user, :notes, :created_at, :updated_at]
+      config.list.columns = [:citation, :supports, :validated_record, :user, :notes, :created_at, :updated_at]
 
       #adds search functionality for the following columns
       config.columns[:citation].search_sql = 'citations.title'
@@ -31,10 +30,10 @@ class ActiveScaffold::ValidationsController < ApplicationController
 
       config.search.columns << :notes
       
-      config.search.columns << :entity_type
+      config.search.columns << :validatable_type
       
       config.search.columns << :user
       
-      config.search.columns << :entity_key
+      config.search.columns << :validatable_id
     end
 end

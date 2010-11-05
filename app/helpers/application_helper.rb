@@ -42,6 +42,12 @@ module ApplicationHelper
     end
   end
   
+#This method is for customizing ActiveScaffold
+#It displays in the validations column, the number of citations associated with any given record  
+  def validations_column(record)
+    "#{record.validations.count}"
+  end
+  
 #This method transforms raw markup into HTML using the RedCloth Gem
   def to_redcloth(string)
     RedCloth.new(string).to_html

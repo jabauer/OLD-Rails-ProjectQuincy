@@ -5,8 +5,7 @@ class ActiveScaffold::LettersController < ApplicationController
   
   active_scaffold :letter do |config|
     config.columns[:circular].label = "Circular (y/n)"
-    config.columns = [:id, 
-                      :from_individual, :from_organization, 
+    config.columns = [:from_individual, :from_organization, 
                       :to_individual, :to_organization, 
                       :from_location, :to_location, 
                       :circular, 

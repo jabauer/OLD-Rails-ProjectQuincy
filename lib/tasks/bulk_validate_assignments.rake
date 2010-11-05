@@ -21,14 +21,14 @@ task :bulk_validate_assignments => :environment do
   #Then find the citation which will apply to all the records being bulk-validated
   c = Citation.find_by_title("America's diplomats and consuls of 1776-1865")
   
-  #Then for each assignment record, create a validation record of entity_type "assignment" and with an entity_key
+  #Then for each assignment record, create a validation record of validatable_type "assignment" and with an validatable_id
   #that matches the id of that assignment records.  Link to the appropriate user and citation using the variables
   #defined above, and fill out the supports field with either "TRUE" or "FALSE"
   
   #N.B. this code will create a validation record for EVERY assignment record, if you need to bulk load a 
   #sub-set of the assignment (or other table's) records, make sure you change the parameters!
   Assignment.all.each do |assign|
-    v = Validation.create(:entity_type => "assignment", :entity_key => assign.id, :supports => "TRUE", :user_id => u.id, :citation_id => c.id)
+    v = Validation.create(:validatable_type => "assignment", :validatable_id => assign.id, :supports => "TRUE", :user_id => u.id, :citation_id => c.id)
     
    #to test before you save, uncomment the next line
    #puts v.inspect

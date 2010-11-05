@@ -1,0 +1,2 @@
+module ActiveScaffold::UsersHelper
+end
