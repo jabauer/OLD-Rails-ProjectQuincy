@@ -20,4 +20,25 @@ module ActiveScaffold::IndividualsHelper
       }"
     end
   end
+  
+  #This method does the same thing for the Residences table, 
+  #except it shows the locations where the person resided
+  def residences_column(record)
+    if record.residences.count > 3
+      "#{
+        record.residences.map do |r|
+          r.location.name
+        end.first(3).join(', ')
+        }
+        . . . 
+        (#{record.residences.count})"
+    else
+      "#{
+        record.residences.map do |r|
+          r.location.name
+        end.join(', ')
+      }"
+    end
+  end
+  
 end

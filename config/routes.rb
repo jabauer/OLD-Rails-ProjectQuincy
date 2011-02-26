@@ -7,6 +7,11 @@ ActionController::Routing::Routes.draw do |map|
   map.relationbrowse "relationbrowse", :controller => 'frontend/relation_browser', :action => 'index'
   map.relate "relationBrowser.:format", :controller => 'frontend/relation_browser', :action => 'relate'
   
+  map.resources :gazetteer_continents, :controller => 'frontend/gazetteer_continents'
+  map.gazetteer_continents "gazetteer_continents", :controller => 'frontend/gazetteer_continents', :action => 'index'
+  map.tree "continentData.:format", :controller => 'frontend/gazetteer_continents', :action => 'geo_tree_data'
+  
+  
   map.gearth "gearth", :controller => 'frontend/gearth', :action => 'index'
   
   map.gmap "gmap", :controller => 'frontend/gmap', :action => 'index'
