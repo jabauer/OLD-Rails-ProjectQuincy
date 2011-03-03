@@ -1,0 +1,2 @@
+ADMIN_USERNAME = "foobar"
+ADMIN_PASSWORD = "foobar"
