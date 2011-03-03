@@ -1,0 +1,56 @@
+    <script type="text/javascript+protovis">
+
+var root = pv.dom(Assignments)
+    .root("Assignments")
+    .sort(function(a, b) pv.naturalOrder(a.nodeName, b.nodeName));
+
+/* Recursively compute the package sizes. */
+/* Note use of isNAN to catch nodes without assigned values before they ruin the recursive computation */
+root.visitAfter(function(n) {
+  if (n.firstChild) {
+    n.nodeValue = pv.sum(n.childNodes, function(n) isNaN(n.nodeValue) ? 0 : n.nodeValue);
+  }
+});
+
+var vis = new pv.Panel()
+    .width(260)
+	.fillStyle("transparent")
+    .height(function() (root.nodes().length + 1) * 12)
+    .margin(5);
+
+var layout = vis.add(pv.Layout.Indent)
+    .nodes(function() root.nodes())
+    .depth(12)
+    .breadth(12);
+
+layout.link.add(pv.Line);
+
+var node = layout.node.add(pv.Panel)
+    .top(function(n) n.y - 6)
+    .height(12)
+    .right(6)
+    .strokeStyle(null)
+	.fillStyle("transparent")
+    .events("all")
+    .event("mousedown", toggle);
+
+node.anchor("left").add(pv.Dot)
+    .strokeStyle("#5B806B")
+    .fillStyle(function(n) n.toggled ? "#5B806B" : n.firstChild ? "#465B73" : "#ff7f0e")
+    .title(function t(d) d.parentNode ? (t(d.parentNode) + "." + d.nodeName) : d.nodeName)
+  .anchor("right").add(pv.Label)
+    .text(function(n) n.nodeName);
+
+node.anchor("right").add(pv.Label)
+    .textStyle(function(n) n.firstChild || n.toggled ? "#333" : "#aaa")
+    .text(function(n) (n.nodeValue));
+
+vis.render();
+
+/* Toggles the selected node, then updates the layout. */
+function toggle(n) {
+  n.toggle(pv.event.altKey);
+  return layout.reset().root;
+}
+
+    </script>

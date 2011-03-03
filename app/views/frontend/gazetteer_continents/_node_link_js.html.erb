@@ -1,0 +1,28 @@
+<h1 class="green">All Locations</h1>
+<script type="text/javascript+protovis">
+	var vis = new pv.Panel()
+	    .width(700)
+		.height(710)
+		.right(5)
+		.top(20)
+	    .event("mousedown", pv.Behavior.pan())
+	    .event("mousewheel", pv.Behavior.zoom());
+
+	var tree = vis.add(pv.Layout.Tree)
+	    .nodes(pv.dom(Locations).root("Locations").nodes())
+	    .depth(90)
+	    .breadth(6.9)
+	    .orient("radial");
+
+	tree.link.add(pv.Line);
+
+	tree.node.add(pv.Dot)
+		.strokeStyle("#342140")
+	    .fillStyle(function(n) n.firstChild ? "#736346" : "#5B806B");
+
+	tree.label.add(pv.Label);
+
+	vis.render();
+</script>
+
+<p>Scroll to zoom or click and drag to recenter.</p>

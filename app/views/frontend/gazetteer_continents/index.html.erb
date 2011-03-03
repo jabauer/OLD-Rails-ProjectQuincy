@@ -1,0 +1,7 @@
+<%= javascript_include_tag 'protovis-d3.2' %>
+
+<!-- Don't use the javascript_include_tag here
+It doesn't seem to work for files located outside of /public/javascripts -->
+<script type="text/javascript" src="continentData.js"></script>
+
+<%= render :partial => "node_link_js" %>

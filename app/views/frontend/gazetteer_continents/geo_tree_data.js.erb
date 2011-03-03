@@ -1,0 +1,7 @@
+var Locations = {<% for continent in @continents %>
+	"<%= h continent.name %>": {<% for state in @states %><% if state.continent_id == continent.id %>
+		"<%= h state.name %>": {<% for in_state in @in_states %><% if in_state.state_id == state.id %><% for location in @locations %><% if location.id == in_state.location_id %>
+			"<%= h location.name %>":<% i = 0 %><% for assignments in @assignments %><% if assignments.location_id == location.id %><% i = i+1 %><% end %><% end %><%= i %>,<% end %><% end %><% end %><% end %>
+		},<% end %><% end %>
+	},<% end %>
+};
