@@ -1,0 +1,61 @@
+<!-- 
+This page uses the Protovis visualization library (see script below) to generate a sunburst diagram displaying the Assignments module.
+The size of the wedges can be toggled between number of titles in each type and number of assignments associated with each title.
+It is based off an example found online @ http://vis.stanford.edu/protovis/ex/sunburst.html
+-->
+
+<%= javascript_include_tag 'protovis-r3.2' %>
+
+<!-- Don't use the javascript_include_tag here
+It doesn't seem to work for files located outside of /public/javascripts -->
+<script type="text/javascript" src="assignTypeData.js"></script>
+
+
+<% @sidebar = capture do %>
+	<h3>All Assignment Titles</h3>
+	<p>Mouseover to see full title and number of officers assigned that title</p>
+	<p>Choose to view by number of titles, or number of assignments per title</p>
+	<p>View by: <select id="menu" onchange="update(this.value)">
+		<option value="title">titles</option>
+		<option value="assignment" selected>assignments</option>
+	</select></p>
+
+<% end %>
+
+<script type="text/javascript+protovis">
+	/* For pretty number formatting. */
+	var format = pv.Format.number();
+
+	var vis = new pv.Panel()
+	    .width(500)
+	    .height(500);
+
+	var partition = vis.add(pv.Layout.Partition.Fill)
+	    .nodes(pv.dom(Assignments).root("").nodes())
+	    .size(function(d) d.firstChild ? 0 : 1)
+	    .order("descending")
+	    .orient("radial");
+
+	partition.node.add(pv.Wedge)
+	    .fillStyle(pv.colors("#465B73", "#5B806B", "#342140", "#736346").by(function(d) d.parentNode && d.parentNode.nodeName))
+	    .title(function(d) d.nodeName + (d.firstChild ? "" : ": " + format(d.nodeValue)))
+	    .strokeStyle("#fff")
+	    .lineWidth(.5);
+
+	partition.label.add(pv.Label)
+	    .visible(function(d) d.angle * d.outerRadius >= 5)
+		.textStyle("#ccc")
+		.text(function(d) d.nodeName.substring(0, d.outerRadius/12));
+
+	vis.render();
+
+	/* Update the layout's size method and re-render. */
+	function update(method) {
+	  switch (method) {	
+	    case "title": partition.size(function(d) d.firstChild ? 0 : 1); break;
+	    case "assignment": partition.size(function(d) d.nodeValue); break;
+	  }
+	  vis.render();
+	}
+
+</script>

@@ -1,7 +1,14 @@
+<!-- This file displays the node-link visualization of the locations module.
+See _node_link_js.html.erb for the javascript rendered below and geo_tree_data.js.erb for the data used. -->
+
 <%= javascript_include_tag 'protovis-d3.2' %>
 
 <!-- Don't use the javascript_include_tag here
 It doesn't seem to work for files located outside of /public/javascripts -->
 <script type="text/javascript" src="continentData.js"></script>
 
+<h1 class="green">All Locations</h1>
+
 <%= render :partial => "node_link_js" %>
+
+<p>Scroll to zoom or click and drag to recenter.</p>

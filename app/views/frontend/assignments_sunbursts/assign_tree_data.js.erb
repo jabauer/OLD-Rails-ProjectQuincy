@@ -1,0 +1,9 @@
+/* This script outputs the contents of the Assignments module as a node-leaf json file for use in visualizations.
+It also counts how many assignments are associated with each title.
+The resulting file can be found @ root/assignTypeData.js  */
+
+var Assignments = {<% for assignment_type in @assignment_types %>
+	"<%= h assignment_type.name %>": {<% for assignment_title in @assignment_titles %><% if assignment_title.assignment_type_id == assignment_type.id %>
+		"<%= h assignment_title.name %>":<% i = 0 %><% for assignment in @assignments %><% if assignment.assignment_title_id == assignment_title.id %><% i += 1 %><% end %><% end %><%= i %>,<% end %><% end %>
+	},<% end %>
+}

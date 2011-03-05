@@ -1,3 +1,7 @@
+/* This script outputs the contents of the Locations module as a node-leaf json file for use in visualizations.
+It also counts how many assignments are associated with each Location.
+The resulting file can be found @ root/continentData.js  */
+
 var Locations = {<% for continent in @continents %>
 	"<%= h continent.name %>": {<% for state in @states %><% if state.continent_id == continent.id %>
 		"<%= h state.name %>": {<% for in_state in @in_states %><% if in_state.state_id == state.id %><% for location in @locations %><% if location.id == in_state.location_id %>

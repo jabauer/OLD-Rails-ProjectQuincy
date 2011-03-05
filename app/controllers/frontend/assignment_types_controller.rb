@@ -6,5 +6,4 @@ class Frontend::AssignmentTypesController < ApplicationController
   def show
     @assignment_type = AssignmentType.find(params[:id])
   end
-
 end
