@@ -1,0 +1,2 @@
+module Frontend::VisualizationsHelper
+end

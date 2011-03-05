@@ -1,0 +1,16 @@
+<h3 class="field_name">Data Visualizations</h3>
+<ul>
+	<li><%= link_to 'Assignments Sunburst', assignments_sunbursts_path %> displays all assignment titles and types in an adjacency diagram.  Created using <a class="green" href="http://vis.stanford.edu/protovis/" target="_blank">Protovis</a>, a visualization library from the good folks at the Stanford Visualization Group.</li>
+	<li><%= link_to 'Locations Tree', gazetteer_continents_path %> shows the Locations Module as zoomable, panable radial tree.  Also built with Protovis.</li>
+	<li><%= link_to 'Relation Browser', relationbrowse_path %> a flash video that lets you click through most of the data structure.  This was the first data visualization included in the EAFSD.  It uses <a href="http://moritz.stefaner.eu/" target="_blank">Moritz Stefaner's</a> Relation Browser.</li>
+	<li><span class="blue"><b>more to come . . .</b></span></li>
+</ul>
+
+
+<% @sidebar = capture do %>
+
+	<h3>Maps</h3>
+	<p><%= link_to 'Main Google Map', gmap_path %>: Right now the EAFSD only has the one map, but at least it shows all the locations in the database.</p>  
+	<p>I will be adding more ASAP.</p>
+	
+<% end %>

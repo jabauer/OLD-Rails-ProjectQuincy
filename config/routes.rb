@@ -16,6 +16,8 @@ ActionController::Routing::Routes.draw do |map|
   
   map.gearth "gearth", :controller => 'frontend/gearth', :action => 'index'
   
+  map.visualizations "visualizations", :controller => 'frontend/visualizations', :action => 'index'
+  
   map.gmap "gmap", :controller => 'frontend/gmap', :action => 'index'
   
   map.search "search", :controller => 'frontend/search', :action => 'index'

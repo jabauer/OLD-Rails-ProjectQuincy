@@ -18,8 +18,7 @@
 						<li><%= link_to_unless_current 'Home', root_path%></li>
 	                    <li><%= link_to_unless_current 'Search', search_path %></li>
 						<li><%= link_to_unless_current 'Browse', :controller => "assignment_titles", :action => "index"%>
-	                    <li><%= link_to_unless_current 'Maps', gmap_path %></li>
-		                <li><%= link_to_unless_current 'Relation Browser', relationbrowse_path %></li>
+						<li><%= link_to_unless_current 'Maps &amp; Visualizations', visualizations_path %>
 	                    <li><%= link_to_unless_current 'About', about_path%></li>
 						<li class="last"><a href="/active_scaffold/default">Data</a></li>
 	                </ul>

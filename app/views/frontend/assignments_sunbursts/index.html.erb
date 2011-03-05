@@ -13,7 +13,7 @@ It doesn't seem to work for files located outside of /public/javascripts -->
 
 <% @sidebar = capture do %>
 	<h3>All Assignment Titles</h3>
-	<p>Mouseover to see full title and number of officers assigned that title</p>
+	<p>Mouseover to see the full title and number of officers who held it.</p>
 	<p>Choose to view by number of titles, or number of assignments per title</p>
 	<p>View by: <select id="menu" onchange="update(this.value)">
 		<option value="title">titles</option>
@@ -25,20 +25,31 @@ It doesn't seem to work for files located outside of /public/javascripts -->
 <script type="text/javascript+protovis">
 	/* For pretty number formatting. */
 	var format = pv.Format.number();
+	
+	var root = pv.dom(Assignments)
+	    .root("All");
+	
+	/* Recursively compute the package sizes. */
+	/* Note use of isNAN to catch nodes without assigned values before they ruin the recursive computation */
+	root.visitAfter(function(d) {
+	  if (d.firstChild) {
+	    d.nodeValue = pv.sum(d.childNodes, function(d) isNaN(d.nodeValue) ? 0 : d.nodeValue);
+	  }
+	});
 
 	var vis = new pv.Panel()
 	    .width(500)
 	    .height(500);
 
 	var partition = vis.add(pv.Layout.Partition.Fill)
-	    .nodes(pv.dom(Assignments).root("").nodes())
+		.nodes(root.nodes())
 	    .size(function(d) d.firstChild ? 0 : 1)
 	    .order("descending")
 	    .orient("radial");
 
 	partition.node.add(pv.Wedge)
 	    .fillStyle(pv.colors("#465B73", "#5B806B", "#342140", "#736346").by(function(d) d.parentNode && d.parentNode.nodeName))
-	    .title(function(d) d.nodeName + (d.firstChild ? "" : ": " + format(d.nodeValue)))
+	    .title(function(d) d.nodeName + (" : " + format(d.nodeValue)))
 	    .strokeStyle("#fff")
 	    .lineWidth(.5);
 

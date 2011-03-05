@@ -181,6 +181,14 @@ img {
 	text-align: left;
 }
 
+#content ul {
+	list-style-type:none;
+}
+
+#content ul li {
+	margin-bottom: 10px;
+}
+
 .search_param {
 	color: #465B73;
 	font-weight:bold;

@@ -53,8 +53,7 @@
 				<li><%= link_to_unless_current 'Home', root_path%></li>
                 <li><%= link_to_unless_current 'Search', search_path %></li>
 				<li><%= link_to_unless_current 'Browse', :controller => "frontend/assignment_titles", :action => "index"%>
-                <li><%= link_to_unless_current 'Maps', gmap_path %></li>
-                <li><%= link_to_unless_current 'Relation Browser', relationbrowse_path %></li>
+				<li><%= link_to_unless_current 'Maps &amp; Visualizations', visualizations_path %>
                 <li><%= link_to_unless_current 'About', about_path%></li>
 				<% if session[:authenticated] %>
 					<li class="auth">You are Logged In</li>
