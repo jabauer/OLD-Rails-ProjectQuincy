@@ -14,6 +14,9 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :assignments_sunbursts, :controller => 'frontend/assignments_sunbursts'
   map.tree "assignTypeData.:format", :controller => 'frontend/assignments_sunbursts', :action => "assign_tree_data"
   
+  map.resources :assignments_timemap, :controller => 'frontend/assignments_timemap'
+  map.timemap "assignYearData.:format", :controller => 'frontend/assignments_timemap', :action => "assign_byyear_data"
+  
   map.gearth "gearth", :controller => 'frontend/gearth', :action => 'index'
   
   map.visualizations "visualizations", :controller => 'frontend/visualizations', :action => 'index'

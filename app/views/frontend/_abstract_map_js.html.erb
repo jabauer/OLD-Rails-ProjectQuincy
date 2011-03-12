@@ -1,0 +1,73 @@
+<!--This partial view uses the Protovis visualization library to render 
+a base map of the world in brown and blue and allows the user to choose 
+between 5 different map projection algorithms.  The code is adapted from 
+http://vis.stanford.edu/protovis/ex/projection.html
+
+In order for the map to display properly you must include javascript_tags
+for protovis-r3.2.js and countries.js, both found in /public/javascript
+in the view.
+--> 
+
+    <script type="text/javascript+protovis">
+//These next 3 lines have to replicated in any data placement script used with this map
+var w = 700,
+    h = 3 / 5 * w,
+    geo = pv.Geo.scale("hammer").range({x: 0, y: 0}, {x: w, y: h});
+
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+	.fillStyle("#465B73")
+    .event("mousedown", pv.Behavior.pan())
+    .event("mousewheel", pv.Behavior.zoom());
+
+/* Countries. */
+vis.add(pv.Panel)
+    .data(countries)
+  .add(pv.Panel)
+    .data(function(c) c.borders)
+  .add(pv.Line)
+    .data(function(b) b)
+    .left(geo.x)
+    .top(geo.y)
+    .fillStyle("#736346")
+    .lineWidth(0) //removes border lines, leaving just the shape of the landmass
+    .antialias(false);
+
+/* Latitude ticks. */
+vis.add(pv.Panel)
+    .data(geo.ticks.lat())
+  .add(pv.Line)
+    .data(function(b) b)
+    .left(geo.x)
+    .top(geo.y)
+    .strokeStyle("rgba(128,128,128,.3)")
+    .lineWidth(1)
+    .interpolate("cardinal")
+    .antialias(false);
+
+/* Longitude ticks. */
+vis.add(pv.Panel)
+    .data(geo.ticks.lng())
+  .add(pv.Line)
+    .data(function(b) b)
+    .left(geo.x)
+    .top(geo.y)
+    .strokeStyle("rgba(128,128,128,.3)")
+    .lineWidth(1)
+    .interpolate("cardinal")
+    .antialias(false);
+
+vis.render();
+
+</script>
+<div align="right">
+  <p><b>Projection:</b>
+  <select id="menu" onchange="geo.projection(this.value); vis.render();">
+    <option value="hammer" selected>Hammer projection</option>
+	<option value="none">Identity projection</option>
+    <option value="mercator">Mercator projection</option>
+    <option value="gall-peters">Gall-Peters projection</option>
+    <option value="sinusoidal">Sinusoidal projection</option>
+  </select></p>
+</div>

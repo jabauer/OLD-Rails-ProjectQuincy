@@ -1,0 +1,10 @@
+/* This data is used for plotting the location of assignments over time.
+The resulting file can be found at /assignYearData.js on the server */
+
+var assignments = [<%for assignment in @assignments%>
+	{id: <%= h assignment.id %>, title: "<%= h assignment.assignment_title.name %>",  start_year: <%= h assignment.start_year%>, end_year: <%= h assignment.end_year%>, location: "<%= h assignment.location.name %>", lat: <%= h assignment.location.lat %>, lng: <%= h assignment.location.long %>},<% end %>
+];
+
+var types = [<%for assignment_title in @assignment_titles%>
+	{title: "<%= h assignment_title.name %>", type: "<%= h assignment_title.assignment_type.name %>"},<% end %>
+];
