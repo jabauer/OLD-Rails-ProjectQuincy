@@ -10,14 +10,8 @@
 		<p><span class="field_name">Name:</span> <%= h @individual.name %></p>
 		<p><span class="field_name">Sex:</span> <%= h @individual.sex %></p>
 		<p><span class="field_name">Born:</span> <%= h partial_date(@individual.birth_date, @individual.birth_year_known, @individual.birth_month_known, @individual.birth_day_known) %>
-		<!-- formats the name to a string of Month, Day Year, unless the date is nil.  If the date is nil, .to_s throws an exception<% if  @individual.birth_date != nil %> 
-				<%= h @individual.birth_date.to_s(:long)%>
-			<% end %> -->
 			</p>
 		<p><span class="field_name">Died:</span> <%= h partial_date(@individual.death_date, @individual.death_year_known, @individual.death_month_known, @individual.death_day_known) %>
-		<!-->	<% if @individual.death_date !=nil %>
-				<%= h @individual.death_date.to_s(:long) %>
-			<% end %>	-->
 			</p>
 		<p><span class="field_name">Home State:</span>
 			<% if @individual.state !=nil %>

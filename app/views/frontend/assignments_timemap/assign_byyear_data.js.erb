@@ -1,10 +1,132 @@
 /* This data is used for plotting the location of assignments over time.
 The resulting file can be found at /assignYearData.js on the server */
 
-var assignments = [<%for assignment in @assignments%>
-	{id: <%= h assignment.id %>, title: "<%= h assignment.assignment_title.name %>",  start_year: <%= h assignment.start_year%>, end_year: <%= h assignment.end_year%>, location: "<%= h assignment.location.name %>", lat: <%= h assignment.location.lat %>, lng: <%= h assignment.location.long %>},<% end %>
-];
 
-var types = [<%for assignment_title in @assignment_titles%>
-	{title: "<%= h assignment_title.name %>", type: "<%= h assignment_title.assignment_type.name %>"},<% end %>
+var assignments = [
+	{
+		title: "Envoy Extraordinaire and Minister Plenipotentiary",
+		place: "London",
+		lat: 51.5002,
+		lng: -0.1262,
+		years: [1815, 1816, 1817],
+		person: "John Quincy Adams" },
+	{
+		title: "Acting Consul",
+		place: "London",
+		lat: 51.5002,
+		lng: -0.1262,
+		years: [1814, 1815],
+		person: "Reuben Gaunt Beasley"},
+	{
+		title: "Secretary of the Legation",
+		place: "London",
+		lat: 51.5002,
+		lng: -0.1262,
+		years: [1815, 1816, 1817, 1818, 1819, 1820, 1821, 1822, 1823, 1824, 1825],
+		person: "John Adams Smith"},
+	{
+		title: "Consul",
+		place: "London",
+		lat: 51.5002,
+		lng: -0.1262,
+		years: [1815, 1816, 1817, 1818, 1819, 1820, 1821, 1822, 1823, 1824, 1825],
+		person: "Thomas Aspinwall"},
+	{
+		title: "Minister Plenipotentiary",
+		place: "St. Petersburg",
+		lat: 59.939,
+		lng: 30.3158,
+		years: [1809, 1810, 1811, 1812, 1813, 1814],
+		person: "John Quincy Adams"},
+	{
+		title: "Consul",
+		place: "St. Petersburg",
+		lat: 59.939,
+		lng: 30.3158,
+		years: [1803, 1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813],
+		person: "Levitt Harris" },
+	{
+		title: "Secretary of Legation",
+		place: "St. Petersburg",
+		lat: 59.939,
+		lng: 30.3158,
+		years: [1812, 1813, 1814, 1815, 1816],
+		person: "William Steuben Smith"},
+	{
+		title: "Secretary of Legation",
+		place: "St. Petersburg",
+		lat: 59.939,
+		lng: 30.3158,
+		years: [1812, 1813, 1814, 1815, 1816],
+		person: "John S. Smith"},
+	{
+		title: "Treaty Negotiator",
+		place: "Ghent",
+		lat: 51.054,
+		lng: 3.7217,
+		years: [1814],
+		person: "John Quincy Adams"},
+	{
+		title: "Treaty Negotiator",
+		place: "Ghent",
+		lat: 51.054,
+		lng: 3.7217,
+		years: [1814],
+		person: "Henry Clay"},
+	{
+		title: "Treaty Negotiator",
+		place: "Ghent",
+		lat: 51.054,
+		lng: 3.7217,
+		years: [1814],
+		person: "Albert Gallatin"},
+	{
+		title: "Treaty Negotiator",
+		place: "Ghent",
+		lat: 51.054,
+		lng: 3.7217,
+		years: [1814],
+		person: "Jonathan Russell"},
+	{
+		title: "Treaty Negotiator",
+		place: "Ghent",
+		lat: 51.054,
+		lng: 3.7217,
+		years: [1814],
+		person: "William Shaler"},
+	{
+		title: "Secretary of Negotiating Delegation",
+		place: "Ghent",
+		lat: 51.054,
+		lng: 3.7217,
+		years: [1814],
+		person: "Christopher Hughes Jr."},
+	{
+		title: "Minister Resident",
+		place: "The Hague",
+		lat: 52.0782,
+		lng: 4.3137,
+		years: [1794, 1795, 1796, 1797],
+		person: "John Quincy Adams" },
+	{
+		title: "Charge d’Affaires a.i.",
+		place: "The Hague",
+		lat: 52.0782,
+		lng: 4.3137,
+		years: [1795, 1796],
+		person: "Thomas Boylston Adams"},
+	{
+		title: "Treaty Negotiator",
+		place: "Stockholm",
+		lat: 59.3328,
+		lng: 18.0645,
+		years: [1798],
+		person: "John Quincy Adams"},
+	{
+		title: "Minister Plenipotentiary",
+		place: "Berlin",
+		lat: 52.5235,
+		lng: 13.4115,
+		years: [1797, 1798, 1799, 1800, 1801],
+		person: "John Quincy Adams"}
 ];

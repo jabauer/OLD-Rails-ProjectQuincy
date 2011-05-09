@@ -17,6 +17,7 @@ var w = 700,
 var vis = new pv.Panel()
     .width(w)
     .height(h)
+//	.fillStyle("rgba(255,255,255,0)")
 	.fillStyle("#465B73")
     .event("mousedown", pv.Behavior.pan())
     .event("mousewheel", pv.Behavior.zoom());
@@ -30,6 +31,7 @@ vis.add(pv.Panel)
     .data(function(b) b)
     .left(geo.x)
     .top(geo.y)
+//	.fillStyle("#cccccc")
     .fillStyle("#736346")
     .lineWidth(0) //removes border lines, leaving just the shape of the landmass
     .antialias(false);
@@ -41,7 +43,7 @@ vis.add(pv.Panel)
     .data(function(b) b)
     .left(geo.x)
     .top(geo.y)
-    .strokeStyle("rgba(128,128,128,.3)")
+    .strokeStyle("rgba(128,128,128,.1)")
     .lineWidth(1)
     .interpolate("cardinal")
     .antialias(false);
