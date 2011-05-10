@@ -5,8 +5,7 @@ class Frontend::AssignmentsTimemapController < ApplicationController
   end
   
   def assign_byyear_data
-    @assignments = Assignment.find_by_location_id(:order => 'start_year ASC')
-#    @assignments = Assignment.find(:all)
+    @assignments = Assignment.find(:all)
     @assignment_titles = AssignmentTitle.find(:all)
     @locations = Location.find(:all)
     
