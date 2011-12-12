@@ -14,3 +14,9 @@ var assignments = [
 	},
 <% end %>
 ];
+
+var titles = [
+<% for assignment_title in @assignment_titles %>
+	{title: "<%= h assignment_title.name %>", type: "<%= h assignment_title.assignment_type.name %>"},
+<% end %>
+];

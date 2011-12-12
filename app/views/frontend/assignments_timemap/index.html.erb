@@ -1,16 +1,77 @@
 <%= javascript_include_tag 'protovis-r3.2' %>
 <%= javascript_include_tag 'countries.js'%>
+<%= stylesheet_link_tag 'jquery-ui-1.8.10.custom.css'%>
+<%= javascript_include_tag 'jquery-1.4.4.min.js'%>
+<%= javascript_include_tag 'jquery-ui-1.8.10.custom.min.js'%>
+
 <!-- Don't use the javascript_include_tag here
 It doesn't seem to work for files located outside of /public/javascripts -->
 <script type="text/javascript" src="assignYearData.js"></script>
 
+<style type="text/css">
+
+	#fig {
+	  position: relative;
+	  margin: auto;
+	  width: 700px;
+	  height: 450px;
+	}
+
+	#container {
+	  height: 20px;
+	}
+	
+	#yearSlider {
+	  position: absolute;
+	  left: 100;
+	  right: 90;
+	  margin-top: 3;
+	}
+
+	#yearLabel {
+	  position: absolute;
+	  left: 0;
+	  width: 85;
+	  text-align: right;
+	}
+
+	#play {
+	  position: absolute;
+	  right: 0px;
+	  cursor: pointer;
+	}
+</style>
+
+<div id="center"><div id="fig">
+    <div id="container">
+	  <div id="yearSlider"></div>
+     <img id="play" src="images/play.png" alt="Play" onclick="playClick()">
+</div>
+
 <%= render :partial => 'frontend/abstract_map_js' %>
 
-
 <script  type="text/javascript+protovis">
-/*test dot */
 
-/* color codes will be
+
+$("#yearSlider").slider({
+  min: 1775,
+  max: 1825,
+  value: 1825,
+  slide: function(e, ui) {
+    year = ui.value;
+    vis.render();
+  }
+});
+
+var year = 1825,
+ 	yearsMargin = 0;
+
+var	yearsScale = pv.Scale.linear()
+    .domain(1775, 1825)
+    .range(yearsMargin + 2, w - yearsMargin);
+/*
+ color codes will be
+	yellow: #cccc66 -- support alone (shouldn't happen)
 	red: #550000 -- diplomat alone
 	orange: #992c00 -- diplomat and support
 	blue: #000055 -- consul alone
@@ -19,20 +80,50 @@ It doesn't seem to work for files located outside of /public/javascripts -->
 	black: #000000 -- all three
 */
 
-var w = 700,
-    h = 3 / 5 * w,
-    geo = pv.Geo.scale("hammer").range({x: 0, y: 0}, {x: w, y: h});
+var timer = undefined;
+function playClick() {
+  if (timer) {
+    stop();
+  } else {
+    if (year == 1825) year = 1775;
+    $("#yearSlider").slider('value', year);
+    $("#play").attr("src", '/images/stop.png');
+    vis.render();
+    timer = setInterval(function() {
+      year++;
+      if (year >= 1825) stop();
+      $("#yearSlider").slider('value', year);
+      vis.render();
+    }, 900);
+  }
+}
+
+// Stop the animation
+function stop() {
+  clearInterval(timer);
+  timer = undefined;
+  $("#play").attr("src", '/images/play.png');
+}
+
+// Add the ticks and labels for the year slider
+vis.add(pv.Rule)
+    .data(pv.range(1775, 1825 + .1))
+    .left(yearsScale)
+    .height(4)
+    .top(0)
+  .anchor("bottom")//.add(pv.Label)
+  vis.render();
 
 var dot = vis.add(pv.Panel)
   .data(assignments);
 
 dot.add(pv.Panel)
 	.add(pv.Dot)
-		.left(geo.x)
+		.left(geo.x) /* geo is the scale factor, see frontend/_abstract_map_js for definition */
 		.top(geo.y)
 		.radius(2)
 		.title(function(a) a.place)
-		.fillStyle("#550055")
+		.fillStyle("#550000")
 		.lineWidth(.05); 
 
 vis.render();
