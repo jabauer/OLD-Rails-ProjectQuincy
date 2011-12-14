@@ -5,13 +5,13 @@ class ActiveScaffold::LettersController < ApplicationController
   
   active_scaffold :letter do |config|
     config.columns[:circular].label = "Circular (y/n)"
-    config.columns = [:from_individual, :from_organization, 
+    config.columns = [:id, :from_individual, :from_organization, 
                       :to_individual, :to_organization, 
                       :from_location, :to_location, 
                       :circular, 
                       :date_sent, :sent_year_known,:sent_month_known, :sent_day_known, 
                       :date_received, :received_year_known, :received_month_known, :received_day_known, 
                       :date_docketed, :docketed_year_known, :docketed_month_known, :docketed_day_known,
-                      :created_at, :updated_at]
+                      :notes, :created_at, :updated_at]
   end
 end
