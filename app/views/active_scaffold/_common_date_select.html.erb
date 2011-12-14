@@ -8,9 +8,9 @@
 
 <!-- This first section of embedded ruby creates the necessary values to split the date field into its constituent parts of year, month, and day. 
 	In the resulting array 
-		month = [0]
-		day = [1]
-		year = [2]
+		year = [0]
+		month = [1]
+		day = [2]
 	This overrides the ActiveScaffold javascript that knits them together in the form.  
 	
 	The parent_name is set to nil if the form is nested within another table.
@@ -23,7 +23,7 @@ col_name = column.name
 
 date_values = record.send(col_name).to_s.split('-')
 
-[:month, :day, :year].each_with_index do |sub_col_name,index|
+[:year, :month, :day].each_with_index do |sub_col_name,index|
 	field_name_index = "#{index+1}i"
 	input_names["#{sub_col_name}_name".to_sym] = parent_name.nil? ? "record[#{col_name}(#{field_name_index})]" : "record[#{parent_name}][#{col_name}(#{field_name_index})]"
 	input_names["#{sub_col_name}_id".to_sym] = parent_name.nil? ? "record_#{col_name}_#{field_name_index}" : "record_#{parent_name}_#{col_name}_#{field_name_index}"
