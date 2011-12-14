@@ -9,6 +9,6 @@ class ActiveScaffold::IndividualsController < ApplicationController
                       :birth_date, :birth_year_known, :birth_month_known, :birth_day_known, 
                       :death_date, :death_year_known, :death_month_known, :death_day_known, 
                       :assignments, :occupations, :members, :residences, :letters, 
-                      :notes, :updated_at, :created_at]
+                      :notes, :validations, :updated_at, :created_at]
   end  
 end

@@ -23,6 +23,7 @@
 #
 
 class Individual < ActiveRecord::Base
+  has_many :validations, :as => :validatable
   #this allows the model to be searched on the following fields using the methods defined in lib/searchable.rb
   searchable_by :name, :notes
 end
