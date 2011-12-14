@@ -12,6 +12,6 @@ class ActiveScaffold::LettersController < ApplicationController
                       :date_sent, :sent_year_known,:sent_month_known, :sent_day_known, 
                       :date_received, :received_year_known, :received_month_known, :received_day_known, 
                       :date_docketed, :docketed_year_known, :docketed_month_known, :docketed_day_known,
-                      :notes, :created_at, :updated_at]
+                      :notes, :validations, :created_at, :updated_at]
   end
 end

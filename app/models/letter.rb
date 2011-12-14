@@ -30,4 +30,5 @@
 #
 
 class Letter < ActiveRecord::Base
+  has_many :validations, :as => :validatable
 end
