@@ -5,6 +5,6 @@ class ActiveScaffold::OrganizationTypesController < ApplicationController
   
   active_scaffold :organization_type do |config|
     config.label = "Organization Types"
-    config.columns = [:name, :notes, :organizations, :created_at, :updated_at]
+    config.columns = [:id, :name, :notes, :organizations, :created_at, :updated_at]
   end
 end

@@ -5,7 +5,7 @@ class ActiveScaffold::IndividualsController < ApplicationController
   
   active_scaffold :individual do |config|
     config.label = "Individuals"
-    config.columns = [:name,  :state, :sex,
+    config.columns = [:id, :name,  :state, :sex,
                       :birth_date, :birth_year_known, :birth_month_known, :birth_day_known, 
                       :death_date, :death_year_known, :death_month_known, :death_day_known, 
                       :assignments, :occupations, :members, :residences, :letters, 

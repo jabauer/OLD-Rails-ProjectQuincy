@@ -12,7 +12,7 @@ class ActiveScaffold::ContinentsController < ApplicationController
     config.columns[:states].label = "Countries/ Territories/ Colonies"
     
     #orderst the columns
-    config.columns = [:name, :states, :created_at, :updated_at]
+    config.columns = [:id, :name, :states, :created_at, :updated_at]
     
     #adds search functionality for the following columns
     config.columns[:states].search_sql = 'states.name'

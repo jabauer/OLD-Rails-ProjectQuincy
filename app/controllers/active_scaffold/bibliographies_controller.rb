@@ -5,6 +5,6 @@ class ActiveScaffold::BibliographiesController < ApplicationController
   
   active_scaffold :bibliography do |config|
     config.columns[:citations].label = "Citation"
-    config.columns = [:entry, :citations, :notes, :created_at, :updated_at]
+    config.columns = [:id, :entry, :citations, :notes, :created_at, :updated_at]
   end
 end

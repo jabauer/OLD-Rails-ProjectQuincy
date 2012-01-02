@@ -8,7 +8,7 @@ class ActiveScaffold::AssignmentsController < ApplicationController
     config.label = "Assignments"
     
     #orders the columns
-    config.columns = [:location, :assignment_title, :individual, :start_year, :start_certain, :end_year, :end_certain, :notes, :validations]
+    config.columns = [:id, :location, :assignment_title, :individual, :start_year, :start_certain, :end_year, :end_certain, :notes, :validations]
     
     #adds search functionality for the following columns
     config.columns[:assignment_title].search_sql = 'assignment_titles.name'

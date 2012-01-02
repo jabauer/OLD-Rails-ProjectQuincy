@@ -6,6 +6,6 @@ class ActiveScaffold::OrgEvolutionTypesController < ApplicationController
   active_scaffold :org_evolution_type do |config|
     config.label = "Types of Organizational Changes"
     config.columns[:org_evolutions].label = "Organizations that Changed"
-    config.columns = [:name, :org_evolutions, :notes, :created_at, :updated_at]
+    config.columns = [:id, :name, :org_evolutions, :notes, :created_at, :updated_at]
   end
 end

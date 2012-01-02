@@ -8,7 +8,7 @@ class ActiveScaffold::OrgEvolutionsController < ApplicationController
     config.columns[:org_1].label = "Organization: 1"
     config.columns[:org_2].label = "Organization: 2"
     config.columns[:org_evolution_type].label = "Type of Organizational Change (1 --> 2)"
-    config.columns = [:org_1, :org_2, :org_evolution_type, 
+    config.columns = [:id, :org_1, :org_2, :org_evolution_type, 
                       :date, :year_known, :month_known, :day_known, 
                       :notes, 
                       :created_at, :updated_at]

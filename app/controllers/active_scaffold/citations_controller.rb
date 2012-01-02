@@ -7,6 +7,6 @@ class ActiveScaffold::CitationsController < ApplicationController
     config.label = "Citations"
     config.columns[:bibliography].label = "Source"
     config.columns[:pages].label = "Page Number"
-    config.columns = [:title, :bibliography, :pages, :canonic_url, :notes, :created_at, :updated_at]
+    config.columns = [:id, :title, :bibliography, :pages, :canonic_url, :notes, :created_at, :updated_at]
   end
 end

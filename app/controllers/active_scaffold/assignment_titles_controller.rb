@@ -8,7 +8,7 @@ class ActiveScaffold::AssignmentTitlesController < ApplicationController
     config.label = "Assignment Titles"
     
     #orders columns
-    config.columns = [:name, :assignment_type, :commissioned, :temporary, :notes, :assignments, :updated_at, :created_at]
+    config.columns = [:id, :name, :assignment_type, :commissioned, :temporary, :notes, :assignments, :updated_at, :created_at]
     
     #adds search functionality for the following fields
     config.columns[:assignment_type].search_sql = 'assignment_types.name'
