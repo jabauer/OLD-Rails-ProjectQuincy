@@ -13,5 +13,26 @@ class ActiveScaffold::LettersController < ApplicationController
                       :date_received, :received_year_known, :received_month_known, :received_day_known, 
                       :date_docketed, :docketed_year_known, :docketed_month_known, :docketed_day_known,
                       :notes, :validations, :created_at, :updated_at]
+                      
+    config.columns[:to_individual].search_sql = 'individuals.name'
+    config.search.columns << :to_individual
+    
+    config.columns[:from_individual].search_sql = 'individuals.name'
+    config.search.columns << :from_individual
+    
+    
+    config.columns[:to_organization].search_sql = 'organizations.name'
+    config.search.columns << :to_organization
+    
+    config.columns[:from_organization].search_sql = 'organizations.name'      
+    config.search.columns << :from_organization
+    
+    
+    config.columns[:to_location].search_sql = 'locations.name'
+    config.search.columns << :to_location
+
+    config.columns[:from_location].search_sql = 'locations.name'
+    config.search.columns << :from_location
+    
   end
 end
