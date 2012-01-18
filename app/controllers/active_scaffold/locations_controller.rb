@@ -6,7 +6,7 @@ class ActiveScaffold::LocationsController < ApplicationController
   active_scaffold :location do |config|
     config.columns[:residences].label = "Residents"
     #orders the columns
-    config.columns = [:id, :name, :in_states, :in_regions, :lat, :long, :notes, :assignments, :letters, :organizations, :residences, :updated_at, :created_at]
+    config.columns = [:name, :in_states, :in_regions, :lat, :long, :notes, :assignments, :letters, :organizations, :residences, :updated_at, :created_at]
     
     #adds search functionality for the following columns
     config.search.columns << :notes

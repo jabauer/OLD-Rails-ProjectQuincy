@@ -5,6 +5,6 @@ class ActiveScaffold::RelationshipTypesController < ApplicationController
   
   active_scaffold :relationship_type do |config|
     config.label = "Relationship Types"
-    config.columns = [:id, :name, :relationships, :notes, :created_at, :updated_at]
+    config.columns = [:name, :relationships, :notes, :created_at, :updated_at]
   end
 end

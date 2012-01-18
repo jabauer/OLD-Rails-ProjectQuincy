@@ -4,8 +4,7 @@ class ActiveScaffold::EnclosuresController < ApplicationController
     layout "activescaffold"
     
     active_scaffold :enclosure do |config|
-      config.columns[:main_letter_id].label = "Main Letter"
-      config.columns[:enclosed_letter_id].label = "Enclosed Letter"
-      config.columns = [:id, :main_letter_id, :enclosed_letter_id, :notes, :validations, :created_at, :updated_at]
+      config.columns = [:main_letter, :enclosed_letter, :notes, :validations, :created_at, :updated_at]
+
     end
 end

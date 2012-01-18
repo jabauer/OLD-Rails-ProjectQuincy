@@ -5,6 +5,6 @@ class ActiveScaffold::RegionsController < ApplicationController
   
   active_scaffold :region do |config|
     config.label = "Regions"
-    config.columns = [:id, :name, :in_regions, :notes, :created_at, :updated_at]
+    config.columns = [:name, :in_regions, :notes, :created_at, :updated_at]
   end
 end

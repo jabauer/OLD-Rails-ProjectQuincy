@@ -5,7 +5,7 @@ class ActiveScaffold::UsersController < ApplicationController
   
   active_scaffold :user do |config|
     #orders columns
-    config.columns = [:id, :name, :notes, :validations, :updated_at, :created_at]
+    config.columns = [:name, :notes, :validations, :updated_at, :created_at]
   end
     
 end

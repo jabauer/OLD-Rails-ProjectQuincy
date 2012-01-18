@@ -7,6 +7,6 @@ class ActiveScaffold::ResidencesController < ApplicationController
     config.label = "Residences (a.k.a. Where People Lived)"
     config.columns[:birth_place].label = "Birth Place (y/n)"
     config.columns[:death_place].label = "Death Place (y/n)"
-    config.columns = [:id, :individual, :location, :residence_type, :start_year, :end_year, :birth_place, :death_place, :notes, :created_at, :updated_at]
+    config.columns = [:individual, :location, :residence_type, :start_year, :end_year, :birth_place, :death_place, :notes, :created_at, :updated_at]
   end
 end

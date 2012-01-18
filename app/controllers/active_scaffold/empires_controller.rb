@@ -5,6 +5,6 @@ class ActiveScaffold::EmpiresController < ApplicationController
   
   active_scaffold :empire do |config|
     config.label = "Empires"
-    config.columns = [:id, :name, :in_empires, :notes, :created_at, :updated_at]
+    config.columns = [:name, :in_empires, :notes, :created_at, :updated_at]
   end  
 end

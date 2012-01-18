@@ -9,7 +9,7 @@ class ActiveScaffold::InStatesController < ApplicationController
     config.label = "In States: Linking Table for Locations and States"
     
     #orders columns
-    config.columns = [:id, :location, :state, :start_year, :end_year, :notes, :updated_at, :created_at]
+    config.columns = [:location, :state, :start_year, :end_year, :notes, :updated_at, :created_at]
     
     #adds search functionality for the following columns
     config.columns[:location].search_sql = 'locations.name'

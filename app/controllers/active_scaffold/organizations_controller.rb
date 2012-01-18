@@ -7,6 +7,6 @@ class ActiveScaffold::OrganizationsController < ApplicationController
     config.label = "Organizations (Groups)"
     config.columns[:org_evolutions].label = "Preceeding/ Suceeding Organizations"
     config.columns[:org_bio].label = "Short History"
-    config.columns = [:id, :name, :organization_type, :location, :start_year, :end_year, :magazine_sending, :members, :org_evolutions, :letters, :org_bio, :notes, :created_at, :updated_at]
+    config.columns = [:name, :organization_type, :location, :start_year, :end_year, :magazine_sending, :members, :org_evolutions, :letters, :org_bio, :notes, :created_at, :updated_at]
   end
 end

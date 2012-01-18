@@ -37,6 +37,24 @@ task :assign_letters_title => :environment do
       origin = origin.name
     end
     
+    if date != nil
+      if letter.sent_year_known == true && letter.sent_month_known == true && letter.sent_day_known == false
+        date = date.strftime("%B %Y")
+      elsif letter.sent_year_known == true && letter.sent_month_known == false && letter.sent_day_known == true
+        date = date.strftime("%e ____ %Y")
+      elsif letter.sent_year_known == false && letter.sent_month_known == true && letter.sent_day_known == true
+        date = date.strftime("%B %d")
+      elsif letter.sent_year_known == true && letter.sent_month_known == false && letter.sent_day_known == false
+        date = date.strftime("%Y")
+      elsif letter.sent_year_known == false && letter.sent_month_known == true && letter.sent_day_known == false
+        date = date.strftime("%B")
+      elsif letter.sent_year_known == false && letter.sent_month_known == false && letter.sent_day_known == true
+        date = date.strftime("%e (letter.sent_month and letter.sent_year unknown)")
+      else
+        date = date.strftime("%B %e, %Y")
+      end
+    end
+    
     #build the title -- date will display as YYYY-MM-DD
     letter.title = "#{sender} to #{recipient}. #{origin}, #{date}"
     letter.save

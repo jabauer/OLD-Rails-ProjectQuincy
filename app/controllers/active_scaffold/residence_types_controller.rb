@@ -6,6 +6,6 @@ class ActiveScaffold::ResidenceTypesController < ApplicationController
   active_scaffold :residence_type do |config|
     config.label = "Residence Types"
     config.columns[:temporary].label = "Temporary (y/n)"
-    config.columns = [:id, :name, :temporary, :notes, :residences, :created_at, :updated_at]
+    config.columns = [:name, :temporary, :notes, :residences, :created_at, :updated_at]
   end
 end

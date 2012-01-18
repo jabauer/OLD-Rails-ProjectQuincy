@@ -5,6 +5,6 @@ class ActiveScaffold::MembersController < ApplicationController
   
   active_scaffold :member do |config|
     config.label = "Members of Organizations"
-    config.columns = [:id, :individual, :organization, :role, :start_year, :end_year, :notes, :created_at, :updated_at]
+    config.columns = [:individual, :organization, :role, :start_year, :end_year, :notes, :created_at, :updated_at]
   end
 end
