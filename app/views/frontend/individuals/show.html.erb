@@ -19,7 +19,9 @@
 			<% end %>
 			</p>
 		<p><span class="field_name">American:</span> 
-			<%= h @individual.american? ? 'yes' : 'no' %>
+			<% if @individual.american !=nil %>
+				<%= h @individual.american? ? 'yes' : 'no' %>
+			<% end %>
 			</p>
 		<p><span class="field_name">Notes:</span> <%= h @individual.notes %></p>
 	<p><%= link_to 'browse', :controller => "individuals", :action => "index" %></p>
